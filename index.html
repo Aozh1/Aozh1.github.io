@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="dns-prefetch" href="http://yoursite.com">
+  <title>Aozhi Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="个人技术类分享博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aozhi Blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Aozhi Blog">
+<meta property="og:description" content="个人技术类分享博客">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Aozhi Blog">
+<meta name="twitter:description" content="个人技术类分享博客">
+  
+    <link rel="alternative" href="/atom.xml" title="Aozhi Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
+  <style type="text/css">
+  
+    #container.show {
+      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+    }
+  </style>
+  
+
+  
+
+</head>
+</html>
+<body>
+  <div id="container" q-class="show:isCtnShow">
+    <canvas id="anm-canvas" class="anm-canvas"></canvas>
+    <div class="left-col" q-class="show:isShow">
+      
+<div class="overlay" style="background: #4d4d4d"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			<img src="/assets/img/me.jpg" class="js-avatar">
+		</a>
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Aozhi</a></h1>
+		</hgroup>
+		
+		<p class="header-subtitle">a solo programmer</p>
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+    		
+    			
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="https://github.com/Aozh1" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="weibo" target="_blank" href="https://www.weibo.com/2313740511" title="weibo"><i class="icon-weibo"></i></a>
+		        
+					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
+      
+<nav id="mobile-nav">
+  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+	<div class="btnctn js-mobile-btnctn">
+  		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
+	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img src="/assets/img/me.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author js-header-author">Aozhi</h1>
+			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>a solo programmer<i class="icon icon-quo-right"></i></p>
+			
+			
+			
+				
+			
+			
+			
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/Aozh1" title="github"><i class="icon-github"></i></a>
+			        
+						<a class="weibo" target="_blank" href="https://www.weibo.com/2313740511" title="weibo"><i class="icon-weibo"></i></a>
+			        
+						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+			        
+				</div>
+			</nav>
+
+			<nav class="header-menu js-header-menu">
+				<ul style="width: 50%">
+				
+				
+					<li style="width: 100%"><a href="/">主页</a></li>
+		        
+				</ul>
+			</nav>
+		</header>				
+	</div>
+	<div class="mobile-mask" style="display:none" q-show="isShow"></div>
+</nav>
+
+      <div id="wrapper" class="body-wrap">
+        <div class="menu-l">
+          <div class="canvas-wrap">
+            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
+          </div>
+          <div id="js-content" class="content-ll">
+            
+  
+    <article id="post-JupyterLab程序员的笔记本" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/03/17/JupyterLab程序员的笔记本/">JupyterLab:程序员的笔记本</a>
+    </h1>
+  
+
+        
+        <a href="/2019/03/17/JupyterLab程序员的笔记本/" class="archive-article-date">
+  	<time datetime="2019-03-16T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>JupyterLab 使用户能够创建具有叙述性的文字，数学公式，可视化，交互控制等丰富的输出相结合生动的代码共享文档。它还为使用数据的交互式计算提供构建：文件浏览器，终端和文本编辑器。</p>
+</blockquote>
+<h1 id="安装（Mac）"><a href="#安装（Mac）" class="headerlink" title="安装（Mac）"></a><strong>安装（Mac）</strong></h1><p>官方提供了<code>conda</code>, <code>pip</code>, 和 <code>pipen</code> 的安装方式。其中 <code>conda</code> 被官方推荐为最佳的安装方式。</p>
+<p>为了节省空间我们选择 Miniconda 进行JupyterLab的安装。</p>
+<p>打开<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html" target="_blank" rel="noopener">官网</a>后下载Miniconda installer for macOS，之后打开 terminal 运行以下命令</p>
+<p><code>cd /你的下载目录</code></p>
+<p><code>bash Miniconda3-latest-MacOSX-x86_64.sh</code></p>
+<p>一行行代码跑完后需要设置一下环境变量，官方并不推荐把环境变量永久的加入 <code>.bashrc file</code> 文件里面，永久加入可能会造成一些错误。</p>
+<p>每次需要使用conda的时候只需要在 terminal 里面输入</p>
+<p><code>source $HOME/miniconda/bin/activate</code></p>
+<p>即可载入conda的运行环境，输入conda后出现如下界面便说明安装成功</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/ba73044cc53e7a75e20be726cfcffc07.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>成功安装 conda 后输入以下命令便能够自动安装好 JupyterLab 了</p>
+<p><code>conda install -c conda-forge jupyterlab</code></p>
+<p>命令跑完后再次在终端输入</p>
+<p><code>jupyterlab</code></p>
+<p>出现以下界面，同时浏览器弹出对应窗口说明jupyterlab安装成功</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/4ef8ffa7d2b3f5c20657fa1c12e2860e.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a><strong>使用</strong></h1><h3 id="Launcher"><a href="#Launcher" class="headerlink" title="Launcher"></a><strong>Launcher</strong></h3><p>打开左上角的 File &gt; New Launcher 能够进入Launcher界面，根据每个人电脑的开发环境不同，显示的东西可能会有少许出入，这个界面把JupyterLab分成了三个部分，分别是Notebook（笔记本） Console（控制台） 和 Other（其它）</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/26ae495d0cb77eb544cb68cb05661765.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="Notebook"><a href="#Notebook" class="headerlink" title="Notebook"></a><strong>Notebook</strong></h3><p>点击Python3后出现如下界面，既然都叫 Notebook 了当然支持备受欢迎的Markdown。</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/0c706bc4dd332b723c26f889a39bf92d.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>点击工具栏上的运行按钮▶️，同时把最右的code改为markdown，即可显示markdown处理后的富文本形式。</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/608f6f80057f39b109ba4e8d9f8b6ab4.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>当然JuypterLab本身还是一个python的编译器，同样也能够正常显示和输入python，作为学习python 的动态笔记本，能够实时反馈你的python语句的结果</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/8152d94567e1464190b69f91332fac03.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>这里还有一个小技巧，JuypterLab支持自动补全，输入函数的时候按下 <code>Tab</code> 按钮能够自动补全函数</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/c3de74af639217d5d90ae882b1d5b52f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>如果想重新运行某个语句的结果，可以按下 <code>shift+enter</code> 或是 <code>ctrl+enter</code></p>
+<p><img src="https://cdn.sspai.com/2019/03/17/addd968fbaad988ef88eea05fb76fe99.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p><img src="https://cdn.sspai.com/2019/03/17/51ea94d3b972901978562ab06fa1f342.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>由图可见两次生成的结果并不相同。</p>
+<p>如果想要在原有的两行之间插入一行，可以使用快捷键 <code>esc + a</code> ，效果如下</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/c6388db70ec4d6d19f0758784939690a.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>如果忘记了某个函数的用法，按下 <code>shift+tab</code> 可以出现当前函数的用法，类似于pycharm</p>
+<p><del>使用shift+tab时无法使用mac的截图快捷键，所以拿相机拍了一张，请大家谅解渣画质</del></p>
+<p><img src="https://cdn.sspai.com/2019/03/17/28203817f8e1738f0e90743272e7ac91.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="Console"><a href="#Console" class="headerlink" title="Console"></a><strong>Console</strong></h3><p>Console的本质为python终端，输入一条语句就会给出相应的输出，类似于 Python 原生的IDE，不做过多介绍</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/619639513d09847791d13fae88e9e041.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a><strong>其他</strong></h3><p>善用Jupyter还能达到以下图片效果（图片均源自网络）辅助数据分析及机器学习</p>
+<p><img src="https://cdn.sspai.com/2019/03/17/356c6044c1b6b06e2cd03ab7678cdff4.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p><img src="https://cdn.sspai.com/2019/03/17/ab7e358eae5096f97c8e2271e080d6cd.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h1><p>Jupyter现在支持包括Python在内100多种编程语言（部分需要安装插件才能正常显示），GitHub上有超过170万个使用Jupyter的笔记。</p>
+<p>随着数据科学和机器学习的快速发展以及开源软件在工业界和学术界的日益普及，Jupyter Lab 已经不仅仅是专业人士能够使用的工具，作为初学Python的未来程序员，使用时能够得到许多的正向反馈，一本生动有趣的笔记能够给枯燥的学习增添足够的乐趣。</p>
+<p>扩展阅读：</p>
+<ul>
+<li><a href="https://github.com/selfteaching/the-craft-of-selfteaching" target="_blank" rel="noopener">the-craft-of-selfteaching</a> （李笑来使用Jupyter撰写的一本如何自学的书）</li>
+<li><a href="https://github.com/ageron/handson-ml" target="_blank" rel="noopener">Machine Learning Notebooks</a> （机器学习笔记）</li>
+<li><a href="https://github.com/jakevdp/PythonDataScienceHandbook" target="_blank" rel="noopener">PythonDataScienceHandbook</a> （Python数据科学分析）</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/03/17/JupyterLab程序员的笔记本/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-来聊一聊坚果office" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/03/10/来聊一聊坚果office/">聊聊坚果Office</a>
+    </h1>
+  
+
+        
+        <a href="/2019/03/10/来聊一聊坚果office/" class="archive-article-date">
+  	<time datetime="2019-03-09T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-10</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>最近锤子科技的坚果office被官方论坛的网友「偷跑」，我手边恰好有坚果R1，并且已经升级到了6.6.6_TNT正式版，让我们一起来看看这款也许永远都没有正式版的坚果office的表现吧。</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h1><p>坚果office安装包体积大小有152.69MB,值得一提的是，apk的包名为com.yongzhong.apk，和发布会上提到的一样，由永中科技与锤子科技联合研发，安装后桌面会同时出现三个图标，分别是坚果表格，坚果文档，坚果幻灯片，与官方宣传一致。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/2401fe4401e79fcd4632ff51029dfa73.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>不知道为何原因坚果表格的app名字里面缺乏smartian</p>
+<p>移动设备办公在目前的这个阶段生产力其实仍然是十分低下的，无论是iPad Pro还是装了office 365 的安卓平板（同等条件下移动设备的生产力是要低于PC和MAC的），我相信在目前阶段没有哪个文字工作者是热衷于使用iPad Pro等移动设备进行长时间的办公处理的。</p>
+<p>那么对于移动办公，<strong>我们需要的其实并不是和电脑端完全一致的体验</strong>，而是希望能够及时处理简单的问题，对于一款移动办公软件我觉得只需要做到以下三点即可：</p>
+<ul>
+<li>能够正常修改文字</li>
+<li>为小屏幕做了阅读适配</li>
+<li>复杂格式的文档能够正确显示</li>
+</ul>
+<p>坚果office的三件套做到了吗？</p>
+<h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a><strong>使用体验</strong></h1><p>坚果office默认是以横屏显示，无法做到像office365或者iWork一样的竖屏。但是并不影响最基本的阅读。</p>
+<p>打开坚果文档，里面提供了多个模版可以使用，这一点类似于当下主流的办公软件的形式。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/3963441df4c55a9507bf641ab01b6be8.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>可是当我点开了其中的一个名为「备忘录」的模版后，发现工具栏有错位的情况。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/b4f48c85244b934009cf027130797ad6.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>当我想开始输入文字的时候，锤子引以为傲的语音输入按钮便出现了，可惜<strong>在目前的这个版本并无法使用</strong>。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/d79e7d2d0a020b85196c8f02cf059a09.gif?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>无法输入语音并不是什么大碍，能够正常输入文字就足够满足轻办公的需求了。可惜无论我如何尝试我都无法<strong>正常呼出手机输入法</strong>，这让人有些难以接受。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/ca4d85351dc5c6492789364edd293265.gif?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>但这毕竟是内测版，在好奇心的驱使下我继续使用这款软件，想看看完成度究竟有多高。</p>
+<p>坚果文档，提供了多种样式，但是因为无法使用文字输入的原因，我也无法做尝试。</p>
+<p>软件最右侧会实时显示当前文档的字数。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/06e8fc06a739a63fb7cc4642de6153b5.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>点击左下角的view，能够看到坚果文档提供的视图选项，和PC端的办公软件显示一致。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/724ee1d2bc4c74d70077c4006a2fdb3f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p><img src="https://cdn.sspai.com/2019/03/10/e3cc466af61a2ded53ba2d633bd99a65.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>打开一个我手机上具有多种格式的word文档，坚果文档显示正常，但是仍然无法输入文字。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/af1b67e94a66056181191327a4250705.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>坚果幻灯片也同样提供了多个幻灯片模版，供用户选择。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/e0224426f9cecfe81e2f913b35e62402.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>坚果幻灯片特点的是每新建一张幻灯片都会在对应的文字栏里面出现语音按钮。但是，同样的问题，无法输入文字，无法唤起语音。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/f1b8b4b1dfae9a73a94b389e4a96309b.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>5.15发布会上说的将闪念胶囊的内容生成幻灯片的功能也是处于不可用状态，无论怎么点也无法呼出闪念胶囊。同时，<strong>坚果幻灯片按钮的错位情况比坚果文档更加严重</strong>。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/7878a7724f6b80e7030a0421c2cc59ef.gif?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>坚果幻灯片的使用反而出奇的流畅，无论是新建幻灯片，还是切换幻灯片，非常的跟手。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/9bdbf286574917bec5ea5424c4600937.gif?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p><strong>坚果表格完成度是目前坚果office套件里面最低的一个</strong>，没有模版，也没有语音按钮，只有最基本的界面，在使用中还发生了卡退的情况，不做过多评价。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/bb36062432bd72196ef7d3bd0dccb16e.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>只做好了基本显示界面的坚果表格</p>
+<p>最后，坚果office三套件还存在一个共同的缺点，<strong>不保存文件，无法退出软件</strong>，我只能呼出多任务管理，强行关闭。</p>
+<p><img src="https://cdn.sspai.com/2019/03/10/385c6e53e713659fd05c95d39ed66cf9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h1><p>坚果office的完成度总体较低，无法正常使用，也无法得知后续是否会有更新。</p>
+<p>2019年的锤子科技命运多舛，作为一个曾经的锤子科技的支持者和拥护者，始终还是有些失望的。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/03/10/来聊一聊坚果office/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-Trading 和 我的 2018 ：不断「交易」的人生" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/17/Trading 和 我的 2018 ：不断「交易」的人生/">Trading 和 我的 2018 ：不断「交易」的人生</a>
+    </h1>
+  
+
+        
+        <a href="/2019/02/17/Trading 和 我的 2018 ：不断「交易」的人生/" class="archive-article-date">
+  	<time datetime="2019-02-16T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>前言：理财是每个人的人参路上都会经历的事情，我在加密货币市场已经累计参与交易一年多了，通过交易本身这件事情，给予了我个人无论是生活上还是性格上的很大的正向改造，这篇文章我将聊聊我对交易的一些心得体会以及通过几个日常 Trading 中使用的 App，来分享我这一年的 Trading 生涯。</p>
+<h1 id="为什么要做交易？"><a href="#为什么要做交易？" class="headerlink" title="为什么要做交易？"></a><strong>为什么要做交易？</strong></h1><p>李笑来老师曾经在《韭菜的自我修养》这本书里面说过：</p>
+<p><code>这世界上很难有哪一个地方比交易市场更需要学习能力了。几乎一切交易的成功，最终都可以溯源到学习能力上来。几乎所有的牛×交易者，都是学习和研究的高手。</code></p>
+<p>做交易（Trading）不仅仅是帮助自己正确认识财富的手段和方法，更是一套持续学习的方法论<strong>。</strong></p>
+<p><strong>学会止损，人生将会豁然开朗。</strong>通过交易这个行为我会开始反思个人的每次抉择，面对不同的走势，有着不同的处理方法和手段，每次交易的结束都能够让人焕然一新，从而强化我们的行为和认知。</p>
+<p>我们从小会被教育要好好学习，考上大学，然后才能找到一个好工作，这样才能去赚钱养家，娶妻生子，安稳度过一生。然而事实是很残酷的，工作并不能给人带来足够多的财富，我们也很难在国内这个大环境下「安稳度过一生」。</p>
+<p>许多人辛苦一辈子也买不了一套房子，或者是一辆好点的汽车。</p>
+<p>许多事情是必须要经过一段时间才能得到正确结果的，2017 年 下半年初 我投入了一笔钱买入了一部分EOS和BTC，在 2018 年初获得了不错的收入</p>
+<p>（当然2018年后来的熊市大家都知道了，现在比特币又到了每隔一阵子就被人说是骗局的时刻了……）</p>
+<p>我现在也是没钱的，<del>用通俗的话来讲我只是一颗「韭菜」。</del> 在《财富自由之路》这本书里面李笑来老师写过类似这样的观点：「必须放弃一部分的安全感，才能长期，深入地观察和思考。」</p>
+<p>是的，如果人生没有任何的投资，不放弃那一点点安全感，我们很难获得巨大的财富。</p>
+<p>再加上比特币等加密货币在国内的一些正负面「宣传」，我在了解这些东西和风险利弊后，我还是决定走上了 Trading 这条不归路。</p>
+<h1 id="Trading-过程中使用过的一些App"><a href="#Trading-过程中使用过的一些App" class="headerlink" title="Trading 过程中使用过的一些App"></a><strong>Trading 过程中使用过的一些App</strong></h1><h3 id="Books"><a href="#Books" class="headerlink" title="Books"></a><strong>Books</strong></h3><h3 id="Books-1"><a href="#Books-1" class="headerlink" title="Books"></a><strong>Books</strong></h3><p>The all-new Apple Books has been redesigned to make dis…</p>
+<p><a href="https://www.apple.com/lae/apple-books/" target="_blank" rel="noopener">查看原文</a></p>
+<p>Mac 和 iOS 自带的 Books 应用是我看书的利器，我个人不太喜欢 Kindle 这类的黑白电子屏的产品，并且我实在是不想出门的时候背着一台 MacBook Pro 和 iPad 后，还得再拿上 Kindle 。</p>
+<p>开启 iCloud 同步之后基本上可以做到随时随地不间断阅读，这样能让我以较快的时间读完一本我想看的书。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/4af6dc3643e03d3f00973ed50d900b1d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>良好的文字排版能够带来更好的阅读体验</p>
+<p>同时 Books 也能够在我需要用到的时候及时回顾到我看书时标记的书签页。它内置的搜索功能也十分的好用，能够迅速找到自己需要找的部分。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/5cc8d6a3d1562d542f47e224ed20cb33.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>强大的关键字搜索功能</p>
+<p>如果你也想开始交易加密货币或者是股票，我在这儿推荐阅读书籍：</p>
+<ul>
+<li>回荡的钟摆</li>
+<li>缠中说缠</li>
+<li>期货市场技术分析</li>
+<li>日本蜡烛图技术新解</li>
+<li>Principles: Life and Work</li>
+<li>The Internet of Money : Talks by Andreas M.Antonopolos</li>
+</ul>
+<p>如果实在是不喜欢看书，可以去YouTube上面看看这些人的视频，他们的讲解也十分精彩：</p>
+<ul>
+<li><a href="https://www.youtube.com/channel/UC1bmmMTAeiAWdAMsCS10Ylg" target="_blank" rel="noopener">Fat Pig Signals Bitcoin</a> 一个喜欢直播K线的老哥</li>
+<li><a href="https://www.youtube.com/channel/UCtlAFoYl2aWb6pMiHCctQHA" target="_blank" rel="noopener">Ricky Gutierrez</a>  年轻的美股交易员</li>
+<li><a href="https://www.youtube.com/channel/UC8gjB1PSXv_oAUSAQ16S0fA" target="_blank" rel="noopener">Martin Shkreli</a>  交易天才</li>
+</ul>
+<h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a><strong>Note</strong></h3><p>最开始我使用 Numbers 来记录我的交易，但是 Numbers 很难做到简单易用，而我其实真正需要记录的只是每次的盈亏比，每次投入的多少，以及当下的仓位截图。</p>
+<p>我给自己定下规矩：在一段时间后必须对这个阶段的自己进行反思，所以支持图文并茂，插入简单的表格Note反而成了我记录每一次交易的好帮手。</p>
+<p>简单记录每天的交易过程</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/f182ae7565c4c9572b1a7551d899fb6f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="TradingView"><a href="#TradingView" class="headerlink" title="TradingView"></a><strong>TradingView</strong></h3><h3 id="免费股票图表、行情和交易观点实时行情、免费图表和专家交易观点。-TradingView是股票、期货和外汇市场里的交易者和投资者社交网络！查看原文"><a href="#免费股票图表、行情和交易观点实时行情、免费图表和专家交易观点。-TradingView是股票、期货和外汇市场里的交易者和投资者社交网络！查看原文" class="headerlink" title="免费股票图表、行情和交易观点实时行情、免费图表和专家交易观点。 TradingView是股票、期货和外汇市场里的交易者和投资者社交网络！查看原文"></a><strong>免费股票图表、行情和交易观点实时行情、免费图表和专家交易观点。 TradingView是股票、期货和外汇市场里的交易者和投资者社交网络！<a href="https://cn.tradingview.com/" target="_blank" rel="noopener">查看原文</a></strong></h3><p>TradingView 有网页版和App版，里面既有强大的交易图表工具——包含了全球主流乃至小众的金融市场的交易图表，作为图表工具其美观度和易用度都很高，用过一次后基本上不会使用其他的画线工具。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/504a09c0fcc36dca3fabbe9289371b12.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>更重要的是，他又是一个交易社区，在里面能够看到全世界的交易员的分析和看法，无论是优秀的old trader还是新入市场的new trader，都能够一起交流学习。</p>
+<p>这是非常重要的，毕竟我们做交易的时候应该<strong>「听大多数人的话， 参考少数人的意见，最终自己做决定」</strong>。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/eb4d83318f4ac4dd5d79904c5cad0b18.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>各类观点充斥着的社区</p>
+<p>同时目前主流的一些加密货币交易所也是采用的TradingView的API。另外在指标上TradingView与MetaTrader类似，他们都同样是开放的，每个人都可以自己编写指标并发布供其他人使用。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/5682602e25fd2a0f68019f00fa3109c2.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>各类不同的RSI脚本</p>
+<p>交易工具类网站推荐：</p>
+<p><a href="https://www.investopedia.com/" target="_blank" rel="noopener">Investopedia</a>: 里面解释了各类交易名词，科普各种投资常识</p>
+<p><a href="https://coinmarketcap.com/" target="_blank" rel="noopener">CoinMarketCap: Cryptocurrency Market Capitalizations</a> : 可以查询到大部分的币的情况</p>
+<h3 id="AlCoin"><a href="#AlCoin" class="headerlink" title="AlCoin"></a><strong>AlCoin</strong></h3><h3 id="undefined"><a href="#undefined" class="headerlink" title="undefined"></a><strong>undefined</strong></h3><p>undefined</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.aicoin.phone" target="_blank" rel="noopener">查看原文</a></p>
+<p>安卓手机上的神器，能够自己设置警报点，当行情出现剧烈波动的时候，能够及时警告自己去处理自己的持仓情况。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/a062b1141ee65f97c9c4e82c6183703f.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>距离波动的市场</p>
+<p>他也能监控交易所资金流动，看某个币种的流入流出，决定自己是否需要买卖平台币种。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/7fb02c0e164b5402fb94a984f65e9653.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>更重要的是，他有悬浮窗功能，这个功能能够让我们在任何界面都关注自己的币种的涨跌，防止错过行情。</p>
+<p><img src="https://cdn.sspai.com/2019/02/17/dea9e3db889691f4425574641305ec8e.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>右上角的悬浮窗方便在手机上及时查看行情</p>
+<p>同类App：币coin，币coin 现在可以看到国内许多炒币大v的一些交易记录，由于我个人不怎么使用，在此不过多介绍。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h1><p>投资本身有亏有赚，<strong>2019年加密货币这个市场依旧是熊市，不建议贸然进入。</strong></p>
+<p>我认为交易一直是一个试错的过程，亏损会纠正就思维，每一次的 Trading 都是让我们变得更好的过程。2018年我赚过，也亏过，买过现货，做过期货，丰富了我个人的人生体验，现在我开始了解加密货币以外的金融市场，不断提高自己的分析技术，想在 19 年尝试进阶成为一个Professional Trader.</p>
+<p>在日常生活中，我们也会遇到许许多多的琐事，及时止损，找到真正对自己有意义的事情，这才是能让我们得更好的方式。</p>
+<p>人生也是一场投资，我们投资自己的时间到自己喜欢的事情上，获得满足感；我们结交朋友，也是投资他人，希望和他人建立起感情上的羁绊，获得安全感。</p>
+<p><strong>人生不断，交易不断，何以解忧，唯有努力赚钱。</strong></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/02/17/Trading 和 我的 2018 ：不断「交易」的人生/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-独一无二的Xbox手柄，你也能够拥有" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/22/独一无二的Xbox手柄，你也能够拥有/">独一无二的Xbox手柄，你也能够拥有</a>
+    </h1>
+  
+
+        
+        <a href="/2018/12/22/独一无二的Xbox手柄，你也能够拥有/" class="archive-article-date">
+  	<time datetime="2018-12-21T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-22</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>身在大陆，由于众所周知的原因，我们很难享受到国际厂商推出的各类服务。微软的Xbox手柄定制服务便是其中之一。</p>
+<p>在这样的大环境下，我们如果想要一台和身边的人不同的手柄的话，只有第三方厂商可以选择。这些第三方厂商生产的手柄除了价格比官方低得多以外，存在众多的缺陷，比如手感，配色，键程，震动感，手柄舒适度……</p>
+<p><del>网上会有一种观点说，第三方厂商这个价格要啥自行车</del>。</p>
+<p>而对于那些对游戏有着真正的感情的人，这些第三方厂商出的东西在他们的眼里本质上只是一个个按键集成器罢了。</p>
+<p>那么，在国内的市场如果你想获得一台真正的手感好的，能够配合你的操作打出完美的游戏体验的只有PS4和XBOX的官方手柄。</p>
+<p>对于一个真正的游戏爱好者而言，拥有一个个性化的同时能够手柄是一件非常Cool的事情，本篇文章将教你定制一个属于自己的xbox手柄。</p>
+<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a><strong>准备工作</strong></h3><p>正式开始之前，我们需要做一些基本的准备，你需要准备这些东西</p>
+<ul>
+<li>一个微软账号</li>
+<li>一家转运服务商</li>
+<li>一张visa信用卡或一个Paypal</li>
+</ul>
+<p>这里解释一下为什么需要准备转运服务商，因为目前的微软官网提供的XBOX手柄个性化定制服务是<strong>不支持直邮到中国大陆的</strong>，所以我们需要先挑选好一家靠谱的转运服务商，通过他们我们才能拿到自己的个性化XBOX手柄。</p>
+<p>所以在购买前，请明确你选好了转运服务商，并<strong>准备一张visa或者一个paypal作为支付方式</strong>，并且做好寄回大陆需要<strong>在海关缴纳关税</strong>的心理准备，</p>
+<p>否则注册账号后很有可能无法收到你心爱的XBOX手柄。</p>
+<p><em>扩展阅读：</em></p>
+<p><em><a href="https://sspai.com/post/41914" target="_blank" rel="noopener">海淘之前，你可能需要注意这些支付问题</a></em></p>
+<p><em><a href="https://sspai.com/post/45832" target="_blank" rel="noopener">美区Paypal注册指南</a></em></p>
+<h3 id="定制"><a href="#定制" class="headerlink" title="定制"></a><strong>定制</strong></h3><p>打开<a href="https://xboxdesignlab.xbox.com/" target="_blank" rel="noopener">Xbox Design Lab controller</a>网站，如果首页已经有符合你心意的手柄可以直接点击图片进行购买（国内版微软官方网站也提供了类似的成品化定制商品）。</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/54c075e069c1cf811a6e9eef73fec932.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>当然我相信你是肯定不止于如此的，毕竟你是一个充满个性的游戏玩家，于是我们点击banner上的Design Lab</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/22ecbaa6caef15033c1c44b83c5c0d1e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>进入手柄定制化界面，为了方便不懂英语的部分读者，我已经对图中的选项做了简单的翻译</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/766e2a60f9367381fb0038c6ccd89be7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>按照如下图所示即可更换颜色和需要定制的组件</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/f36da77f43f7c73ca2b358616272f823.gif?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>特别要说明一下，最后一项是刻字服务，目前只支持英文，不能超过16个字符</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/64f5075357649e00ee9560629d542a57.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>你可以在这上面刻上一些你觉得有趣的文字</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/8f625cb762af9e6063cbd7e49f4229ed.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p><img src="https://cdn.sspai.com/2018/12/22/c35a42f324493b37112751116cca2a2d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>当然你也必须得知道的是最终寄到你手中的产品中的<strong>颜色可能与设备屏幕上显示的颜色不同</strong>。但是其实实物的接近度已经很高了。此外，浅色的话容易脏，需要经常去清洁。微软还专门针对NFL联赛（NFL是美国职业橄榄球联盟）的球迷推出了各个NFL联赛的球队的队徽的个性涂装（NFL系列的可能在颜色方面有一些限制）</p>
+<p>弄完个性化定制后点击右上角的「Add to cart」-「Checkout」便来到了我们的结算界面</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/14201bc3377bd5b67e4fef8d9bda8445.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>按照图上操作填写，但是特别的要注意的是，这里的一切信息和地址都需要填写你的转运服务商的信息和地址，而非你自己的国内的地址。之后用你的visa或者paypal支付即可。</p>
+<p><img src="https://cdn.sspai.com/2018/12/22/80b5d5468a694c4ff62c81f3fec43786.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>经过这样的操作后你便能够收到自己的xbox手柄了。</p>
+<p>当你拿上它和朋友玩儿的时候，你能够成为全场的焦点。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/12/22/独一无二的Xbox手柄，你也能够拥有/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-索尼 MDR-XB | 两代产品使用体验" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/19/索尼 MDR-XB | 两代产品使用体验/">索尼 MDR-XB | 两代产品使用体验</a>
+    </h1>
+  
+
+        
+        <a href="/2018/12/19/索尼 MDR-XB | 两代产品使用体验/" class="archive-article-date">
+  	<time datetime="2018-12-18T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在众多手机厂商甚至电脑厂商取消3.5mm的耳机孔后，无线耳机成了市场上新的宠儿。</p>
+<p>那么在500-700这个价位有什么好的选择呢？如果你是一个索尼大法的忠实信仰者，我向你推荐MDR-XB650BT 和 MDR-XB950B1 。</p>
+<p>这篇文章给你带来索尼MDR-XB系列两代产品的对比体验。</p>
+<h3 id="外观"><a href="#外观" class="headerlink" title="外观"></a><strong>外观</strong></h3><p>两款耳机的设计语言几乎是一致的，如果不看具体的型号完全感受区分不出来谁才是今年的产品：</p>
+<ul>
+<li>同样的黑，蓝，红三种配色</li>
+<li>同样的可旋转式耳罩</li>
+<li>内侧标识的「L」「R」</li>
+<li>耳罩左侧代表「L」的Wireless标志，耳罩右侧有凸起小点，方便在夜间区分左右</li>
+<li>同样印在耳机面的Sony Logo</li>
+</ul>
+<p>左为XB950B1，右为XB650BT</p>
+<p><img src="https://cdn.sspai.com/2018/12/19/f6d2d8e1b3c10619daa0e8dae6d82f22.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>不同点也有，但是不够明显：</p>
+<ul>
+<li>索尼MDR-XB950B1的侧梁是磨砂材质，索尼MDR-XB650BT的侧梁是光面材质</li>
+<li>索尼MDR-XB950B1耳机两侧底部都拥有按键，同时还配有有线耳机的「INPUT」接口，MDR-XB650BT 只有一侧拥有按键，并无任何的有线耳机接口。</li>
+<li>索尼MDR-XB950B1的震膜清晰可见，第一次拿到手时甚至有一种廉价感。</li>
+<li>MDR-XB650BT 的震膜隐藏得较好。</li>
+</ul>
+<p><img src="https://cdn.sspai.com/2018/12/19/d5af02ab796d8427475d488a9dd8171e.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>左为XB950B1，右为XB650BT</p>
+<p><img src="https://cdn.sspai.com/2018/12/19/48e1bd0e1c37e084e2d3f0cd69af1835.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="佩戴舒适度"><a href="#佩戴舒适度" class="headerlink" title="佩戴舒适度"></a><strong>佩戴舒适度</strong></h3><p>索尼MDR-XB650BT 由于耳罩本体较小的原因戴上去会有不同程度的夹头，对于头大的人来说，戴久了可能会觉得耳朵疼。我个人是不喜欢长时间佩戴这一款的。</p>
+<p>索尼MDR-XB950B1 耳罩能够完整的包裹住耳朵，并且毫无沉重感，冬天甚至还能当作耳包使用。戴眼镜的时候也不会出现眼镜架和耳罩冲突造成的不适感。建议头大的优先考虑这一款。</p>
+<p><img src="https://cdn.sspai.com/2018/12/19/4202a1435d8f86f05fd936831f3b22ac.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>两者叠放对比</p>
+<p>操作上MDR-XB950B1 的按键由于是分布在两侧，操作的时候不容易误操作，MDR-XB950B1 的按键分布在一侧，非常容易出现误操作。</p>
+<p><img src="https://cdn.sspai.com/2018/12/19/6f5d4c80c501d16661e5129805dfe504.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>不同的按键分布</p>
+<h3 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a><strong>特色功能</strong></h3><p>两款耳机都有NFC一键配对，使用有NFC的安卓手机可以省略掉蓝牙漫长而又复杂的配对过程，当你使用过一次之后你会觉得需要通过长按，再在手机上打开蓝牙配对的耳机都像是上个时代的产品。</p>
+<p><img src="https://cdn.sspai.com/2018/12/19/6586c7188d9eef2043c52bd53a23cf28.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>黄色部分为NFC标志</p>
+<h3 id="音质"><a href="#音质" class="headerlink" title="音质"></a><strong>音质</strong></h3><p><del>买了索尼还谈什么音质，音质不好赶紧下充值下自己的信仰。</del></p>
+<p>由于音质完全是一个人个人听感喜好的问题（详细可见<a href="https://www.bilibili.com/video/av37555593?from=search&amp;seid=2877162913724936315" target="_blank" rel="noopener">完全音频发烧指南：揭露玄学的外衣</a>）此处不做过多的评价，我个人感觉两款耳机的音感听上去都像是「动次打次」的调教方式，其中索尼MDR-XB950B1 拥有俗称「一键轰头」的 BASS EFFECT 功能，按下这个键后哪怕是以人声为主的歌曲你都能够听出重低音的感觉，实在是非常带感。</p>
+<p><img src="https://cdn.sspai.com/2018/12/19/3900fd60efa0d0bce509e56907245e5e.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="APP"><a href="#APP" class="headerlink" title="APP"></a><strong>APP</strong></h3><p>索尼MDR-XB950B1 有索尼独家的音乐APP，使用这款APP后能够开启耳机本身的主动降噪功能，先不说这个降噪功能到底如何，在这个价位的能够拥有降噪实属不易，在嘈杂吵闹的环境里面带上耳机进入自己的世界也是一件很美妙的事情。</p>
+<p><img src="https://cdn.sspai.com/2018/12/19/71ce05cd9ec66c616dee52946b48a7ef.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>APP还支持调节重低音的效果，根据自己的喜好进行调节即可。</p>
+<h3 id="续航"><a href="#续航" class="headerlink" title="续航"></a><strong>续航</strong></h3><p>两代耳机的续航在我个人的体验之中可以说是毫无区别，你实在是难以想象为什么他们的续航毫无进步——因为实在是太好了，好到我挑剔不出任何毛病。充满一次电后可以听最长22个小时，而像我这样每天晚上睡前听一两个小时的歌的人，充电频率大概是20天一次，轻度使用的人甚至一个月都不用冲一次电。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h3><p>如果经济允许的话推荐购买MDR-XB950B1 ，毕竟佩戴的舒适度是第一位的，长久的续航和BASS EFFECT也给他增色不少。</p>
+<p>缺点，两款都很明显，到2018年的今天还在使用Micro-USB，充电效率也不高。</p>
+<p>至于音质谁好？ 还是自己去实体店体验一番吧。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/12/19/索尼 MDR-XB | 两代产品使用体验/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-给年轻人的Apple Watch 选购建议" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/16/给年轻人的Apple Watch 选购建议/">给年轻人的Apple Watch选购建议</a>
+    </h1>
+  
+
+        
+        <a href="/2018/12/16/给年轻人的Apple Watch 选购建议/" class="archive-article-date">
+  	<time datetime="2018-12-15T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Apple Watch Series 4 已经发布几个月了，你是否还在犹豫买不买 Apple Watch 呢？</p>
+<p>虽然网上已经有了诸多的 Apple Watch 评测文章， 里面都表达了一个共同的观点：Apple Watch Series 4比 Apple Watch Series 3 更值得购买。</p>
+<p>是的，数码产品这个行业一直存在一句话，叫做：买新不买旧。 对于经济宽裕的人来说，当然可以直接购买最新版本的 Apple Watch Series 4 ，在这儿我就不作过多阐释。但是对于经济并不是那么宽裕的年轻人们来讲，我认为 Apple Watch Series 3 是更好的选择。在我两个多月的使用中 Apple Watch Series 3 表现依旧出色。</p>
+<h3 id="售价"><a href="#售价" class="headerlink" title="售价"></a><strong>售价</strong></h3><p>两代产品的价格对比</p>
+<p><img src="https://cdn.sspai.com/2018/10/01/19a985f3c2cec74e7eb27fcafe6d218b.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>如图所示，Apple Watch 两代产品的基础入门款存在高达一千块钱的差价，这一千块钱差在了哪里呢？在我们来看一下苹果官网给出的 <a href="https://www.apple.com/lae/watch/compare/" target="_blank" rel="noopener">Apple Watch Series 两代对比</a> ，从而帮助我们更好的判断购买哪一代产品才更适合自己。</p>
+<h3 id="屏幕"><a href="#屏幕" class="headerlink" title="屏幕"></a><strong>屏幕</strong></h3><p>显示面积上，Series 4 为759／977平方毫米，Series 3的为563／740平方毫米。有媒体称这一升级为「手表版全面屏」，但是对于一个从来没有用过 Apple Watch 的人而言，并不能够十分直接地感受出区别，手表只是一个辅助工具，屏幕大的确能够显示出更多的内容，但是我想没有人会把大量时间耗费在一个手表上面，更何况，每次抬手看表的时间不会超过5秒，你真的会注意到5秒内显示内容大小的区别吗？</p>
+<p><img src="https://cdn.sspai.com/2018/10/01/c07f8e5089c306c256a6d25689948cfb.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="处理性能"><a href="#处理性能" class="headerlink" title="处理性能"></a><strong>处理性能</strong></h3><p>毫无疑问今年的 S4 处理器各方面都要优于上一代的 S3，但是就我手中的 Apple Watch Series 3 打开应用的体验而言，S3打开一个 App 的速度仍然在可接受范围之类，Apple Watch 原生的应用基本上都能够实现秒开，第三方以支付宝为代表的App 打开速度也基本上在3秒以内，所以如果是只想体验 Apple Watch ，那么 Apple Watch Series 3 完全足够了。</p>
+<p><img src="https://cdn.sspai.com/2018/10/02/4066f23ad8eeeea80140c9aabc98c7e9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="心率与心电图"><a href="#心率与心电图" class="headerlink" title="心率与心电图"></a><strong>心率与心电图</strong></h3><p>如果你买 Apple Watch 的目的是送给家里的老人，那么完全没有必要考虑 Apple Watch Series 3 ，Apple Watch Series 4 独特的心电图绘制以及摔倒检测是 Apple Watch Series 3 不具备的，一个关键时刻能够拯救生命的设备，不应该用金钱衡量。</p>
+<p>如果你是一个身体健康朝气蓬勃的年轻人，Apple Watch Series 3 自带的心率检测已经够用了，在“健康”应用里面 Apple Watch 会根据你一天的心率帮你绘制你独特的心率图。</p>
+<p><img src="https://cdn.sspai.com/2018/10/02/2f26a12be42e8794f1210e2c2cb74c18.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>Apple Watch Series 4 摔倒检测默认是关闭的，只有设置 Apple Watch 时或在“健康”应用中输入的年龄满足 65 周岁，这项功能才会自动开启。65 周岁以下的人使用需要手动打开，这其实说明苹果认为这项功能是给老年用户准备的。对于老年人而言，摔倒检测也是一个能够救命的功能。</p>
+<p><img src="https://cdn.sspai.com/2018/10/02/333c0c1c5eb1b533b72b79b5eb89efb8.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>扩展阅读：<a href="https://sspai.com/post/47169" target="_blank" rel="noopener">能测心电图的新款 Apple Watch，用处究竟有多大？</a></p>
+<p><a href="https://support.apple.com/zh-cn/HT208944" target="_blank" rel="noopener">使用 Apple Watch Series 4 上的“摔倒检测”</a> </p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h3><p>看到这里你应该对选择哪一代 Apple Watch 有了自己的想法。</p>
+<p>对于年轻人而言，Apple Watch Series 3 是比 Apple Watch Series 4更加省钱的选择，而 Apple Watch Series 3 之前的Apple Watch 因为性能等一系列的原因，并不推荐购买。</p>
+<p>当然，如果是送给家里老人，还是选择 Apple Watch Series 4 吧。</p>
+<p>希望你能够通过 Apple Watch 感受到科技带给我们生活的改变。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/12/16/给年轻人的Apple Watch 选购建议/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-网页设计？你也可以——Figma入门" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/16/网页设计？你也可以——Figma入门/">网页设计？你也可以——Figma入门</a>
+    </h1>
+  
+
+        
+        <a href="/2018/12/16/网页设计？你也可以——Figma入门/" class="archive-article-date">
+  	<time datetime="2018-12-15T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>编注：<a href="https://www.figma.com/" target="_blank" rel="noopener">Figma</a> 是一个完全免费的在线 UI 界面设计软件，支持 Windows 和 macOS 等多个平台。根据 <a href="http://uxtools.co/tools/design" target="_blank" rel="noopener">UXTOOLS</a> 的数据，Figma 已经是目前使用排名前五的设计工具了。与 Sketch 等传统工具不同的是，Figma 是第一款真正支持协作的 UI 设计软件，可以让整个团队的成员同时查看并修改协作的项目。</p>
+<p>每个人都会有设计的欲望，无论是设计一个网页还是设计一个 App，都希望自己能创造出一款有风格的作品。但是面对市面上的诸多设计软件，哪一款才更适合新手呢？</p>
+<p>俗话说「工欲善其事必先利其器」，想要简单入门 UI 设计，试试 Figma 吧。</p>
+<h1 id="设计一个全新的少数派网站首页"><a href="#设计一个全新的少数派网站首页" class="headerlink" title="设计一个全新的少数派网站首页"></a><strong>设计一个全新的少数派网站首页</strong></h1><p>如果你之前接触过类似的 UI 设计软件，你可能会发现 Figma 这个界面的操作逻辑有点类似于 Sketch，为了方便你的快速入门，官方在右下角的帮助按钮放置了一堆东西，能够帮助我们方便查找 Figma 自带的各类教程，快捷键等。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/4e9259bbb6793ae40ca020eca6b3b169.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>此时我们按下键盘上的 <code>A</code> ，呼出快捷键功能，创建一个画板，然后在右侧选择你喜欢的产品类型便能够得到一个对应的 UI 大小的网格。因为现在我们是要 redesign 少数派的首页，所以我们选「MacBook Pro」。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/62b786402faec314e2d4f73a0baf5716.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>但是你也发现了，空白的界面并不适合设计，我们需要一些网格来帮我们辅助定位和分配空间。点击右边的加号，能够看到 LAYOUT GRID 下面的 Grid (10px) 会帮我们自动生成一个铺满当前白色页面的网格。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/62c0895ad072c4c9078071e88f46be01.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>你也可以点击 Grid (10px) 进行详细的进一步设置（此处我选择默认的设置）。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/fbfbda36f42a15e87ed2bd1c845c90b2.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>我们现在来观察一下少数派的首页，大致由顶栏、导航栏、展示栏、文章、侧边栏等组成。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/e55ef30168eecb575248f044833a9677.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>已用不同颜色的矩形来区分不同的区域</p>
+<p>那么我们根据这个矩形分割的思路，点击网页左上角的矩形按钮，在 Figma 里面先画好一个矩形，把这个矩形作为我们网页的背景。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/86edcfc41ecb980adc335e7920225c37.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>在左边的控件栏里面，我们单击创建好了的矩形，同时在右边的颜色控制里面，更改他的颜色为黑色，当然你也可以选择你喜欢的颜色或是图片来作为背景。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/1e41f1c7c6f46ce282a33aadb723f23e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>设置好背景后，我们可以尝试先做一个顶栏和导航栏的融合，使他成为一个全新的顶栏。通过再次点击矩形按钮，创建一个全新的矩形，放在最上面作为顶栏，颜色设置为浅黑色使我们能更好地看清它和背景颜色区别，添加上 logo 和相关的导航，在添加的时候会有自动生成的参考线帮助我们判断位置。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/18eea665b8fe44df8e542ceed6e707b4.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>为了方便管理和之后的升级维护，现在给左栏的各个组件都命下名。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/ebccb17bc841bfec910bc40404000103.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>如果遇到素材颜色不搭配的情况，可以尝试使用右边的工具进行调整，例如下图中的搜素图标，由原本的灰色调整为白色。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/a57445b125880710eea1224b7a44247a.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>调整 Exposure 能够改变颜色</p>
+<p>为了让我们的顶栏和背景融为一体，我们此时把颜色改回黑色，再通过同样的方法再次创建一个较大的矩形，同样为了方便我们制作的时候易于辨认，将它改为浅黑色。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/d47aa745bc9cda2f2dbc603149f23336.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>少数派目前的 Power+ 2.0 正在火热售卖中，我们就把它作为我们的 Banner。拖拽背景图片进入矩形中，把图片铺满整个矩形，再输入宣传文字，文字的颜色为了方便与背景匹配，我们使用右侧的取色器工具来获取文字的颜色。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/c1cc3ed34145f7cf4c8107fa56e1a603.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>单纯的文字似乎没有太大的吸引力，我们再画一个圆角矩形，调整颜色为渐变色，方便用户购买。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/c3c210123b1a3690b2ae1a60c2d9e315.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>这样我们全新的 Banner 也就完成了。是不是有点首页的样子了呢？</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/1ba2e24fe4c6d076c14c02653760fec7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>接下来我们制作页面的主体部分，先创建一个矩形作为主体，然后再创建四个矩形作为我们的商品展示位。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/bd4f9f98f995d418b5c944a7fbb2b048.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>在四个矩形展位放置好我们需要展示的商品图片，如果遇到矩形挡住图片的情况，只需要右键单击图片，选择「bring to front」即可。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/61c7a88d5efd1e31ff6508da5f5089fb.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>最后补全文字，然后把大矩形的背景颜色改回黑色。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/df10f4d5a7f4df619fff7c3e06352f7c.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>这样我们的主体部分就完成了，最后我们选择「File」-「Export…」进行导出，便能将我们做好的主页发送给其他人了。</p>
+<p><img src="https://cdn.sspai.com/2018/12/16/a069d89ebae21e9bc5d89a211ab3f347.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p><img src="https://cdn.sspai.com/2018/12/16/69eec2adc55bce1301d8bbfd8120ac71.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h1><p>Mac 上目前主流的设计软件之一是 Sketch，Sketch 有许多优秀的地方，但它的缺点是只支持 Mac 系统，每年的订阅价格也是不菲，导致把许多新人拒之门外。</p>
+<p>Figma 适用于任何能够运行现代浏览器 (Chrome) 的系统，能够让我们随时随地开展工作。如果是团队使用，在 Figma 中共享文件也非常容易，只需共享链接即可。对于程序员们来说，Figma 支持直接从设计文件中复制 CSS，省去了许多繁琐的工作。但 Figma 缺点也很明显，Figma 到目前为止，对中文的支持还是不够好。</p>
+<p>希望本篇文章能帮助你打开 Figma 设计的大门。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/12/16/网页设计？你也可以——Figma入门/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-多系统管理指南" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/11/23/多系统管理指南/">多系统管理指南</a>
+    </h1>
+  
+
+        
+        <a href="/2018/11/23/多系统管理指南/" class="archive-article-date">
+  	<time datetime="2018-11-22T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>多系统管理是我们许多人都会遇到的问题，无论你是使用Android+Windows，还是iOS+Macos，或者是像我这样需要使用四个系统的人，多系统管理是我们绕不开的问题。</p>
+<p>两台设备用数据线也许能够解决文件传输的问题，但是设备一多，他们的系统又不相同的时候，使用数据线不仅繁琐而且不够方便。</p>
+<p>显然，我们需要一套多系统的管理指南，这篇文章将给你分享一些我常用的App，并谈谈我是如何管理四个系统的。</p>
+<h3 id="图片管理：Google-Photos"><a href="#图片管理：Google-Photos" class="headerlink" title="图片管理：Google Photos"></a><strong>图片管理：Google Photos</strong></h3><p>我认为 Google Photos 是目前为止最强的照片管理软件，有着自动云同步照片，高品质无限量的储存空间等亮点，唯一的缺点是在国内使用会有少许的不便。</p>
+<p>自带 Google assistant 可以轻松自动生成照片视频记录自己的欢乐瞬间</p>
+<p>苹果iCloud Photos有的功能，Google Photos都有，最重要的是Google Photos支持任何系统，并且完全免费。</p>
+<h3 id="云端文件管理：Onedrive"><a href="#云端文件管理：Onedrive" class="headerlink" title="云端文件管理：Onedrive"></a><strong>云端文件管理：Onedrive</strong></h3><p>既然涉及到了Windows和Android，苹果自带的iCloud就没有的太大的用武之地了，更何每个月的iCloud本身提供的服务费用也是一笔不小的支出。</p>
+<p>Onedrive配合office365可以让我随时随地编辑手上的文档，任何需要同步的文件只需要扔进电脑里面的Onedrive文件夹就可以了，网络环境良好的时候文件会瞬间出现在其他设备上的Onedrive，微软似乎再告诉你，文件传输本该就这么简单。</p>
+<p>另外，不建议跨系统的大型文件传输使用云端实现，大型文件传输建议购买NAS进行相关管理。</p>
+<p>（如果需要经济实用大型文件局域网传输的方案，以后也许会写一篇相关的文章）</p>
+<h3 id="远程管理：Microsoft-remote-desktop-Chrome-remote-desktop"><a href="#远程管理：Microsoft-remote-desktop-Chrome-remote-desktop" class="headerlink" title="远程管理：Microsoft remote desktop /Chrome remote desktop"></a><strong>远程管理：Microsoft remote desktop /Chrome remote desktop</strong></h3><p>局域网内，微软远程桌面是目前最适合Windows的远程软件，远程后能够起码保持30帧率，在使用Mac的时候想切回Windows再也不需要换电脑了，在这个状态下的两台电脑是能够直接使用各自的快捷键进行跨平台复制的。</p>
+<p>相比同类的TeamViwer更加稳定，TeamViwer在同一局域网使用时，偶尔会提示此软件无法用于商业用途。</p>
+<p>要是想出门远程的话，Chrome remote是更好的选择，傻瓜式的引导式操作，能够帮助我们轻松设置，之后便能在外使用手机或是电脑控制自己的其他设备了。</p>
+<h3 id="笔记管理：Microsoft-OneNote"><a href="#笔记管理：Microsoft-OneNote" class="headerlink" title="笔记管理：Microsoft OneNote"></a><strong>笔记管理：Microsoft OneNote</strong></h3><p>迄今为止最强的笔记管理软件，配合手写笔使用更佳。我平时使用它来记录自己的一些学习经历，出门的时候只需要带手机或者平板便能够随时查看笔记。唯一的缺点是不支持Markdown格式，到现在我也没发现能够横跨四个系统的markdown软件。</p>
+<h3 id="文件传输：Airdrop-Feem"><a href="#文件传输：Airdrop-Feem" class="headerlink" title="文件传输：Airdrop+Feem"></a><strong>文件传输：Airdrop+Feem</strong></h3><p>Airdrop用于苹果系设备分享，当需要跨系统传输的时候，就要用到Feem了。</p>
+<p>Feem好处是不需要新建热点，在同一WLAN内便可以四个系统互相传文件，也能发送文字。</p>
+<h3 id="事件管理：Google-calendar-Google-keep"><a href="#事件管理：Google-calendar-Google-keep" class="headerlink" title="事件管理：Google calendar+Google keep"></a><strong>事件管理：Google calendar+Google keep</strong></h3><p>Google日历设置好后，在全平台的日历软件上都会有自动提醒，防止自己遗漏时间。</p>
+<h3 id="Google-Keep"><a href="#Google-Keep" class="headerlink" title="Google Keep"></a><strong>Google Keep</strong></h3><p>Google Keep配合Google全家桶可以实现类似于锤子系统闪念胶囊的功能，不仅是TODO类，还是瞬间闪过的灵感，都能够使用Google Keep来记录。</p>
+<p>以上就是我的多系统管理方法，希望能够给你带来帮助，有更多问题，欢迎在评论区提出。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/11/23/多系统管理指南/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-聊聊半年后对TNT看法和体验" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/11/17/聊聊半年后对TNT看法和体验/">聊聊半年后对TNT看法和体验</a>
+    </h1>
+  
+
+        
+        <a href="/2018/11/17/聊聊半年后对TNT看法和体验/" class="archive-article-date">
+  	<time datetime="2018-11-16T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>从TNT这个产品诞生到现在网上总是充满了争议，当然这个争议也围绕着锤子科技发布的每一款产品。前几天锤子科技放出了Smartisan TNT 大屏幕操作系统的6.6.5版本，在经历了半年的时间的打磨后，TNT现在表现如何呢？</p>
+<p>以下体验基于坚果R1 64GB 黑色版，系统版本为 Smartisan 6.6.5</p>
+<hr>
+<h3 id="对于普通人来说，TNT意味着什么？"><a href="#对于普通人来说，TNT意味着什么？" class="headerlink" title="对于普通人来说，TNT意味着什么？"></a><strong>对于普通人来说，TNT意味着什么？</strong></h3><p>在讨论前，我们先抛弃「这玩意儿没法使用Photoshop」「这东西能编程吗」「连个CAD文件都打不开的垃圾」「能玩儿3A大作吗」之类的成见。</p>
+<p>回到现实生活中来，三四线城市的电脑使用率是没有智能手机的使用率高的，许多50岁以上的人群几乎一周都不会打开电脑一次，自己身边的非IT行业的女性朋友（没有任何抹黑女性的意思）开电脑的频率也是越来越低。</p>
+<p>因为普通人用电脑无非就是希望有个更大的屏幕进行影音娱乐，以及进行聊天和上网等操作，在2018年的今天，这些需求无论是 Android 还是 iOS 都能够完全满足，TNT 不仅能够做到这些最基本的需求，甚至还能做到更好。</p>
+<p>为什么我说它能够做到更好呢？</p>
+<p>从经济成本上，一台操作流畅的笔记本至少需要花费4000元，而一台支持 TNT 的手机加上一块大屏幕再加上相关的扩展坞总成本能够控制在4000元以内，同样的四千元，还能够拥有一台人性化的安卓手机。</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/ba22350ec3cc51d90c93105b9dd257ce.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>经济的链接方案</p>
+<p>从学习成本上，一个用过智能机的人再使用通过TNT扩展出来的大屏安卓系统是没有任何学习成本的，因为在手机和TNT上运行的是同一个App。</p>
+<p>TNT操作逻辑的核心：Touch And Talk，成为了早期被许多人黑的地方，许多人都认为语音的效率是不如键鼠高。诚然语音在目前阶段没有键鼠的效率高，但是这是基于对键鼠的这套操作逻辑的大量使用之下得出的结论，一个普通人（这里的普通人包括没有接触过电脑的小朋友和不怎么喜欢用电脑的人）并不会像专业人士花大量时间去熟悉键鼠。</p>
+<p>Touch And Talk 的全局语音能够让没有接触过电脑的人也能够轻松呼出自己想打开的应用，进行他想要的的操作。语音操作加触摸屏这样的组合在打字等方面的操作效率是要操过键鼠的，这是不能够否认的点。</p>
+<p>Touch And Talk 也是目前TNT与其他类PC安卓系统最大的不同。一个成年人在劳作了一天后回到家里，手机插上桌面的扩展坞，语音说出指令，便能够和全家一起分享你在路上看到的趣事儿，或是和家人一起看一部你准备好的影片，也是一种幸福。</p>
+<p>好的科技始终是终究是给大多数普通人服务的。</p>
+<p>未来我们或许能够见到这样的场景，家里的老人或者是小孩不需要像现在这样花费大量时间学习电脑，只通过语音便能够和成年人一样享受科技的乐趣与便利。</p>
+<h3 id="TNT能够取代电脑吗？"><a href="#TNT能够取代电脑吗？" class="headerlink" title="TNT能够取代电脑吗？"></a><strong>TNT能够取代电脑吗？</strong></h3><p>TNT当然取代不了PC或者是MAC，因为他的本质还是一台大屏 Android OS，所以去要去 Android系统都解决不了PS和编程的问题，不要指望基于 Android 的TNT能够解决。</p>
+<p>（当然如果非要拿安卓进行简单的编程和P图其实也不是不可以，甚至还能在上面跑个Linux，这里不做过多讨论）</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/07179d06ea3cc9d8a306ed94890f250a.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>图上最左边的App正在进行「编程」</p>
+<p>TNT的应用场景是影音娱乐和轻办公，方便那些喜欢使用手机app的人群。</p>
+<p>手机上很难同时使用两个以上应用，而在TNT的平台上可以同时实现刷微博，聊微信，看电影的操作，而在过去的十几年这样的操作只能在电脑上完成（到目前为止 iPad 也无法同时打开三个应用）。</p>
+<p>而现在这一切仅仅只需要一台手机+一块屏幕。</p>
+<h3 id="TNT的实际使用体验中的亮点"><a href="#TNT的实际使用体验中的亮点" class="headerlink" title="TNT的实际使用体验中的亮点"></a><strong>TNT的实际使用体验中的亮点</strong></h3><h3 id="类桌面级的浏览器"><a href="#类桌面级的浏览器" class="headerlink" title="类桌面级的浏览器"></a><strong>类桌面级的浏览器</strong></h3><p><img src="https://cdn.sspai.com/2018/11/17/48abbd88e19492299c64ec0bf2238c2a.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>TNT模式下的浏览器体验出奇的好，甚至超过了Chrome，因为他显示的是电脑端的界面，同样的界面Chrome可能会默认使用平板模式打开，会造成一些比例上的问题</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/1278db476ff21a97ccee7154fa126518.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>左图为TNT自带浏览器，右图为Chrome</p>
+<h3 id="发牌手"><a href="#发牌手" class="headerlink" title="发牌手"></a><strong>发牌手</strong></h3><p>这又是一个用了之后便离不开的功能，我非常希望这个功能能出现在任何系统上，实在是太棒了，一次性可以在所有搜索网站上搜出自己想要的结果，在设置里面可以选择更多的搜索网站（包括Google Twitter Youtube 等 ）。</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/332b3b226385fbeb98dda4d4ea5d1c45.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>这个功能不仅可以搜索网上的内容，也可以用于搜索本地的文件。</p>
+<h3 id="全局的一步-闪念胶囊"><a href="#全局的一步-闪念胶囊" class="headerlink" title="全局的一步 闪念胶囊"></a><strong>全局的一步 闪念胶囊</strong></h3><p>锤科引以为傲的「一步」和「闪念胶囊」也来到了TNT上面，在这里这他们进行了更加完善的组合，闪念胶囊真正做到了随时呼出，随时记录，随时查看在手机上的待办事情，并在TNT模式下进行处理；</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/c7958966e9fecb78ec12e77da102fcdb.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>一步则可以像电脑在应用间一样自由拖拽文件，这些都是其他安卓系统不具备的。</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/2857bb4d3a53dab1a4537ef4ec76a167.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h3 id="多窗口单应用显示"><a href="#多窗口单应用显示" class="headerlink" title="多窗口单应用显示"></a><strong>多窗口单应用显示</strong></h3><p>得益于TNT的优化，许多应用在TNT模式下可以进行多开，极大的提升查看的效率，这项功能在双十一达到了大范围的应用</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/0df5b83039e929f99f29df2016bf2b87.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>在轻办公方面，这项功能能够解决无法同时查看多个文档的问题，我使用的Google的Doc可以达到如下的多开效果，微软的office也支持这一特性。</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/48a278aa0ceedd38f35ac3c8d1c8e562.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<hr>
+<h3 id="TNT的不足"><a href="#TNT的不足" class="headerlink" title="TNT的不足"></a><strong>TNT的不足</strong></h3><p>当然TNT作为一个未正式发布的系统，出现不足<strong>是能够理解的</strong>，在我的几天使用下，遇到了如下的BUG：</p>
+<p>更新6.6.5后键鼠模式在桌面触发 Touch&amp;Talk 极为困难，其他语音输入正常，希望是个例。</p>
+<p>需要切换回锤子桌面才能够启动TNT mode，使用第三方桌面会被强制切回锤子桌面。</p>
+<p>如果使用第三方桌面时选择的链接模式为Mirror Mode，切回TNT Mode时有较大几率会停留在Mirror Mode，无法正常启动TNT。</p>
+<p>已在手机后台运行的应用再在TNT上面重新打开有一定几率闪退，原因未知。</p>
+<p>淘宝等应用聊天窗口表情显示比例不对，默认表情十分巨大。</p>
+<p>TNT模式下应用显示面积不如手机本身的显示面积。</p>
+<p>以漫威未来之战为代表的多款游戏无法使用窗口化模式打开，默认会全屏，无法切回窗口化，国产游戏暂未发现此问题。</p>
+<p>APP的初次打开显示的分辨率是玄学，在开发者模式中打开窗口大小等比例拖动会造成部分应用文字错位。</p>
+<p>用户无法手动调节输出分辨率，未对21:9的显示器做优化，我手上的LG 29WK600 显示效果极差，字体可见明显大颗粒，图标比例失衡。需要手动更改显示器的纵横比才能够铺满显示器，否则默认是以16：9输出，已关闭DP1.2。</p>
+<p>在16：9的显示屏上不会出现上面那条的情况，即使是山寨的山寨屏显示效果也极佳。</p>
+<p>启动TNT Mode后会自动更改输入法为锤子原生输入法，切换回手机模式后输入法需要手动调回第三方输入法。</p>
+<p>应用多窗口开放支持应用少（猜测应该与App开发时使用的API版本有关）。</p>
+<p>自带的手机触摸板不支持双指左右滑动，App Drawer 的应用只能双指上下滑动切换 Page，正常人类初次使用会习惯性左右滑动。但是App的排布是左右式的。</p>
+<p>手机明明有force touch却不支持重度按压（参照MBP的触摸板），导致拖动需要双击屏幕再用力拖动。</p>
+<p>语音输入无法较好识别英文（多语言语音识别通病）。</p>
+<p>自带的Video player在TNT Mode下播放视频会黑屏（包括使用自带的相机拍摄的视频），使用MX Player不存在上述情况。</p>
+<p>短时间从一台显示器换到另一台显示器时可以继续当前TNT的工作，可以保留TNT状态下打开的应用，若时间间隔较久左右，TNT会恢复刚开机的模样。</p>
+<p>键鼠状态下拔掉显示器，鼠标有一定几率会停留在手机界面上约30s。</p>
+<hr>
+<p>对TNT的展望</p>
+<p>TNT作为目前较为完善的一个大屏安卓解决方案而言是合格的，如果锤科来年有平板类产品推出相信会更受欢迎，毕竟现在的TNT上面的锤科的原生应用已经对大屏做了足够的优化。</p>
+<p><img src="https://cdn.sspai.com/2018/11/17/06f888b47ff81b1f4375d53e474b218d.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>如果这套「系统」能够像前几年的凤凰OS，RemixOS一样支持X86和更多的ARM的设备，我相信TNT能够被更多人了解和欣赏，毕竟，在大屏安卓这个市场，还没看见龙头厂商。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/11/17/聊聊半年后对TNT看法和体验/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-iOS 12 , 那些值得你一试的「老应用」" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/09/21/iOS 12 , 那些值得你一试的「老应用」/">iOS 12 , 那些值得你一试的「老应用」</a>
+    </h1>
+  
+
+        
+        <a href="/2018/09/21/iOS 12 , 那些值得你一试的「老应用」/" class="archive-article-date">
+  	<time datetime="2018-09-20T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-21</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>iOS 12 的正式版推送已经过去几天了，你升级了吗？</p>
+<p>这次我替你整理了iOS陪伴了我们几年的「老应用」的新样子，一起来看看吧。</p>
+<h1 id="一样的Photo，不一样的Photos"><a href="#一样的Photo，不一样的Photos" class="headerlink" title="一样的Photo，不一样的Photos"></a><strong>一样的Photo，不一样的Photos</strong></h1><p>iOS 12 的相册功能在苹果上的宣传语是「A new way to share your best photos.」这次主打的功能是分享，新增了「For You」标签。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/413a4a4ea43a7ef5dda398287d9f268a.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>它能够自动找到你相册里面的精彩瞬间，不管是视频还是图片，并将 iOS 11 上的「回忆」功能融入进去，把过往美好的时刻生成视频。它还能够给出分享建议，把照片分享到自己的 iCloud 家庭组。</p>
+<p>当然，升级后的「Albums」可以分辨你的媒体类型，视频，自拍，Live Photos现在可以快速查看。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/1846f3c5759e52dcbe82d3008c21ad1f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>另外，不要忘了搜索功能，现在你可以在 iOS 12的自带相机里面搜索你拍摄的事物，输入搜索内容之前，就会看到最近事件、人物和地点的建议。<del>快看看它会不会把你的宠物识别成人类</del></p>
+<p><img src="https://cdn.sspai.com/2018/09/21/ebf409b52e9761b9ceadcc03fd5feb1e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h1 id="现在，你可以在iPad使用语音备忘录了"><a href="#现在，你可以在iPad使用语音备忘录了" class="headerlink" title="现在，你可以在iPad使用语音备忘录了"></a><strong>现在，你可以在iPad使用语音备忘录了</strong></h1><p><img src="https://cdn.sspai.com/2018/09/21/9bc4192145973c390d76a4472b4f0dac.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>iPhone 上备受欢迎的这款录音类 app 已经在 iOS 12 登陆 iPad，并支持 iCloud, 录音时的默认名字会识别为当前所在地点，你可以在上课或者会议的时候进行录音，事后进行编辑。</p>
+<p>再也不需要为iPad 单独下载一个语音备忘录类的应用了。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/40159839bc40b49724ac72c78e8c9e22.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h1 id="全新设计的股票应用，更满足你的需求"><a href="#全新设计的股票应用，更满足你的需求" class="headerlink" title="全新设计的股票应用，更满足你的需求"></a><strong>全新设计的股票应用，更满足你的需求</strong></h1><p>新的股票 app 提供实时股价和走势图，帮你时刻把握股市动态。而且，它不仅可在 iPhone 上使用，还首次在 iPad 上提供。</p>
+<p>过往，我们点开一个股票类应用，总会有查看当前商业新闻的的习惯，现在，新版的iOS12的股票应用接入了雅虎的服务，能够直接查看今日商业新闻，这些新闻的来源皆是与你关注的股票公司有关的。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/70d5cb9ca97d442afaa8da87d67d7354.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>点开某个公司的股票，我们还能查看到它的实时及新闻，当然，它提供的的时间线适合金融市场的长线交易者，对于短线交易者来说，还是下一个第三方的股票应用为好。</p>
+<p>你甚至还能够在这个应用里面查看数字货币的最新价格。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/3d35b04c5d2973f71ebdb7bacbb96eca.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<h1 id="除了Kindle，你还能够选择Books"><a href="#除了Kindle，你还能够选择Books" class="headerlink" title="除了Kindle，你还能够选择Books"></a><strong>除了Kindle，你还能够选择Books</strong></h1><p>过往的iBooks这次升级为了Books，所有的界面都经过了重新设计。</p>
+<p>你可以在Book Store里面购买你喜欢的原著书籍，自动同步到iCloud账号，多个设备均可阅读。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/63b067fc87e0f5f5b47a928bf0758cb3.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>根据你最近的阅读书籍和你购买过的书籍，苹果会为你推荐个性化的内容，使得 Book 里面的书都是你想看的。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/1f7b275fea7c5b3b8978dc2edc110574.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>新版的Books应用还提供了和Kindle类似的有声书功能，戴上耳机，点开自己的 Audiobooks 即可进入英文原著的世界。</p>
+<p><img src="https://cdn.sspai.com/2018/09/21/6b8389ce7ebd1037ab584e9810f36aee.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt></p>
+<p>以上就是 iOS 12 那些值得你去关注的一些「老应用」。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/09/21/iOS 12 , 那些值得你一试的「老应用」/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
+  
+
+
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2019 Aozhi
+    	</div>
+      	<div class="footer-right">
+
+      	</div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script>
+	var yiliaConfig = {
+		mathjax: true,
+		isHome: true,
+		isPost: false,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false,
+		toc_hide_index: true,
+		root: "/",
+		innerArchive: true,
+		showTags: false
+	}
+</script>
+
+<script>!function(t){function n(e){if(r[e])return r[e].exports;var i=r[e]={exports:{},id:e,loaded:!1};return t[e].call(i.exports,i,i.exports,n),i.loaded=!0,i.exports}var r={};n.m=t,n.c=r,n.p="./",n(0)}([function(t,n,r){r(195),t.exports=r(191)},function(t,n,r){var e=r(3),i=r(52),o=r(27),u=r(28),c=r(53),f="prototype",a=function(t,n,r){var s,l,h,v,p=t&a.F,d=t&a.G,y=t&a.S,g=t&a.P,b=t&a.B,m=d?e:y?e[n]||(e[n]={}):(e[n]||{})[f],x=d?i:i[n]||(i[n]={}),w=x[f]||(x[f]={});d&&(r=n);for(s in r)l=!p&&m&&void 0!==m[s],h=(l?m:r)[s],v=b&&l?c(h,e):g&&"function"==typeof h?c(Function.call,h):h,m&&u(m,s,h,t&a.U),x[s]!=h&&o(x,s,v),g&&w[s]!=h&&(w[s]=h)};e.core=i,a.F=1,a.G=2,a.S=4,a.P=8,a.B=16,a.W=32,a.U=64,a.R=128,t.exports=a},function(t,n,r){var e=r(6);t.exports=function(t){if(!e(t))throw TypeError(t+" is not an object!");return t}},function(t,n){var r=t.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=r)},function(t,n){t.exports=function(t){try{return!!t()}catch(t){return!0}}},function(t,n){var r=t.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=r)},function(t,n){t.exports=function(t){return"object"==typeof t?null!==t:"function"==typeof t}},function(t,n,r){var e=r(126)("wks"),i=r(76),o=r(3).Symbol,u="function"==typeof o;(t.exports=function(t){return e[t]||(e[t]=u&&o[t]||(u?o:i)("Symbol."+t))}).store=e},function(t,n){var r={}.hasOwnProperty;t.exports=function(t,n){return r.call(t,n)}},function(t,n,r){var e=r(94),i=r(33);t.exports=function(t){return e(i(t))}},function(t,n,r){t.exports=!r(4)(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(t,n,r){var e=r(2),i=r(167),o=r(50),u=Object.defineProperty;n.f=r(10)?Object.defineProperty:function(t,n,r){if(e(t),n=o(n,!0),e(r),i)try{return u(t,n,r)}catch(t){}if("get"in r||"set"in r)throw TypeError("Accessors not supported!");return"value"in r&&(t[n]=r.value),t}},function(t,n,r){t.exports=!r(18)(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(t,n,r){var e=r(14),i=r(22);t.exports=r(12)?function(t,n,r){return e.f(t,n,i(1,r))}:function(t,n,r){return t[n]=r,t}},function(t,n,r){var e=r(20),i=r(58),o=r(42),u=Object.defineProperty;n.f=r(12)?Object.defineProperty:function(t,n,r){if(e(t),n=o(n,!0),e(r),i)try{return u(t,n,r)}catch(t){}if("get"in r||"set"in r)throw TypeError("Accessors not supported!");return"value"in r&&(t[n]=r.value),t}},function(t,n,r){var e=r(40)("wks"),i=r(23),o=r(5).Symbol,u="function"==typeof o;(t.exports=function(t){return e[t]||(e[t]=u&&o[t]||(u?o:i)("Symbol."+t))}).store=e},function(t,n,r){var e=r(67),i=Math.min;t.exports=function(t){return t>0?i(e(t),9007199254740991):0}},function(t,n,r){var e=r(46);t.exports=function(t){return Object(e(t))}},function(t,n){t.exports=function(t){try{return!!t()}catch(t){return!0}}},function(t,n,r){var e=r(63),i=r(34);t.exports=Object.keys||function(t){return e(t,i)}},function(t,n,r){var e=r(21);t.exports=function(t){if(!e(t))throw TypeError(t+" is not an object!");return t}},function(t,n){t.exports=function(t){return"object"==typeof t?null!==t:"function"==typeof t}},function(t,n){t.exports=function(t,n){return{enumerable:!(1&t),configurable:!(2&t),writable:!(4&t),value:n}}},function(t,n){var r=0,e=Math.random();t.exports=function(t){return"Symbol(".concat(void 0===t?"":t,")_",(++r+e).toString(36))}},function(t,n){var r={}.hasOwnProperty;t.exports=function(t,n){return r.call(t,n)}},function(t,n){var r=t.exports={version:"2.4.0"};"number"==typeof __e&&(__e=r)},function(t,n){t.exports=function(t){if("function"!=typeof t)throw TypeError(t+" is not a function!");return t}},function(t,n,r){var e=r(11),i=r(66);t.exports=r(10)?function(t,n,r){return e.f(t,n,i(1,r))}:function(t,n,r){return t[n]=r,t}},function(t,n,r){var e=r(3),i=r(27),o=r(24),u=r(76)("src"),c="toString",f=Function[c],a=(""+f).split(c);r(52).inspectSource=function(t){return f.call(t)},(t.exports=function(t,n,r,c){var f="function"==typeof r;f&&(o(r,"name")||i(r,"name",n)),t[n]!==r&&(f&&(o(r,u)||i(r,u,t[n]?""+t[n]:a.join(String(n)))),t===e?t[n]=r:c?t[n]?t[n]=r:i(t,n,r):(delete t[n],i(t,n,r)))})(Function.prototype,c,function(){return"function"==typeof this&&this[u]||f.call(this)})},function(t,n,r){var e=r(1),i=r(4),o=r(46),u=function(t,n,r,e){var i=String(o(t)),u="<"+n;return""!==r&&(u+=" "+r+'="'+String(e).replace(/"/g,"&quot;")+'"'),u+">"+i+"</"+n+">"};t.exports=function(t,n){var r={};r[t]=n(u),e(e.P+e.F*i(function(){var n=""[t]('"');return n!==n.toLowerCase()||n.split('"').length>3}),"String",r)}},function(t,n,r){var e=r(115),i=r(46);t.exports=function(t){return e(i(t))}},function(t,n,r){var e=r(116),i=r(66),o=r(30),u=r(50),c=r(24),f=r(167),a=Object.getOwnPropertyDescriptor;n.f=r(10)?a:function(t,n){if(t=o(t),n=u(n,!0),f)try{return a(t,n)}catch(t){}if(c(t,n))return i(!e.f.call(t,n),t[n])}},function(t,n,r){var e=r(24),i=r(17),o=r(145)("IE_PROTO"),u=Object.prototype;t.exports=Object.getPrototypeOf||function(t){return t=i(t),e(t,o)?t[o]:"function"==typeof t.constructor&&t instanceof t.constructor?t.constructor.prototype:t instanceof Object?u:null}},function(t,n){t.exports=function(t){if(void 0==t)throw TypeError("Can't call method on  "+t);return t}},function(t,n){t.exports="constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(",")},function(t,n){t.exports={}},function(t,n){t.exports=!0},function(t,n){n.f={}.propertyIsEnumerable},function(t,n,r){var e=r(14).f,i=r(8),o=r(15)("toStringTag");t.exports=function(t,n,r){t&&!i(t=r?t:t.prototype,o)&&e(t,o,{configurable:!0,value:n})}},function(t,n,r){var e=r(40)("keys"),i=r(23);t.exports=function(t){return e[t]||(e[t]=i(t))}},function(t,n,r){var e=r(5),i="__core-js_shared__",o=e[i]||(e[i]={});t.exports=function(t){return o[t]||(o[t]={})}},function(t,n){var r=Math.ceil,e=Math.floor;t.exports=function(t){return isNaN(t=+t)?0:(t>0?e:r)(t)}},function(t,n,r){var e=r(21);t.exports=function(t,n){if(!e(t))return t;var r,i;if(n&&"function"==typeof(r=t.toString)&&!e(i=r.call(t)))return i;if("function"==typeof(r=t.valueOf)&&!e(i=r.call(t)))return i;if(!n&&"function"==typeof(r=t.toString)&&!e(i=r.call(t)))return i;throw TypeError("Can't convert object to primitive value")}},function(t,n,r){var e=r(5),i=r(25),o=r(36),u=r(44),c=r(14).f;t.exports=function(t){var n=i.Symbol||(i.Symbol=o?{}:e.Symbol||{});"_"==t.charAt(0)||t in n||c(n,t,{value:u.f(t)})}},function(t,n,r){n.f=r(15)},function(t,n){var r={}.toString;t.exports=function(t){return r.call(t).slice(8,-1)}},function(t,n){t.exports=function(t){if(void 0==t)throw TypeError("Can't call method on  "+t);return t}},function(t,n,r){var e=r(4);t.exports=function(t,n){return!!t&&e(function(){n?t.call(null,function(){},1):t.call(null)})}},function(t,n,r){var e=r(53),i=r(115),o=r(17),u=r(16),c=r(203);t.exports=function(t,n){var r=1==t,f=2==t,a=3==t,s=4==t,l=6==t,h=5==t||l,v=n||c;return function(n,c,p){for(var d,y,g=o(n),b=i(g),m=e(c,p,3),x=u(b.length),w=0,S=r?v(n,x):f?v(n,0):void 0;x>w;w++)if((h||w in b)&&(d=b[w],y=m(d,w,g),t))if(r)S[w]=y;else if(y)switch(t){case 3:return!0;case 5:return d;case 6:return w;case 2:S.push(d)}else if(s)return!1;return l?-1:a||s?s:S}}},function(t,n,r){var e=r(1),i=r(52),o=r(4);t.exports=function(t,n){var r=(i.Object||{})[t]||Object[t],u={};u[t]=n(r),e(e.S+e.F*o(function(){r(1)}),"Object",u)}},function(t,n,r){var e=r(6);t.exports=function(t,n){if(!e(t))return t;var r,i;if(n&&"function"==typeof(r=t.toString)&&!e(i=r.call(t)))return i;if("function"==typeof(r=t.valueOf)&&!e(i=r.call(t)))return i;if(!n&&"function"==typeof(r=t.toString)&&!e(i=r.call(t)))return i;throw TypeError("Can't convert object to primitive value")}},function(t,n,r){var e=r(5),i=r(25),o=r(91),u=r(13),c="prototype",f=function(t,n,r){var a,s,l,h=t&f.F,v=t&f.G,p=t&f.S,d=t&f.P,y=t&f.B,g=t&f.W,b=v?i:i[n]||(i[n]={}),m=b[c],x=v?e:p?e[n]:(e[n]||{})[c];v&&(r=n);for(a in r)(s=!h&&x&&void 0!==x[a])&&a in b||(l=s?x[a]:r[a],b[a]=v&&"function"!=typeof x[a]?r[a]:y&&s?o(l,e):g&&x[a]==l?function(t){var n=function(n,r,e){if(this instanceof t){switch(arguments.length){case 0:return new t;case 1:return new t(n);case 2:return new t(n,r)}return new t(n,r,e)}return t.apply(this,arguments)};return n[c]=t[c],n}(l):d&&"function"==typeof l?o(Function.call,l):l,d&&((b.virtual||(b.virtual={}))[a]=l,t&f.R&&m&&!m[a]&&u(m,a,l)))};f.F=1,f.G=2,f.S=4,f.P=8,f.B=16,f.W=32,f.U=64,f.R=128,t.exports=f},function(t,n){var r=t.exports={version:"2.4.0"};"number"==typeof __e&&(__e=r)},function(t,n,r){var e=r(26);t.exports=function(t,n,r){if(e(t),void 0===n)return t;switch(r){case 1:return function(r){return t.call(n,r)};case 2:return function(r,e){return t.call(n,r,e)};case 3:return function(r,e,i){return t.call(n,r,e,i)}}return function(){return t.apply(n,arguments)}}},function(t,n,r){var e=r(183),i=r(1),o=r(126)("metadata"),u=o.store||(o.store=new(r(186))),c=function(t,n,r){var i=u.get(t);if(!i){if(!r)return;u.set(t,i=new e)}var o=i.get(n);if(!o){if(!r)return;i.set(n,o=new e)}return o},f=function(t,n,r){var e=c(n,r,!1);return void 0!==e&&e.has(t)},a=function(t,n,r){var e=c(n,r,!1);return void 0===e?void 0:e.get(t)},s=function(t,n,r,e){c(r,e,!0).set(t,n)},l=function(t,n){var r=c(t,n,!1),e=[];return r&&r.forEach(function(t,n){e.push(n)}),e},h=function(t){return void 0===t||"symbol"==typeof t?t:String(t)},v=function(t){i(i.S,"Reflect",t)};t.exports={store:u,map:c,has:f,get:a,set:s,keys:l,key:h,exp:v}},function(t,n,r){"use strict";if(r(10)){var e=r(69),i=r(3),o=r(4),u=r(1),c=r(127),f=r(152),a=r(53),s=r(68),l=r(66),h=r(27),v=r(73),p=r(67),d=r(16),y=r(75),g=r(50),b=r(24),m=r(180),x=r(114),w=r(6),S=r(17),_=r(137),O=r(70),E=r(32),P=r(71).f,j=r(154),F=r(76),M=r(7),A=r(48),N=r(117),T=r(146),I=r(155),k=r(80),L=r(123),R=r(74),C=r(130),D=r(160),U=r(11),W=r(31),G=U.f,B=W.f,V=i.RangeError,z=i.TypeError,q=i.Uint8Array,K="ArrayBuffer",J="Shared"+K,Y="BYTES_PER_ELEMENT",H="prototype",$=Array[H],X=f.ArrayBuffer,Q=f.DataView,Z=A(0),tt=A(2),nt=A(3),rt=A(4),et=A(5),it=A(6),ot=N(!0),ut=N(!1),ct=I.values,ft=I.keys,at=I.entries,st=$.lastIndexOf,lt=$.reduce,ht=$.reduceRight,vt=$.join,pt=$.sort,dt=$.slice,yt=$.toString,gt=$.toLocaleString,bt=M("iterator"),mt=M("toStringTag"),xt=F("typed_constructor"),wt=F("def_constructor"),St=c.CONSTR,_t=c.TYPED,Ot=c.VIEW,Et="Wrong length!",Pt=A(1,function(t,n){return Tt(T(t,t[wt]),n)}),jt=o(function(){return 1===new q(new Uint16Array([1]).buffer)[0]}),Ft=!!q&&!!q[H].set&&o(function(){new q(1).set({})}),Mt=function(t,n){if(void 0===t)throw z(Et);var r=+t,e=d(t);if(n&&!m(r,e))throw V(Et);return e},At=function(t,n){var r=p(t);if(r<0||r%n)throw V("Wrong offset!");return r},Nt=function(t){if(w(t)&&_t in t)return t;throw z(t+" is not a typed array!")},Tt=function(t,n){if(!(w(t)&&xt in t))throw z("It is not a typed array constructor!");return new t(n)},It=function(t,n){return kt(T(t,t[wt]),n)},kt=function(t,n){for(var r=0,e=n.length,i=Tt(t,e);e>r;)i[r]=n[r++];return i},Lt=function(t,n,r){G(t,n,{get:function(){return this._d[r]}})},Rt=function(t){var n,r,e,i,o,u,c=S(t),f=arguments.length,s=f>1?arguments[1]:void 0,l=void 0!==s,h=j(c);if(void 0!=h&&!_(h)){for(u=h.call(c),e=[],n=0;!(o=u.next()).done;n++)e.push(o.value);c=e}for(l&&f>2&&(s=a(s,arguments[2],2)),n=0,r=d(c.length),i=Tt(this,r);r>n;n++)i[n]=l?s(c[n],n):c[n];return i},Ct=function(){for(var t=0,n=arguments.length,r=Tt(this,n);n>t;)r[t]=arguments[t++];return r},Dt=!!q&&o(function(){gt.call(new q(1))}),Ut=function(){return gt.apply(Dt?dt.call(Nt(this)):Nt(this),arguments)},Wt={copyWithin:function(t,n){return D.call(Nt(this),t,n,arguments.length>2?arguments[2]:void 0)},every:function(t){return rt(Nt(this),t,arguments.length>1?arguments[1]:void 0)},fill:function(t){return C.apply(Nt(this),arguments)},filter:function(t){return It(this,tt(Nt(this),t,arguments.length>1?arguments[1]:void 0))},find:function(t){return et(Nt(this),t,arguments.length>1?arguments[1]:void 0)},findIndex:function(t){return it(Nt(this),t,arguments.length>1?arguments[1]:void 0)},forEach:function(t){Z(Nt(this),t,arguments.length>1?arguments[1]:void 0)},indexOf:function(t){return ut(Nt(this),t,arguments.length>1?arguments[1]:void 0)},includes:function(t){return ot(Nt(this),t,arguments.length>1?arguments[1]:void 0)},join:function(t){return vt.apply(Nt(this),arguments)},lastIndexOf:function(t){return st.apply(Nt(this),arguments)},map:function(t){return Pt(Nt(this),t,arguments.length>1?arguments[1]:void 0)},reduce:function(t){return lt.apply(Nt(this),arguments)},reduceRight:function(t){return ht.apply(Nt(this),arguments)},reverse:function(){for(var t,n=this,r=Nt(n).length,e=Math.floor(r/2),i=0;i<e;)t=n[i],n[i++]=n[--r],n[r]=t;return n},some:function(t){return nt(Nt(this),t,arguments.length>1?arguments[1]:void 0)},sort:function(t){return pt.call(Nt(this),t)},subarray:function(t,n){var r=Nt(this),e=r.length,i=y(t,e);return new(T(r,r[wt]))(r.buffer,r.byteOffset+i*r.BYTES_PER_ELEMENT,d((void 0===n?e:y(n,e))-i))}},Gt=function(t,n){return It(this,dt.call(Nt(this),t,n))},Bt=function(t){Nt(this);var n=At(arguments[1],1),r=this.length,e=S(t),i=d(e.length),o=0;if(i+n>r)throw V(Et);for(;o<i;)this[n+o]=e[o++]},Vt={entries:function(){return at.call(Nt(this))},keys:function(){return ft.call(Nt(this))},values:function(){return ct.call(Nt(this))}},zt=function(t,n){return w(t)&&t[_t]&&"symbol"!=typeof n&&n in t&&String(+n)==String(n)},qt=function(t,n){return zt(t,n=g(n,!0))?l(2,t[n]):B(t,n)},Kt=function(t,n,r){return!(zt(t,n=g(n,!0))&&w(r)&&b(r,"value"))||b(r,"get")||b(r,"set")||r.configurable||b(r,"writable")&&!r.writable||b(r,"enumerable")&&!r.enumerable?G(t,n,r):(t[n]=r.value,t)};St||(W.f=qt,U.f=Kt),u(u.S+u.F*!St,"Object",{getOwnPropertyDescriptor:qt,defineProperty:Kt}),o(function(){yt.call({})})&&(yt=gt=function(){return vt.call(this)});var Jt=v({},Wt);v(Jt,Vt),h(Jt,bt,Vt.values),v(Jt,{slice:Gt,set:Bt,constructor:function(){},toString:yt,toLocaleString:Ut}),Lt(Jt,"buffer","b"),Lt(Jt,"byteOffset","o"),Lt(Jt,"byteLength","l"),Lt(Jt,"length","e"),G(Jt,mt,{get:function(){return this[_t]}}),t.exports=function(t,n,r,f){f=!!f;var a=t+(f?"Clamped":"")+"Array",l="Uint8Array"!=a,v="get"+t,p="set"+t,y=i[a],g=y||{},b=y&&E(y),m=!y||!c.ABV,S={},_=y&&y[H],j=function(t,r){var e=t._d;return e.v[v](r*n+e.o,jt)},F=function(t,r,e){var i=t._d;f&&(e=(e=Math.round(e))<0?0:e>255?255:255&e),i.v[p](r*n+i.o,e,jt)},M=function(t,n){G(t,n,{get:function(){return j(this,n)},set:function(t){return F(this,n,t)},enumerable:!0})};m?(y=r(function(t,r,e,i){s(t,y,a,"_d");var o,u,c,f,l=0,v=0;if(w(r)){if(!(r instanceof X||(f=x(r))==K||f==J))return _t in r?kt(y,r):Rt.call(y,r);o=r,v=At(e,n);var p=r.byteLength;if(void 0===i){if(p%n)throw V(Et);if((u=p-v)<0)throw V(Et)}else if((u=d(i)*n)+v>p)throw V(Et);c=u/n}else c=Mt(r,!0),u=c*n,o=new X(u);for(h(t,"_d",{b:o,o:v,l:u,e:c,v:new Q(o)});l<c;)M(t,l++)}),_=y[H]=O(Jt),h(_,"constructor",y)):L(function(t){new y(null),new y(t)},!0)||(y=r(function(t,r,e,i){s(t,y,a);var o;return w(r)?r instanceof X||(o=x(r))==K||o==J?void 0!==i?new g(r,At(e,n),i):void 0!==e?new g(r,At(e,n)):new g(r):_t in r?kt(y,r):Rt.call(y,r):new g(Mt(r,l))}),Z(b!==Function.prototype?P(g).concat(P(b)):P(g),function(t){t in y||h(y,t,g[t])}),y[H]=_,e||(_.constructor=y));var A=_[bt],N=!!A&&("values"==A.name||void 0==A.name),T=Vt.values;h(y,xt,!0),h(_,_t,a),h(_,Ot,!0),h(_,wt,y),(f?new y(1)[mt]==a:mt in _)||G(_,mt,{get:function(){return a}}),S[a]=y,u(u.G+u.W+u.F*(y!=g),S),u(u.S,a,{BYTES_PER_ELEMENT:n,from:Rt,of:Ct}),Y in _||h(_,Y,n),u(u.P,a,Wt),R(a),u(u.P+u.F*Ft,a,{set:Bt}),u(u.P+u.F*!N,a,Vt),u(u.P+u.F*(_.toString!=yt),a,{toString:yt}),u(u.P+u.F*o(function(){new y(1).slice()}),a,{slice:Gt}),u(u.P+u.F*(o(function(){return[1,2].toLocaleString()!=new y([1,2]).toLocaleString()})||!o(function(){_.toLocaleString.call([1,2])})),a,{toLocaleString:Ut}),k[a]=N?A:T,e||N||h(_,bt,T)}}else t.exports=function(){}},function(t,n){var r={}.toString;t.exports=function(t){return r.call(t).slice(8,-1)}},function(t,n,r){var e=r(21),i=r(5).document,o=e(i)&&e(i.createElement);t.exports=function(t){return o?i.createElement(t):{}}},function(t,n,r){t.exports=!r(12)&&!r(18)(function(){return 7!=Object.defineProperty(r(57)("div"),"a",{get:function(){return 7}}).a})},function(t,n,r){"use strict";var e=r(36),i=r(51),o=r(64),u=r(13),c=r(8),f=r(35),a=r(96),s=r(38),l=r(103),h=r(15)("iterator"),v=!([].keys&&"next"in[].keys()),p="keys",d="values",y=function(){return this};t.exports=function(t,n,r,g,b,m,x){a(r,n,g);var w,S,_,O=function(t){if(!v&&t in F)return F[t];switch(t){case p:case d:return function(){return new r(this,t)}}return function(){return new r(this,t)}},E=n+" Iterator",P=b==d,j=!1,F=t.prototype,M=F[h]||F["@@iterator"]||b&&F[b],A=M||O(b),N=b?P?O("entries"):A:void 0,T="Array"==n?F.entries||M:M;if(T&&(_=l(T.call(new t)))!==Object.prototype&&(s(_,E,!0),e||c(_,h)||u(_,h,y)),P&&M&&M.name!==d&&(j=!0,A=function(){return M.call(this)}),e&&!x||!v&&!j&&F[h]||u(F,h,A),f[n]=A,f[E]=y,b)if(w={values:P?A:O(d),keys:m?A:O(p),entries:N},x)for(S in w)S in F||o(F,S,w[S]);else i(i.P+i.F*(v||j),n,w);return w}},function(t,n,r){var e=r(20),i=r(100),o=r(34),u=r(39)("IE_PROTO"),c=function(){},f="prototype",a=function(){var t,n=r(57)("iframe"),e=o.length;for(n.style.display="none",r(93).appendChild(n),n.src="javascript:",t=n.contentWindow.document,t.open(),t.write("<script>document.F=Object<\/script>"),t.close(),a=t.F;e--;)delete a[f][o[e]];return a()};t.exports=Object.create||function(t,n){var r;return null!==t?(c[f]=e(t),r=new c,c[f]=null,r[u]=t):r=a(),void 0===n?r:i(r,n)}},function(t,n,r){var e=r(63),i=r(34).concat("length","prototype");n.f=Object.getOwnPropertyNames||function(t){return e(t,i)}},function(t,n){n.f=Object.getOwnPropertySymbols},function(t,n,r){var e=r(8),i=r(9),o=r(90)(!1),u=r(39)("IE_PROTO");t.exports=function(t,n){var r,c=i(t),f=0,a=[];for(r in c)r!=u&&e(c,r)&&a.push(r);for(;n.length>f;)e(c,r=n[f++])&&(~o(a,r)||a.push(r));return a}},function(t,n,r){t.exports=r(13)},function(t,n,r){var e=r(76)("meta"),i=r(6),o=r(24),u=r(11).f,c=0,f=Object.isExtensible||function(){return!0},a=!r(4)(function(){return f(Object.preventExtensions({}))}),s=function(t){u(t,e,{value:{i:"O"+ ++c,w:{}}})},l=function(t,n){if(!i(t))return"symbol"==typeof t?t:("string"==typeof t?"S":"P")+t;if(!o(t,e)){if(!f(t))return"F";if(!n)return"E";s(t)}return t[e].i},h=function(t,n){if(!o(t,e)){if(!f(t))return!0;if(!n)return!1;s(t)}return t[e].w},v=function(t){return a&&p.NEED&&f(t)&&!o(t,e)&&s(t),t},p=t.exports={KEY:e,NEED:!1,fastKey:l,getWeak:h,onFreeze:v}},function(t,n){t.exports=function(t,n){return{enumerable:!(1&t),configurable:!(2&t),writable:!(4&t),value:n}}},function(t,n){var r=Math.ceil,e=Math.floor;t.exports=function(t){return isNaN(t=+t)?0:(t>0?e:r)(t)}},function(t,n){t.exports=function(t,n,r,e){if(!(t instanceof n)||void 0!==e&&e in t)throw TypeError(r+": incorrect invocation!");return t}},function(t,n){t.exports=!1},function(t,n,r){var e=r(2),i=r(173),o=r(133),u=r(145)("IE_PROTO"),c=function(){},f="prototype",a=function(){var t,n=r(132)("iframe"),e=o.length;for(n.style.display="none",r(135).appendChild(n),n.src="javascript:",t=n.contentWindow.document,t.open(),t.write("<script>document.F=Object<\/script>"),t.close(),a=t.F;e--;)delete a[f][o[e]];return a()};t.exports=Object.create||function(t,n){var r;return null!==t?(c[f]=e(t),r=new c,c[f]=null,r[u]=t):r=a(),void 0===n?r:i(r,n)}},function(t,n,r){var e=r(175),i=r(133).concat("length","prototype");n.f=Object.getOwnPropertyNames||function(t){return e(t,i)}},function(t,n,r){var e=r(175),i=r(133);t.exports=Object.keys||function(t){return e(t,i)}},function(t,n,r){var e=r(28);t.exports=function(t,n,r){for(var i in n)e(t,i,n[i],r);return t}},function(t,n,r){"use strict";var e=r(3),i=r(11),o=r(10),u=r(7)("species");t.exports=function(t){var n=e[t];o&&n&&!n[u]&&i.f(n,u,{configurable:!0,get:function(){return this}})}},function(t,n,r){var e=r(67),i=Math.max,o=Math.min;t.exports=function(t,n){return t=e(t),t<0?i(t+n,0):o(t,n)}},function(t,n){var r=0,e=Math.random();t.exports=function(t){return"Symbol(".concat(void 0===t?"":t,")_",(++r+e).toString(36))}},function(t,n,r){var e=r(33);t.exports=function(t){return Object(e(t))}},function(t,n,r){var e=r(7)("unscopables"),i=Array.prototype;void 0==i[e]&&r(27)(i,e,{}),t.exports=function(t){i[e][t]=!0}},function(t,n,r){var e=r(53),i=r(169),o=r(137),u=r(2),c=r(16),f=r(154),a={},s={},n=t.exports=function(t,n,r,l,h){var v,p,d,y,g=h?function(){return t}:f(t),b=e(r,l,n?2:1),m=0;if("function"!=typeof g)throw TypeError(t+" is not iterable!");if(o(g)){for(v=c(t.length);v>m;m++)if((y=n?b(u(p=t[m])[0],p[1]):b(t[m]))===a||y===s)return y}else for(d=g.call(t);!(p=d.next()).done;)if((y=i(d,b,p.value,n))===a||y===s)return y};n.BREAK=a,n.RETURN=s},function(t,n){t.exports={}},function(t,n,r){var e=r(11).f,i=r(24),o=r(7)("toStringTag");t.exports=function(t,n,r){t&&!i(t=r?t:t.prototype,o)&&e(t,o,{configurable:!0,value:n})}},function(t,n,r){var e=r(1),i=r(46),o=r(4),u=r(150),c="["+u+"]",f="​",a=RegExp("^"+c+c+"*"),s=RegExp(c+c+"*$"),l=function(t,n,r){var i={},c=o(function(){return!!u[t]()||f[t]()!=f}),a=i[t]=c?n(h):u[t];r&&(i[r]=a),e(e.P+e.F*c,"String",i)},h=l.trim=function(t,n){return t=String(i(t)),1&n&&(t=t.replace(a,"")),2&n&&(t=t.replace(s,"")),t};t.exports=l},function(t,n,r){t.exports={default:r(86),__esModule:!0}},function(t,n,r){t.exports={default:r(87),__esModule:!0}},function(t,n,r){"use strict";function e(t){return t&&t.__esModule?t:{default:t}}n.__esModule=!0;var i=r(84),o=e(i),u=r(83),c=e(u),f="function"==typeof c.default&&"symbol"==typeof o.default?function(t){return typeof t}:function(t){return t&&"function"==typeof c.default&&t.constructor===c.default&&t!==c.default.prototype?"symbol":typeof t};n.default="function"==typeof c.default&&"symbol"===f(o.default)?function(t){return void 0===t?"undefined":f(t)}:function(t){return t&&"function"==typeof c.default&&t.constructor===c.default&&t!==c.default.prototype?"symbol":void 0===t?"undefined":f(t)}},function(t,n,r){r(110),r(108),r(111),r(112),t.exports=r(25).Symbol},function(t,n,r){r(109),r(113),t.exports=r(44).f("iterator")},function(t,n){t.exports=function(t){if("function"!=typeof t)throw TypeError(t+" is not a function!");return t}},function(t,n){t.exports=function(){}},function(t,n,r){var e=r(9),i=r(106),o=r(105);t.exports=function(t){return function(n,r,u){var c,f=e(n),a=i(f.length),s=o(u,a);if(t&&r!=r){for(;a>s;)if((c=f[s++])!=c)return!0}else for(;a>s;s++)if((t||s in f)&&f[s]===r)return t||s||0;return!t&&-1}}},function(t,n,r){var e=r(88);t.exports=function(t,n,r){if(e(t),void 0===n)return t;switch(r){case 1:return function(r){return t.call(n,r)};case 2:return function(r,e){return t.call(n,r,e)};case 3:return function(r,e,i){return t.call(n,r,e,i)}}return function(){return t.apply(n,arguments)}}},function(t,n,r){var e=r(19),i=r(62),o=r(37);t.exports=function(t){var n=e(t),r=i.f;if(r)for(var u,c=r(t),f=o.f,a=0;c.length>a;)f.call(t,u=c[a++])&&n.push(u);return n}},function(t,n,r){t.exports=r(5).document&&document.documentElement},function(t,n,r){var e=r(56);t.exports=Object("z").propertyIsEnumerable(0)?Object:function(t){return"String"==e(t)?t.split(""):Object(t)}},function(t,n,r){var e=r(56);t.exports=Array.isArray||function(t){return"Array"==e(t)}},function(t,n,r){"use strict";var e=r(60),i=r(22),o=r(38),u={};r(13)(u,r(15)("iterator"),function(){return this}),t.exports=function(t,n,r){t.prototype=e(u,{next:i(1,r)}),o(t,n+" Iterator")}},function(t,n){t.exports=function(t,n){return{value:n,done:!!t}}},function(t,n,r){var e=r(19),i=r(9);t.exports=function(t,n){for(var r,o=i(t),u=e(o),c=u.length,f=0;c>f;)if(o[r=u[f++]]===n)return r}},function(t,n,r){var e=r(23)("meta"),i=r(21),o=r(8),u=r(14).f,c=0,f=Object.isExtensible||function(){return!0},a=!r(18)(function(){return f(Object.preventExtensions({}))}),s=function(t){u(t,e,{value:{i:"O"+ ++c,w:{}}})},l=function(t,n){if(!i(t))return"symbol"==typeof t?t:("string"==typeof t?"S":"P")+t;if(!o(t,e)){if(!f(t))return"F";if(!n)return"E";s(t)}return t[e].i},h=function(t,n){if(!o(t,e)){if(!f(t))return!0;if(!n)return!1;s(t)}return t[e].w},v=function(t){return a&&p.NEED&&f(t)&&!o(t,e)&&s(t),t},p=t.exports={KEY:e,NEED:!1,fastKey:l,getWeak:h,onFreeze:v}},function(t,n,r){var e=r(14),i=r(20),o=r(19);t.exports=r(12)?Object.defineProperties:function(t,n){i(t);for(var r,u=o(n),c=u.length,f=0;c>f;)e.f(t,r=u[f++],n[r]);return t}},function(t,n,r){var e=r(37),i=r(22),o=r(9),u=r(42),c=r(8),f=r(58),a=Object.getOwnPropertyDescriptor;n.f=r(12)?a:function(t,n){if(t=o(t),n=u(n,!0),f)try{return a(t,n)}catch(t){}if(c(t,n))return i(!e.f.call(t,n),t[n])}},function(t,n,r){var e=r(9),i=r(61).f,o={}.toString,u="object"==typeof window&&window&&Object.getOwnPropertyNames?Object.getOwnPropertyNames(window):[],c=function(t){try{return i(t)}catch(t){return u.slice()}};t.exports.f=function(t){return u&&"[object Window]"==o.call(t)?c(t):i(e(t))}},function(t,n,r){var e=r(8),i=r(77),o=r(39)("IE_PROTO"),u=Object.prototype;t.exports=Object.getPrototypeOf||function(t){return t=i(t),e(t,o)?t[o]:"function"==typeof t.constructor&&t instanceof t.constructor?t.constructor.prototype:t instanceof Object?u:null}},function(t,n,r){var e=r(41),i=r(33);t.exports=function(t){return function(n,r){var o,u,c=String(i(n)),f=e(r),a=c.length;return f<0||f>=a?t?"":void 0:(o=c.charCodeAt(f),o<55296||o>56319||f+1===a||(u=c.charCodeAt(f+1))<56320||u>57343?t?c.charAt(f):o:t?c.slice(f,f+2):u-56320+(o-55296<<10)+65536)}}},function(t,n,r){var e=r(41),i=Math.max,o=Math.min;t.exports=function(t,n){return t=e(t),t<0?i(t+n,0):o(t,n)}},function(t,n,r){var e=r(41),i=Math.min;t.exports=function(t){return t>0?i(e(t),9007199254740991):0}},function(t,n,r){"use strict";var e=r(89),i=r(97),o=r(35),u=r(9);t.exports=r(59)(Array,"Array",function(t,n){this._t=u(t),this._i=0,this._k=n},function(){var t=this._t,n=this._k,r=this._i++;return!t||r>=t.length?(this._t=void 0,i(1)):"keys"==n?i(0,r):"values"==n?i(0,t[r]):i(0,[r,t[r]])},"values"),o.Arguments=o.Array,e("keys"),e("values"),e("entries")},function(t,n){},function(t,n,r){"use strict";var e=r(104)(!0);r(59)(String,"String",function(t){this._t=String(t),this._i=0},function(){var t,n=this._t,r=this._i;return r>=n.length?{value:void 0,done:!0}:(t=e(n,r),this._i+=t.length,{value:t,done:!1})})},function(t,n,r){"use strict";var e=r(5),i=r(8),o=r(12),u=r(51),c=r(64),f=r(99).KEY,a=r(18),s=r(40),l=r(38),h=r(23),v=r(15),p=r(44),d=r(43),y=r(98),g=r(92),b=r(95),m=r(20),x=r(9),w=r(42),S=r(22),_=r(60),O=r(102),E=r(101),P=r(14),j=r(19),F=E.f,M=P.f,A=O.f,N=e.Symbol,T=e.JSON,I=T&&T.stringify,k="prototype",L=v("_hidden"),R=v("toPrimitive"),C={}.propertyIsEnumerable,D=s("symbol-registry"),U=s("symbols"),W=s("op-symbols"),G=Object[k],B="function"==typeof N,V=e.QObject,z=!V||!V[k]||!V[k].findChild,q=o&&a(function(){return 7!=_(M({},"a",{get:function(){return M(this,"a",{value:7}).a}})).a})?function(t,n,r){var e=F(G,n);e&&delete G[n],M(t,n,r),e&&t!==G&&M(G,n,e)}:M,K=function(t){var n=U[t]=_(N[k]);return n._k=t,n},J=B&&"symbol"==typeof N.iterator?function(t){return"symbol"==typeof t}:function(t){return t instanceof N},Y=function(t,n,r){return t===G&&Y(W,n,r),m(t),n=w(n,!0),m(r),i(U,n)?(r.enumerable?(i(t,L)&&t[L][n]&&(t[L][n]=!1),r=_(r,{enumerable:S(0,!1)})):(i(t,L)||M(t,L,S(1,{})),t[L][n]=!0),q(t,n,r)):M(t,n,r)},H=function(t,n){m(t);for(var r,e=g(n=x(n)),i=0,o=e.length;o>i;)Y(t,r=e[i++],n[r]);return t},$=function(t,n){return void 0===n?_(t):H(_(t),n)},X=function(t){var n=C.call(this,t=w(t,!0));return!(this===G&&i(U,t)&&!i(W,t))&&(!(n||!i(this,t)||!i(U,t)||i(this,L)&&this[L][t])||n)},Q=function(t,n){if(t=x(t),n=w(n,!0),t!==G||!i(U,n)||i(W,n)){var r=F(t,n);return!r||!i(U,n)||i(t,L)&&t[L][n]||(r.enumerable=!0),r}},Z=function(t){for(var n,r=A(x(t)),e=[],o=0;r.length>o;)i(U,n=r[o++])||n==L||n==f||e.push(n);return e},tt=function(t){for(var n,r=t===G,e=A(r?W:x(t)),o=[],u=0;e.length>u;)!i(U,n=e[u++])||r&&!i(G,n)||o.push(U[n]);return o};B||(N=function(){if(this instanceof N)throw TypeError("Symbol is not a constructor!");var t=h(arguments.length>0?arguments[0]:void 0),n=function(r){this===G&&n.call(W,r),i(this,L)&&i(this[L],t)&&(this[L][t]=!1),q(this,t,S(1,r))};return o&&z&&q(G,t,{configurable:!0,set:n}),K(t)},c(N[k],"toString",function(){return this._k}),E.f=Q,P.f=Y,r(61).f=O.f=Z,r(37).f=X,r(62).f=tt,o&&!r(36)&&c(G,"propertyIsEnumerable",X,!0),p.f=function(t){return K(v(t))}),u(u.G+u.W+u.F*!B,{Symbol:N});for(var nt="hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables".split(","),rt=0;nt.length>rt;)v(nt[rt++]);for(var nt=j(v.store),rt=0;nt.length>rt;)d(nt[rt++]);u(u.S+u.F*!B,"Symbol",{for:function(t){return i(D,t+="")?D[t]:D[t]=N(t)},keyFor:function(t){if(J(t))return y(D,t);throw TypeError(t+" is not a symbol!")},useSetter:function(){z=!0},useSimple:function(){z=!1}}),u(u.S+u.F*!B,"Object",{create:$,defineProperty:Y,defineProperties:H,getOwnPropertyDescriptor:Q,getOwnPropertyNames:Z,getOwnPropertySymbols:tt}),T&&u(u.S+u.F*(!B||a(function(){var t=N();return"[null]"!=I([t])||"{}"!=I({a:t})||"{}"!=I(Object(t))})),"JSON",{stringify:function(t){if(void 0!==t&&!J(t)){for(var n,r,e=[t],i=1;arguments.length>i;)e.push(arguments[i++]);return n=e[1],"function"==typeof n&&(r=n),!r&&b(n)||(n=function(t,n){if(r&&(n=r.call(this,t,n)),!J(n))return n}),e[1]=n,I.apply(T,e)}}}),N[k][R]||r(13)(N[k],R,N[k].valueOf),l(N,"Symbol"),l(Math,"Math",!0),l(e.JSON,"JSON",!0)},function(t,n,r){r(43)("asyncIterator")},function(t,n,r){r(43)("observable")},function(t,n,r){r(107);for(var e=r(5),i=r(13),o=r(35),u=r(15)("toStringTag"),c=["NodeList","DOMTokenList","MediaList","StyleSheetList","CSSRuleList"],f=0;f<5;f++){var a=c[f],s=e[a],l=s&&s.prototype;l&&!l[u]&&i(l,u,a),o[a]=o.Array}},function(t,n,r){var e=r(45),i=r(7)("toStringTag"),o="Arguments"==e(function(){return arguments}()),u=function(t,n){try{return t[n]}catch(t){}};t.exports=function(t){var n,r,c;return void 0===t?"Undefined":null===t?"Null":"string"==typeof(r=u(n=Object(t),i))?r:o?e(n):"Object"==(c=e(n))&&"function"==typeof n.callee?"Arguments":c}},function(t,n,r){var e=r(45);t.exports=Object("z").propertyIsEnumerable(0)?Object:function(t){return"String"==e(t)?t.split(""):Object(t)}},function(t,n){n.f={}.propertyIsEnumerable},function(t,n,r){var e=r(30),i=r(16),o=r(75);t.exports=function(t){return function(n,r,u){var c,f=e(n),a=i(f.length),s=o(u,a);if(t&&r!=r){for(;a>s;)if((c=f[s++])!=c)return!0}else for(;a>s;s++)if((t||s in f)&&f[s]===r)return t||s||0;return!t&&-1}}},function(t,n,r){"use strict";var e=r(3),i=r(1),o=r(28),u=r(73),c=r(65),f=r(79),a=r(68),s=r(6),l=r(4),h=r(123),v=r(81),p=r(136);t.exports=function(t,n,r,d,y,g){var b=e[t],m=b,x=y?"set":"add",w=m&&m.prototype,S={},_=function(t){var n=w[t];o(w,t,"delete"==t?function(t){return!(g&&!s(t))&&n.call(this,0===t?0:t)}:"has"==t?function(t){return!(g&&!s(t))&&n.call(this,0===t?0:t)}:"get"==t?function(t){return g&&!s(t)?void 0:n.call(this,0===t?0:t)}:"add"==t?function(t){return n.call(this,0===t?0:t),this}:function(t,r){return n.call(this,0===t?0:t,r),this})};if("function"==typeof m&&(g||w.forEach&&!l(function(){(new m).entries().next()}))){var O=new m,E=O[x](g?{}:-0,1)!=O,P=l(function(){O.has(1)}),j=h(function(t){new m(t)}),F=!g&&l(function(){for(var t=new m,n=5;n--;)t[x](n,n);return!t.has(-0)});j||(m=n(function(n,r){a(n,m,t);var e=p(new b,n,m);return void 0!=r&&f(r,y,e[x],e),e}),m.prototype=w,w.constructor=m),(P||F)&&(_("delete"),_("has"),y&&_("get")),(F||E)&&_(x),g&&w.clear&&delete w.clear}else m=d.getConstructor(n,t,y,x),u(m.prototype,r),c.NEED=!0;return v(m,t),S[t]=m,i(i.G+i.W+i.F*(m!=b),S),g||d.setStrong(m,t,y),m}},function(t,n,r){"use strict";var e=r(27),i=r(28),o=r(4),u=r(46),c=r(7);t.exports=function(t,n,r){var f=c(t),a=r(u,f,""[t]),s=a[0],l=a[1];o(function(){var n={};return n[f]=function(){return 7},7!=""[t](n)})&&(i(String.prototype,t,s),e(RegExp.prototype,f,2==n?function(t,n){return l.call(t,this,n)}:function(t){return l.call(t,this)}))}
+},function(t,n,r){"use strict";var e=r(2);t.exports=function(){var t=e(this),n="";return t.global&&(n+="g"),t.ignoreCase&&(n+="i"),t.multiline&&(n+="m"),t.unicode&&(n+="u"),t.sticky&&(n+="y"),n}},function(t,n){t.exports=function(t,n,r){var e=void 0===r;switch(n.length){case 0:return e?t():t.call(r);case 1:return e?t(n[0]):t.call(r,n[0]);case 2:return e?t(n[0],n[1]):t.call(r,n[0],n[1]);case 3:return e?t(n[0],n[1],n[2]):t.call(r,n[0],n[1],n[2]);case 4:return e?t(n[0],n[1],n[2],n[3]):t.call(r,n[0],n[1],n[2],n[3])}return t.apply(r,n)}},function(t,n,r){var e=r(6),i=r(45),o=r(7)("match");t.exports=function(t){var n;return e(t)&&(void 0!==(n=t[o])?!!n:"RegExp"==i(t))}},function(t,n,r){var e=r(7)("iterator"),i=!1;try{var o=[7][e]();o.return=function(){i=!0},Array.from(o,function(){throw 2})}catch(t){}t.exports=function(t,n){if(!n&&!i)return!1;var r=!1;try{var o=[7],u=o[e]();u.next=function(){return{done:r=!0}},o[e]=function(){return u},t(o)}catch(t){}return r}},function(t,n,r){t.exports=r(69)||!r(4)(function(){var t=Math.random();__defineSetter__.call(null,t,function(){}),delete r(3)[t]})},function(t,n){n.f=Object.getOwnPropertySymbols},function(t,n,r){var e=r(3),i="__core-js_shared__",o=e[i]||(e[i]={});t.exports=function(t){return o[t]||(o[t]={})}},function(t,n,r){for(var e,i=r(3),o=r(27),u=r(76),c=u("typed_array"),f=u("view"),a=!(!i.ArrayBuffer||!i.DataView),s=a,l=0,h="Int8Array,Uint8Array,Uint8ClampedArray,Int16Array,Uint16Array,Int32Array,Uint32Array,Float32Array,Float64Array".split(",");l<9;)(e=i[h[l++]])?(o(e.prototype,c,!0),o(e.prototype,f,!0)):s=!1;t.exports={ABV:a,CONSTR:s,TYPED:c,VIEW:f}},function(t,n){"use strict";var r={versions:function(){var t=window.navigator.userAgent;return{trident:t.indexOf("Trident")>-1,presto:t.indexOf("Presto")>-1,webKit:t.indexOf("AppleWebKit")>-1,gecko:t.indexOf("Gecko")>-1&&-1==t.indexOf("KHTML"),mobile:!!t.match(/AppleWebKit.*Mobile.*/),ios:!!t.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),android:t.indexOf("Android")>-1||t.indexOf("Linux")>-1,iPhone:t.indexOf("iPhone")>-1||t.indexOf("Mac")>-1,iPad:t.indexOf("iPad")>-1,webApp:-1==t.indexOf("Safari"),weixin:-1==t.indexOf("MicroMessenger")}}()};t.exports=r},function(t,n,r){"use strict";var e=r(85),i=function(t){return t&&t.__esModule?t:{default:t}}(e),o=function(){function t(t,n,e){return n||e?String.fromCharCode(n||e):r[t]||t}function n(t){return e[t]}var r={"&quot;":'"',"&lt;":"<","&gt;":">","&amp;":"&","&nbsp;":" "},e={};for(var u in r)e[r[u]]=u;return r["&apos;"]="'",e["'"]="&#39;",{encode:function(t){return t?(""+t).replace(/['<> "&]/g,n).replace(/\r?\n/g,"<br/>").replace(/\s/g,"&nbsp;"):""},decode:function(n){return n?(""+n).replace(/<br\s*\/?>/gi,"\n").replace(/&quot;|&lt;|&gt;|&amp;|&nbsp;|&apos;|&#(\d+);|&#(\d+)/g,t).replace(/\u00a0/g," "):""},encodeBase16:function(t){if(!t)return t;t+="";for(var n=[],r=0,e=t.length;e>r;r++)n.push(t.charCodeAt(r).toString(16).toUpperCase());return n.join("")},encodeBase16forJSON:function(t){if(!t)return t;t=t.replace(/[\u4E00-\u9FBF]/gi,function(t){return escape(t).replace("%u","\\u")});for(var n=[],r=0,e=t.length;e>r;r++)n.push(t.charCodeAt(r).toString(16).toUpperCase());return n.join("")},decodeBase16:function(t){if(!t)return t;t+="";for(var n=[],r=0,e=t.length;e>r;r+=2)n.push(String.fromCharCode("0x"+t.slice(r,r+2)));return n.join("")},encodeObject:function(t){if(t instanceof Array)for(var n=0,r=t.length;r>n;n++)t[n]=o.encodeObject(t[n]);else if("object"==(void 0===t?"undefined":(0,i.default)(t)))for(var e in t)t[e]=o.encodeObject(t[e]);else if("string"==typeof t)return o.encode(t);return t},loadScript:function(t){var n=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(n),n.setAttribute("src",t)},addLoadEvent:function(t){var n=window.onload;"function"!=typeof window.onload?window.onload=t:window.onload=function(){n(),t()}}}}();t.exports=o},function(t,n,r){"use strict";var e=r(17),i=r(75),o=r(16);t.exports=function(t){for(var n=e(this),r=o(n.length),u=arguments.length,c=i(u>1?arguments[1]:void 0,r),f=u>2?arguments[2]:void 0,a=void 0===f?r:i(f,r);a>c;)n[c++]=t;return n}},function(t,n,r){"use strict";var e=r(11),i=r(66);t.exports=function(t,n,r){n in t?e.f(t,n,i(0,r)):t[n]=r}},function(t,n,r){var e=r(6),i=r(3).document,o=e(i)&&e(i.createElement);t.exports=function(t){return o?i.createElement(t):{}}},function(t,n){t.exports="constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(",")},function(t,n,r){var e=r(7)("match");t.exports=function(t){var n=/./;try{"/./"[t](n)}catch(r){try{return n[e]=!1,!"/./"[t](n)}catch(t){}}return!0}},function(t,n,r){t.exports=r(3).document&&document.documentElement},function(t,n,r){var e=r(6),i=r(144).set;t.exports=function(t,n,r){var o,u=n.constructor;return u!==r&&"function"==typeof u&&(o=u.prototype)!==r.prototype&&e(o)&&i&&i(t,o),t}},function(t,n,r){var e=r(80),i=r(7)("iterator"),o=Array.prototype;t.exports=function(t){return void 0!==t&&(e.Array===t||o[i]===t)}},function(t,n,r){var e=r(45);t.exports=Array.isArray||function(t){return"Array"==e(t)}},function(t,n,r){"use strict";var e=r(70),i=r(66),o=r(81),u={};r(27)(u,r(7)("iterator"),function(){return this}),t.exports=function(t,n,r){t.prototype=e(u,{next:i(1,r)}),o(t,n+" Iterator")}},function(t,n,r){"use strict";var e=r(69),i=r(1),o=r(28),u=r(27),c=r(24),f=r(80),a=r(139),s=r(81),l=r(32),h=r(7)("iterator"),v=!([].keys&&"next"in[].keys()),p="keys",d="values",y=function(){return this};t.exports=function(t,n,r,g,b,m,x){a(r,n,g);var w,S,_,O=function(t){if(!v&&t in F)return F[t];switch(t){case p:case d:return function(){return new r(this,t)}}return function(){return new r(this,t)}},E=n+" Iterator",P=b==d,j=!1,F=t.prototype,M=F[h]||F["@@iterator"]||b&&F[b],A=M||O(b),N=b?P?O("entries"):A:void 0,T="Array"==n?F.entries||M:M;if(T&&(_=l(T.call(new t)))!==Object.prototype&&(s(_,E,!0),e||c(_,h)||u(_,h,y)),P&&M&&M.name!==d&&(j=!0,A=function(){return M.call(this)}),e&&!x||!v&&!j&&F[h]||u(F,h,A),f[n]=A,f[E]=y,b)if(w={values:P?A:O(d),keys:m?A:O(p),entries:N},x)for(S in w)S in F||o(F,S,w[S]);else i(i.P+i.F*(v||j),n,w);return w}},function(t,n){var r=Math.expm1;t.exports=!r||r(10)>22025.465794806718||r(10)<22025.465794806718||-2e-17!=r(-2e-17)?function(t){return 0==(t=+t)?t:t>-1e-6&&t<1e-6?t+t*t/2:Math.exp(t)-1}:r},function(t,n){t.exports=Math.sign||function(t){return 0==(t=+t)||t!=t?t:t<0?-1:1}},function(t,n,r){var e=r(3),i=r(151).set,o=e.MutationObserver||e.WebKitMutationObserver,u=e.process,c=e.Promise,f="process"==r(45)(u);t.exports=function(){var t,n,r,a=function(){var e,i;for(f&&(e=u.domain)&&e.exit();t;){i=t.fn,t=t.next;try{i()}catch(e){throw t?r():n=void 0,e}}n=void 0,e&&e.enter()};if(f)r=function(){u.nextTick(a)};else if(o){var s=!0,l=document.createTextNode("");new o(a).observe(l,{characterData:!0}),r=function(){l.data=s=!s}}else if(c&&c.resolve){var h=c.resolve();r=function(){h.then(a)}}else r=function(){i.call(e,a)};return function(e){var i={fn:e,next:void 0};n&&(n.next=i),t||(t=i,r()),n=i}}},function(t,n,r){var e=r(6),i=r(2),o=function(t,n){if(i(t),!e(n)&&null!==n)throw TypeError(n+": can't set as prototype!")};t.exports={set:Object.setPrototypeOf||("__proto__"in{}?function(t,n,e){try{e=r(53)(Function.call,r(31).f(Object.prototype,"__proto__").set,2),e(t,[]),n=!(t instanceof Array)}catch(t){n=!0}return function(t,r){return o(t,r),n?t.__proto__=r:e(t,r),t}}({},!1):void 0),check:o}},function(t,n,r){var e=r(126)("keys"),i=r(76);t.exports=function(t){return e[t]||(e[t]=i(t))}},function(t,n,r){var e=r(2),i=r(26),o=r(7)("species");t.exports=function(t,n){var r,u=e(t).constructor;return void 0===u||void 0==(r=e(u)[o])?n:i(r)}},function(t,n,r){var e=r(67),i=r(46);t.exports=function(t){return function(n,r){var o,u,c=String(i(n)),f=e(r),a=c.length;return f<0||f>=a?t?"":void 0:(o=c.charCodeAt(f),o<55296||o>56319||f+1===a||(u=c.charCodeAt(f+1))<56320||u>57343?t?c.charAt(f):o:t?c.slice(f,f+2):u-56320+(o-55296<<10)+65536)}}},function(t,n,r){var e=r(122),i=r(46);t.exports=function(t,n,r){if(e(n))throw TypeError("String#"+r+" doesn't accept regex!");return String(i(t))}},function(t,n,r){"use strict";var e=r(67),i=r(46);t.exports=function(t){var n=String(i(this)),r="",o=e(t);if(o<0||o==1/0)throw RangeError("Count can't be negative");for(;o>0;(o>>>=1)&&(n+=n))1&o&&(r+=n);return r}},function(t,n){t.exports="\t\n\v\f\r   ᠎             　\u2028\u2029\ufeff"},function(t,n,r){var e,i,o,u=r(53),c=r(121),f=r(135),a=r(132),s=r(3),l=s.process,h=s.setImmediate,v=s.clearImmediate,p=s.MessageChannel,d=0,y={},g="onreadystatechange",b=function(){var t=+this;if(y.hasOwnProperty(t)){var n=y[t];delete y[t],n()}},m=function(t){b.call(t.data)};h&&v||(h=function(t){for(var n=[],r=1;arguments.length>r;)n.push(arguments[r++]);return y[++d]=function(){c("function"==typeof t?t:Function(t),n)},e(d),d},v=function(t){delete y[t]},"process"==r(45)(l)?e=function(t){l.nextTick(u(b,t,1))}:p?(i=new p,o=i.port2,i.port1.onmessage=m,e=u(o.postMessage,o,1)):s.addEventListener&&"function"==typeof postMessage&&!s.importScripts?(e=function(t){s.postMessage(t+"","*")},s.addEventListener("message",m,!1)):e=g in a("script")?function(t){f.appendChild(a("script"))[g]=function(){f.removeChild(this),b.call(t)}}:function(t){setTimeout(u(b,t,1),0)}),t.exports={set:h,clear:v}},function(t,n,r){"use strict";var e=r(3),i=r(10),o=r(69),u=r(127),c=r(27),f=r(73),a=r(4),s=r(68),l=r(67),h=r(16),v=r(71).f,p=r(11).f,d=r(130),y=r(81),g="ArrayBuffer",b="DataView",m="prototype",x="Wrong length!",w="Wrong index!",S=e[g],_=e[b],O=e.Math,E=e.RangeError,P=e.Infinity,j=S,F=O.abs,M=O.pow,A=O.floor,N=O.log,T=O.LN2,I="buffer",k="byteLength",L="byteOffset",R=i?"_b":I,C=i?"_l":k,D=i?"_o":L,U=function(t,n,r){var e,i,o,u=Array(r),c=8*r-n-1,f=(1<<c)-1,a=f>>1,s=23===n?M(2,-24)-M(2,-77):0,l=0,h=t<0||0===t&&1/t<0?1:0;for(t=F(t),t!=t||t===P?(i=t!=t?1:0,e=f):(e=A(N(t)/T),t*(o=M(2,-e))<1&&(e--,o*=2),t+=e+a>=1?s/o:s*M(2,1-a),t*o>=2&&(e++,o/=2),e+a>=f?(i=0,e=f):e+a>=1?(i=(t*o-1)*M(2,n),e+=a):(i=t*M(2,a-1)*M(2,n),e=0));n>=8;u[l++]=255&i,i/=256,n-=8);for(e=e<<n|i,c+=n;c>0;u[l++]=255&e,e/=256,c-=8);return u[--l]|=128*h,u},W=function(t,n,r){var e,i=8*r-n-1,o=(1<<i)-1,u=o>>1,c=i-7,f=r-1,a=t[f--],s=127&a;for(a>>=7;c>0;s=256*s+t[f],f--,c-=8);for(e=s&(1<<-c)-1,s>>=-c,c+=n;c>0;e=256*e+t[f],f--,c-=8);if(0===s)s=1-u;else{if(s===o)return e?NaN:a?-P:P;e+=M(2,n),s-=u}return(a?-1:1)*e*M(2,s-n)},G=function(t){return t[3]<<24|t[2]<<16|t[1]<<8|t[0]},B=function(t){return[255&t]},V=function(t){return[255&t,t>>8&255]},z=function(t){return[255&t,t>>8&255,t>>16&255,t>>24&255]},q=function(t){return U(t,52,8)},K=function(t){return U(t,23,4)},J=function(t,n,r){p(t[m],n,{get:function(){return this[r]}})},Y=function(t,n,r,e){var i=+r,o=l(i);if(i!=o||o<0||o+n>t[C])throw E(w);var u=t[R]._b,c=o+t[D],f=u.slice(c,c+n);return e?f:f.reverse()},H=function(t,n,r,e,i,o){var u=+r,c=l(u);if(u!=c||c<0||c+n>t[C])throw E(w);for(var f=t[R]._b,a=c+t[D],s=e(+i),h=0;h<n;h++)f[a+h]=s[o?h:n-h-1]},$=function(t,n){s(t,S,g);var r=+n,e=h(r);if(r!=e)throw E(x);return e};if(u.ABV){if(!a(function(){new S})||!a(function(){new S(.5)})){S=function(t){return new j($(this,t))};for(var X,Q=S[m]=j[m],Z=v(j),tt=0;Z.length>tt;)(X=Z[tt++])in S||c(S,X,j[X]);o||(Q.constructor=S)}var nt=new _(new S(2)),rt=_[m].setInt8;nt.setInt8(0,2147483648),nt.setInt8(1,2147483649),!nt.getInt8(0)&&nt.getInt8(1)||f(_[m],{setInt8:function(t,n){rt.call(this,t,n<<24>>24)},setUint8:function(t,n){rt.call(this,t,n<<24>>24)}},!0)}else S=function(t){var n=$(this,t);this._b=d.call(Array(n),0),this[C]=n},_=function(t,n,r){s(this,_,b),s(t,S,b);var e=t[C],i=l(n);if(i<0||i>e)throw E("Wrong offset!");if(r=void 0===r?e-i:h(r),i+r>e)throw E(x);this[R]=t,this[D]=i,this[C]=r},i&&(J(S,k,"_l"),J(_,I,"_b"),J(_,k,"_l"),J(_,L,"_o")),f(_[m],{getInt8:function(t){return Y(this,1,t)[0]<<24>>24},getUint8:function(t){return Y(this,1,t)[0]},getInt16:function(t){var n=Y(this,2,t,arguments[1]);return(n[1]<<8|n[0])<<16>>16},getUint16:function(t){var n=Y(this,2,t,arguments[1]);return n[1]<<8|n[0]},getInt32:function(t){return G(Y(this,4,t,arguments[1]))},getUint32:function(t){return G(Y(this,4,t,arguments[1]))>>>0},getFloat32:function(t){return W(Y(this,4,t,arguments[1]),23,4)},getFloat64:function(t){return W(Y(this,8,t,arguments[1]),52,8)},setInt8:function(t,n){H(this,1,t,B,n)},setUint8:function(t,n){H(this,1,t,B,n)},setInt16:function(t,n){H(this,2,t,V,n,arguments[2])},setUint16:function(t,n){H(this,2,t,V,n,arguments[2])},setInt32:function(t,n){H(this,4,t,z,n,arguments[2])},setUint32:function(t,n){H(this,4,t,z,n,arguments[2])},setFloat32:function(t,n){H(this,4,t,K,n,arguments[2])},setFloat64:function(t,n){H(this,8,t,q,n,arguments[2])}});y(S,g),y(_,b),c(_[m],u.VIEW,!0),n[g]=S,n[b]=_},function(t,n,r){var e=r(3),i=r(52),o=r(69),u=r(182),c=r(11).f;t.exports=function(t){var n=i.Symbol||(i.Symbol=o?{}:e.Symbol||{});"_"==t.charAt(0)||t in n||c(n,t,{value:u.f(t)})}},function(t,n,r){var e=r(114),i=r(7)("iterator"),o=r(80);t.exports=r(52).getIteratorMethod=function(t){if(void 0!=t)return t[i]||t["@@iterator"]||o[e(t)]}},function(t,n,r){"use strict";var e=r(78),i=r(170),o=r(80),u=r(30);t.exports=r(140)(Array,"Array",function(t,n){this._t=u(t),this._i=0,this._k=n},function(){var t=this._t,n=this._k,r=this._i++;return!t||r>=t.length?(this._t=void 0,i(1)):"keys"==n?i(0,r):"values"==n?i(0,t[r]):i(0,[r,t[r]])},"values"),o.Arguments=o.Array,e("keys"),e("values"),e("entries")},function(t,n){function r(t,n){t.classList?t.classList.add(n):t.className+=" "+n}t.exports=r},function(t,n){function r(t,n){if(t.classList)t.classList.remove(n);else{var r=new RegExp("(^|\\b)"+n.split(" ").join("|")+"(\\b|$)","gi");t.className=t.className.replace(r," ")}}t.exports=r},function(t,n){function r(){throw new Error("setTimeout has not been defined")}function e(){throw new Error("clearTimeout has not been defined")}function i(t){if(s===setTimeout)return setTimeout(t,0);if((s===r||!s)&&setTimeout)return s=setTimeout,setTimeout(t,0);try{return s(t,0)}catch(n){try{return s.call(null,t,0)}catch(n){return s.call(this,t,0)}}}function o(t){if(l===clearTimeout)return clearTimeout(t);if((l===e||!l)&&clearTimeout)return l=clearTimeout,clearTimeout(t);try{return l(t)}catch(n){try{return l.call(null,t)}catch(n){return l.call(this,t)}}}function u(){d&&v&&(d=!1,v.length?p=v.concat(p):y=-1,p.length&&c())}function c(){if(!d){var t=i(u);d=!0;for(var n=p.length;n;){for(v=p,p=[];++y<n;)v&&v[y].run();y=-1,n=p.length}v=null,d=!1,o(t)}}function f(t,n){this.fun=t,this.array=n}function a(){}var s,l,h=t.exports={};!function(){try{s="function"==typeof setTimeout?setTimeout:r}catch(t){s=r}try{l="function"==typeof clearTimeout?clearTimeout:e}catch(t){l=e}}();var v,p=[],d=!1,y=-1;h.nextTick=function(t){var n=new Array(arguments.length-1);if(arguments.length>1)for(var r=1;r<arguments.length;r++)n[r-1]=arguments[r];p.push(new f(t,n)),1!==p.length||d||i(c)},f.prototype.run=function(){this.fun.apply(null,this.array)},h.title="browser",h.browser=!0,h.env={},h.argv=[],h.version="",h.versions={},h.on=a,h.addListener=a,h.once=a,h.off=a,h.removeListener=a,h.removeAllListeners=a,h.emit=a,h.prependListener=a,h.prependOnceListener=a,h.listeners=function(t){return[]},h.binding=function(t){throw new Error("process.binding is not supported")},h.cwd=function(){return"/"},h.chdir=function(t){throw new Error("process.chdir is not supported")},h.umask=function(){return 0}},function(t,n,r){var e=r(45);t.exports=function(t,n){if("number"!=typeof t&&"Number"!=e(t))throw TypeError(n);return+t}},function(t,n,r){"use strict";var e=r(17),i=r(75),o=r(16);t.exports=[].copyWithin||function(t,n){var r=e(this),u=o(r.length),c=i(t,u),f=i(n,u),a=arguments.length>2?arguments[2]:void 0,s=Math.min((void 0===a?u:i(a,u))-f,u-c),l=1;for(f<c&&c<f+s&&(l=-1,f+=s-1,c+=s-1);s-- >0;)f in r?r[c]=r[f]:delete r[c],c+=l,f+=l;return r}},function(t,n,r){var e=r(79);t.exports=function(t,n){var r=[];return e(t,!1,r.push,r,n),r}},function(t,n,r){var e=r(26),i=r(17),o=r(115),u=r(16);t.exports=function(t,n,r,c,f){e(n);var a=i(t),s=o(a),l=u(a.length),h=f?l-1:0,v=f?-1:1;if(r<2)for(;;){if(h in s){c=s[h],h+=v;break}if(h+=v,f?h<0:l<=h)throw TypeError("Reduce of empty array with no initial value")}for(;f?h>=0:l>h;h+=v)h in s&&(c=n(c,s[h],h,a));return c}},function(t,n,r){"use strict";var e=r(26),i=r(6),o=r(121),u=[].slice,c={},f=function(t,n,r){if(!(n in c)){for(var e=[],i=0;i<n;i++)e[i]="a["+i+"]";c[n]=Function("F,a","return new F("+e.join(",")+")")}return c[n](t,r)};t.exports=Function.bind||function(t){var n=e(this),r=u.call(arguments,1),c=function(){var e=r.concat(u.call(arguments));return this instanceof c?f(n,e.length,e):o(n,e,t)};return i(n.prototype)&&(c.prototype=n.prototype),c}},function(t,n,r){"use strict";var e=r(11).f,i=r(70),o=r(73),u=r(53),c=r(68),f=r(46),a=r(79),s=r(140),l=r(170),h=r(74),v=r(10),p=r(65).fastKey,d=v?"_s":"size",y=function(t,n){var r,e=p(n);if("F"!==e)return t._i[e];for(r=t._f;r;r=r.n)if(r.k==n)return r};t.exports={getConstructor:function(t,n,r,s){var l=t(function(t,e){c(t,l,n,"_i"),t._i=i(null),t._f=void 0,t._l=void 0,t[d]=0,void 0!=e&&a(e,r,t[s],t)});return o(l.prototype,{clear:function(){for(var t=this,n=t._i,r=t._f;r;r=r.n)r.r=!0,r.p&&(r.p=r.p.n=void 0),delete n[r.i];t._f=t._l=void 0,t[d]=0},delete:function(t){var n=this,r=y(n,t);if(r){var e=r.n,i=r.p;delete n._i[r.i],r.r=!0,i&&(i.n=e),e&&(e.p=i),n._f==r&&(n._f=e),n._l==r&&(n._l=i),n[d]--}return!!r},forEach:function(t){c(this,l,"forEach");for(var n,r=u(t,arguments.length>1?arguments[1]:void 0,3);n=n?n.n:this._f;)for(r(n.v,n.k,this);n&&n.r;)n=n.p},has:function(t){return!!y(this,t)}}),v&&e(l.prototype,"size",{get:function(){return f(this[d])}}),l},def:function(t,n,r){var e,i,o=y(t,n);return o?o.v=r:(t._l=o={i:i=p(n,!0),k:n,v:r,p:e=t._l,n:void 0,r:!1},t._f||(t._f=o),e&&(e.n=o),t[d]++,"F"!==i&&(t._i[i]=o)),t},getEntry:y,setStrong:function(t,n,r){s(t,n,function(t,n){this._t=t,this._k=n,this._l=void 0},function(){for(var t=this,n=t._k,r=t._l;r&&r.r;)r=r.p;return t._t&&(t._l=r=r?r.n:t._t._f)?"keys"==n?l(0,r.k):"values"==n?l(0,r.v):l(0,[r.k,r.v]):(t._t=void 0,l(1))},r?"entries":"values",!r,!0),h(n)}}},function(t,n,r){var e=r(114),i=r(161);t.exports=function(t){return function(){if(e(this)!=t)throw TypeError(t+"#toJSON isn't generic");return i(this)}}},function(t,n,r){"use strict";var e=r(73),i=r(65).getWeak,o=r(2),u=r(6),c=r(68),f=r(79),a=r(48),s=r(24),l=a(5),h=a(6),v=0,p=function(t){return t._l||(t._l=new d)},d=function(){this.a=[]},y=function(t,n){return l(t.a,function(t){return t[0]===n})};d.prototype={get:function(t){var n=y(this,t);if(n)return n[1]},has:function(t){return!!y(this,t)},set:function(t,n){var r=y(this,t);r?r[1]=n:this.a.push([t,n])},delete:function(t){var n=h(this.a,function(n){return n[0]===t});return~n&&this.a.splice(n,1),!!~n}},t.exports={getConstructor:function(t,n,r,o){var a=t(function(t,e){c(t,a,n,"_i"),t._i=v++,t._l=void 0,void 0!=e&&f(e,r,t[o],t)});return e(a.prototype,{delete:function(t){if(!u(t))return!1;var n=i(t);return!0===n?p(this).delete(t):n&&s(n,this._i)&&delete n[this._i]},has:function(t){if(!u(t))return!1;var n=i(t);return!0===n?p(this).has(t):n&&s(n,this._i)}}),a},def:function(t,n,r){var e=i(o(n),!0);return!0===e?p(t).set(n,r):e[t._i]=r,t},ufstore:p}},function(t,n,r){t.exports=!r(10)&&!r(4)(function(){return 7!=Object.defineProperty(r(132)("div"),"a",{get:function(){return 7}}).a})},function(t,n,r){var e=r(6),i=Math.floor;t.exports=function(t){return!e(t)&&isFinite(t)&&i(t)===t}},function(t,n,r){var e=r(2);t.exports=function(t,n,r,i){try{return i?n(e(r)[0],r[1]):n(r)}catch(n){var o=t.return;throw void 0!==o&&e(o.call(t)),n}}},function(t,n){t.exports=function(t,n){return{value:n,done:!!t}}},function(t,n){t.exports=Math.log1p||function(t){return(t=+t)>-1e-8&&t<1e-8?t-t*t/2:Math.log(1+t)}},function(t,n,r){"use strict";var e=r(72),i=r(125),o=r(116),u=r(17),c=r(115),f=Object.assign;t.exports=!f||r(4)(function(){var t={},n={},r=Symbol(),e="abcdefghijklmnopqrst";return t[r]=7,e.split("").forEach(function(t){n[t]=t}),7!=f({},t)[r]||Object.keys(f({},n)).join("")!=e})?function(t,n){for(var r=u(t),f=arguments.length,a=1,s=i.f,l=o.f;f>a;)for(var h,v=c(arguments[a++]),p=s?e(v).concat(s(v)):e(v),d=p.length,y=0;d>y;)l.call(v,h=p[y++])&&(r[h]=v[h]);return r}:f},function(t,n,r){var e=r(11),i=r(2),o=r(72);t.exports=r(10)?Object.defineProperties:function(t,n){i(t);for(var r,u=o(n),c=u.length,f=0;c>f;)e.f(t,r=u[f++],n[r]);return t}},function(t,n,r){var e=r(30),i=r(71).f,o={}.toString,u="object"==typeof window&&window&&Object.getOwnPropertyNames?Object.getOwnPropertyNames(window):[],c=function(t){try{return i(t)}catch(t){return u.slice()}};t.exports.f=function(t){return u&&"[object Window]"==o.call(t)?c(t):i(e(t))}},function(t,n,r){var e=r(24),i=r(30),o=r(117)(!1),u=r(145)("IE_PROTO");t.exports=function(t,n){var r,c=i(t),f=0,a=[];for(r in c)r!=u&&e(c,r)&&a.push(r);for(;n.length>f;)e(c,r=n[f++])&&(~o(a,r)||a.push(r));return a}},function(t,n,r){var e=r(72),i=r(30),o=r(116).f;t.exports=function(t){return function(n){for(var r,u=i(n),c=e(u),f=c.length,a=0,s=[];f>a;)o.call(u,r=c[a++])&&s.push(t?[r,u[r]]:u[r]);return s}}},function(t,n,r){var e=r(71),i=r(125),o=r(2),u=r(3).Reflect;t.exports=u&&u.ownKeys||function(t){var n=e.f(o(t)),r=i.f;return r?n.concat(r(t)):n}},function(t,n,r){var e=r(3).parseFloat,i=r(82).trim;t.exports=1/e(r(150)+"-0")!=-1/0?function(t){var n=i(String(t),3),r=e(n);return 0===r&&"-"==n.charAt(0)?-0:r}:e},function(t,n,r){var e=r(3).parseInt,i=r(82).trim,o=r(150),u=/^[\-+]?0[xX]/;t.exports=8!==e(o+"08")||22!==e(o+"0x16")?function(t,n){var r=i(String(t),3);return e(r,n>>>0||(u.test(r)?16:10))}:e},function(t,n){t.exports=Object.is||function(t,n){return t===n?0!==t||1/t==1/n:t!=t&&n!=n}},function(t,n,r){var e=r(16),i=r(149),o=r(46);t.exports=function(t,n,r,u){var c=String(o(t)),f=c.length,a=void 0===r?" ":String(r),s=e(n);if(s<=f||""==a)return c;var l=s-f,h=i.call(a,Math.ceil(l/a.length));return h.length>l&&(h=h.slice(0,l)),u?h+c:c+h}},function(t,n,r){n.f=r(7)},function(t,n,r){"use strict";var e=r(164);t.exports=r(118)("Map",function(t){return function(){return t(this,arguments.length>0?arguments[0]:void 0)}},{get:function(t){var n=e.getEntry(this,t);return n&&n.v},set:function(t,n){return e.def(this,0===t?0:t,n)}},e,!0)},function(t,n,r){r(10)&&"g"!=/./g.flags&&r(11).f(RegExp.prototype,"flags",{configurable:!0,get:r(120)})},function(t,n,r){"use strict";var e=r(164);t.exports=r(118)("Set",function(t){return function(){return t(this,arguments.length>0?arguments[0]:void 0)}},{add:function(t){return e.def(this,t=0===t?0:t,t)}},e)},function(t,n,r){"use strict";var e,i=r(48)(0),o=r(28),u=r(65),c=r(172),f=r(166),a=r(6),s=u.getWeak,l=Object.isExtensible,h=f.ufstore,v={},p=function(t){return function(){return t(this,arguments.length>0?arguments[0]:void 0)}},d={get:function(t){if(a(t)){var n=s(t);return!0===n?h(this).get(t):n?n[this._i]:void 0}},set:function(t,n){return f.def(this,t,n)}},y=t.exports=r(118)("WeakMap",p,d,f,!0,!0);7!=(new y).set((Object.freeze||Object)(v),7).get(v)&&(e=f.getConstructor(p),c(e.prototype,d),u.NEED=!0,i(["delete","has","get","set"],function(t){var n=y.prototype,r=n[t];o(n,t,function(n,i){if(a(n)&&!l(n)){this._f||(this._f=new e);var o=this._f[t](n,i);return"set"==t?this:o}return r.call(this,n,i)})}))},,,,function(t,n){"use strict";function r(){var t=document.querySelector("#page-nav");if(t&&!document.querySelector("#page-nav .extend.prev")&&(t.innerHTML='<a class="extend prev disabled" rel="prev">&laquo; Prev</a>'+t.innerHTML),t&&!document.querySelector("#page-nav .extend.next")&&(t.innerHTML=t.innerHTML+'<a class="extend next disabled" rel="next">Next &raquo;</a>'),yiliaConfig&&yiliaConfig.open_in_new){document.querySelectorAll(".article-entry a:not(.article-more-a)").forEach(function(t){var n=t.getAttribute("target");n&&""!==n||t.setAttribute("target","_blank")})}if(yiliaConfig&&yiliaConfig.toc_hide_index){document.querySelectorAll(".toc-number").forEach(function(t){t.style.display="none"})}var n=document.querySelector("#js-aboutme");n&&0!==n.length&&(n.innerHTML=n.innerText)}t.exports={init:r}},function(t,n,r){"use strict";function e(t){return t&&t.__esModule?t:{default:t}}function i(t,n){var r=/\/|index.html/g;return t.replace(r,"")===n.replace(r,"")}function o(){for(var t=document.querySelectorAll(".js-header-menu li a"),n=window.location.pathname,r=0,e=t.length;r<e;r++){var o=t[r];i(n,o.getAttribute("href"))&&(0,h.default)(o,"active")}}function u(t){for(var n=t.offsetLeft,r=t.offsetParent;null!==r;)n+=r.offsetLeft,r=r.offsetParent;return n}function c(t){for(var n=t.offsetTop,r=t.offsetParent;null!==r;)n+=r.offsetTop,r=r.offsetParent;return n}function f(t,n,r,e,i){var o=u(t),f=c(t)-n;if(f-r<=i){var a=t.$newDom;a||(a=t.cloneNode(!0),(0,d.default)(t,a),t.$newDom=a,a.style.position="fixed",a.style.top=(r||f)+"px",a.style.left=o+"px",a.style.zIndex=e||2,a.style.width="100%",a.style.color="#fff"),a.style.visibility="visible",t.style.visibility="hidden"}else{t.style.visibility="visible";var s=t.$newDom;s&&(s.style.visibility="hidden")}}function a(){var t=document.querySelector(".js-overlay"),n=document.querySelector(".js-header-menu");f(t,document.body.scrollTop,-63,2,0),f(n,document.body.scrollTop,1,3,0)}function s(){document.querySelector("#container").addEventListener("scroll",function(t){a()}),window.addEventListener("scroll",function(t){a()}),a()}var l=r(156),h=e(l),v=r(157),p=(e(v),r(382)),d=e(p),y=r(128),g=e(y),b=r(190),m=e(b),x=r(129);(function(){g.default.versions.mobile&&window.screen.width<800&&(o(),s())})(),(0,x.addLoadEvent)(function(){m.default.init()}),t.exports={}},,,,function(t,n,r){(function(t){"use strict";function n(t,n,r){t[n]||Object[e](t,n,{writable:!0,configurable:!0,value:r})}if(r(381),r(391),r(198),t._babelPolyfill)throw new Error("only one instance of babel-polyfill is allowed");t._babelPolyfill=!0;var e="defineProperty";n(String.prototype,"padLeft","".padStart),n(String.prototype,"padRight","".padEnd),"pop,reverse,shift,keys,values,entries,indexOf,every,some,forEach,map,filter,find,findIndex,includes,join,slice,concat,push,splice,unshift,sort,lastIndexOf,reduce,reduceRight,copyWithin,fill".split(",").forEach(function(t){[][t]&&n(Array,t,Function.call.bind([][t]))})}).call(n,function(){return this}())},,,function(t,n,r){r(210),t.exports=r(52).RegExp.escape},,,,function(t,n,r){var e=r(6),i=r(138),o=r(7)("species");t.exports=function(t){var n;return i(t)&&(n=t.constructor,"function"!=typeof n||n!==Array&&!i(n.prototype)||(n=void 0),e(n)&&null===(n=n[o])&&(n=void 0)),void 0===n?Array:n}},function(t,n,r){var e=r(202);t.exports=function(t,n){return new(e(t))(n)}},function(t,n,r){"use strict";var e=r(2),i=r(50),o="number";t.exports=function(t){if("string"!==t&&t!==o&&"default"!==t)throw TypeError("Incorrect hint");return i(e(this),t!=o)}},function(t,n,r){var e=r(72),i=r(125),o=r(116);t.exports=function(t){var n=e(t),r=i.f;if(r)for(var u,c=r(t),f=o.f,a=0;c.length>a;)f.call(t,u=c[a++])&&n.push(u);return n}},function(t,n,r){var e=r(72),i=r(30);t.exports=function(t,n){for(var r,o=i(t),u=e(o),c=u.length,f=0;c>f;)if(o[r=u[f++]]===n)return r}},function(t,n,r){"use strict";var e=r(208),i=r(121),o=r(26);t.exports=function(){for(var t=o(this),n=arguments.length,r=Array(n),u=0,c=e._,f=!1;n>u;)(r[u]=arguments[u++])===c&&(f=!0);return function(){var e,o=this,u=arguments.length,a=0,s=0;if(!f&&!u)return i(t,r,o);if(e=r.slice(),f)for(;n>a;a++)e[a]===c&&(e[a]=arguments[s++]);for(;u>s;)e.push(arguments[s++]);return i(t,e,o)}}},function(t,n,r){t.exports=r(3)},function(t,n){t.exports=function(t,n){var r=n===Object(n)?function(t){return n[t]}:n;return function(n){return String(n).replace(t,r)}}},function(t,n,r){var e=r(1),i=r(209)(/[\\^$*+?.()|[\]{}]/g,"\\$&");e(e.S,"RegExp",{escape:function(t){return i(t)}})},function(t,n,r){var e=r(1);e(e.P,"Array",{copyWithin:r(160)}),r(78)("copyWithin")},function(t,n,r){"use strict";var e=r(1),i=r(48)(4);e(e.P+e.F*!r(47)([].every,!0),"Array",{every:function(t){return i(this,t,arguments[1])}})},function(t,n,r){var e=r(1);e(e.P,"Array",{fill:r(130)}),r(78)("fill")},function(t,n,r){"use strict";var e=r(1),i=r(48)(2);e(e.P+e.F*!r(47)([].filter,!0),"Array",{filter:function(t){return i(this,t,arguments[1])}})},function(t,n,r){"use strict";var e=r(1),i=r(48)(6),o="findIndex",u=!0;o in[]&&Array(1)[o](function(){u=!1}),e(e.P+e.F*u,"Array",{findIndex:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0)}}),r(78)(o)},function(t,n,r){"use strict";var e=r(1),i=r(48)(5),o="find",u=!0;o in[]&&Array(1)[o](function(){u=!1}),e(e.P+e.F*u,"Array",{find:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0)}}),r(78)(o)},function(t,n,r){"use strict";var e=r(1),i=r(48)(0),o=r(47)([].forEach,!0);e(e.P+e.F*!o,"Array",{forEach:function(t){return i(this,t,arguments[1])}})},function(t,n,r){"use strict";var e=r(53),i=r(1),o=r(17),u=r(169),c=r(137),f=r(16),a=r(131),s=r(154);i(i.S+i.F*!r(123)(function(t){Array.from(t)}),"Array",{from:function(t){var n,r,i,l,h=o(t),v="function"==typeof this?this:Array,p=arguments.length,d=p>1?arguments[1]:void 0,y=void 0!==d,g=0,b=s(h);if(y&&(d=e(d,p>2?arguments[2]:void 0,2)),void 0==b||v==Array&&c(b))for(n=f(h.length),r=new v(n);n>g;g++)a(r,g,y?d(h[g],g):h[g]);else for(l=b.call(h),r=new v;!(i=l.next()).done;g++)a(r,g,y?u(l,d,[i.value,g],!0):i.value);return r.length=g,r}})},function(t,n,r){"use strict";var e=r(1),i=r(117)(!1),o=[].indexOf,u=!!o&&1/[1].indexOf(1,-0)<0;e(e.P+e.F*(u||!r(47)(o)),"Array",{indexOf:function(t){return u?o.apply(this,arguments)||0:i(this,t,arguments[1])}})},function(t,n,r){var e=r(1);e(e.S,"Array",{isArray:r(138)})},function(t,n,r){"use strict";var e=r(1),i=r(30),o=[].join;e(e.P+e.F*(r(115)!=Object||!r(47)(o)),"Array",{join:function(t){return o.call(i(this),void 0===t?",":t)}})},function(t,n,r){"use strict";var e=r(1),i=r(30),o=r(67),u=r(16),c=[].lastIndexOf,f=!!c&&1/[1].lastIndexOf(1,-0)<0;e(e.P+e.F*(f||!r(47)(c)),"Array",{lastIndexOf:function(t){if(f)return c.apply(this,arguments)||0;var n=i(this),r=u(n.length),e=r-1;for(arguments.length>1&&(e=Math.min(e,o(arguments[1]))),e<0&&(e=r+e);e>=0;e--)if(e in n&&n[e]===t)return e||0;return-1}})},function(t,n,r){"use strict";var e=r(1),i=r(48)(1);e(e.P+e.F*!r(47)([].map,!0),"Array",{map:function(t){return i(this,t,arguments[1])}})},function(t,n,r){"use strict";var e=r(1),i=r(131);e(e.S+e.F*r(4)(function(){function t(){}return!(Array.of.call(t)instanceof t)}),"Array",{of:function(){for(var t=0,n=arguments.length,r=new("function"==typeof this?this:Array)(n);n>t;)i(r,t,arguments[t++]);return r.length=n,r}})},function(t,n,r){"use strict";var e=r(1),i=r(162);e(e.P+e.F*!r(47)([].reduceRight,!0),"Array",{reduceRight:function(t){return i(this,t,arguments.length,arguments[1],!0)}})},function(t,n,r){"use strict";var e=r(1),i=r(162);e(e.P+e.F*!r(47)([].reduce,!0),"Array",{reduce:function(t){return i(this,t,arguments.length,arguments[1],!1)}})},function(t,n,r){"use strict";var e=r(1),i=r(135),o=r(45),u=r(75),c=r(16),f=[].slice;e(e.P+e.F*r(4)(function(){i&&f.call(i)}),"Array",{slice:function(t,n){var r=c(this.length),e=o(this);if(n=void 0===n?r:n,"Array"==e)return f.call(this,t,n);for(var i=u(t,r),a=u(n,r),s=c(a-i),l=Array(s),h=0;h<s;h++)l[h]="String"==e?this.charAt(i+h):this[i+h];return l}})},function(t,n,r){"use strict";var e=r(1),i=r(48)(3);e(e.P+e.F*!r(47)([].some,!0),"Array",{some:function(t){return i(this,t,arguments[1])}})},function(t,n,r){"use strict";var e=r(1),i=r(26),o=r(17),u=r(4),c=[].sort,f=[1,2,3];e(e.P+e.F*(u(function(){f.sort(void 0)})||!u(function(){f.sort(null)})||!r(47)(c)),"Array",{sort:function(t){return void 0===t?c.call(o(this)):c.call(o(this),i(t))}})},function(t,n,r){r(74)("Array")},function(t,n,r){var e=r(1);e(e.S,"Date",{now:function(){return(new Date).getTime()}})},function(t,n,r){"use strict";var e=r(1),i=r(4),o=Date.prototype.getTime,u=function(t){return t>9?t:"0"+t};e(e.P+e.F*(i(function(){return"0385-07-25T07:06:39.999Z"!=new Date(-5e13-1).toISOString()})||!i(function(){new Date(NaN).toISOString()})),"Date",{toISOString:function(){
+if(!isFinite(o.call(this)))throw RangeError("Invalid time value");var t=this,n=t.getUTCFullYear(),r=t.getUTCMilliseconds(),e=n<0?"-":n>9999?"+":"";return e+("00000"+Math.abs(n)).slice(e?-6:-4)+"-"+u(t.getUTCMonth()+1)+"-"+u(t.getUTCDate())+"T"+u(t.getUTCHours())+":"+u(t.getUTCMinutes())+":"+u(t.getUTCSeconds())+"."+(r>99?r:"0"+u(r))+"Z"}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(50);e(e.P+e.F*r(4)(function(){return null!==new Date(NaN).toJSON()||1!==Date.prototype.toJSON.call({toISOString:function(){return 1}})}),"Date",{toJSON:function(t){var n=i(this),r=o(n);return"number"!=typeof r||isFinite(r)?n.toISOString():null}})},function(t,n,r){var e=r(7)("toPrimitive"),i=Date.prototype;e in i||r(27)(i,e,r(204))},function(t,n,r){var e=Date.prototype,i="Invalid Date",o="toString",u=e[o],c=e.getTime;new Date(NaN)+""!=i&&r(28)(e,o,function(){var t=c.call(this);return t===t?u.call(this):i})},function(t,n,r){var e=r(1);e(e.P,"Function",{bind:r(163)})},function(t,n,r){"use strict";var e=r(6),i=r(32),o=r(7)("hasInstance"),u=Function.prototype;o in u||r(11).f(u,o,{value:function(t){if("function"!=typeof this||!e(t))return!1;if(!e(this.prototype))return t instanceof this;for(;t=i(t);)if(this.prototype===t)return!0;return!1}})},function(t,n,r){var e=r(11).f,i=r(66),o=r(24),u=Function.prototype,c="name",f=Object.isExtensible||function(){return!0};c in u||r(10)&&e(u,c,{configurable:!0,get:function(){try{var t=this,n=(""+t).match(/^\s*function ([^ (]*)/)[1];return o(t,c)||!f(t)||e(t,c,i(5,n)),n}catch(t){return""}}})},function(t,n,r){var e=r(1),i=r(171),o=Math.sqrt,u=Math.acosh;e(e.S+e.F*!(u&&710==Math.floor(u(Number.MAX_VALUE))&&u(1/0)==1/0),"Math",{acosh:function(t){return(t=+t)<1?NaN:t>94906265.62425156?Math.log(t)+Math.LN2:i(t-1+o(t-1)*o(t+1))}})},function(t,n,r){function e(t){return isFinite(t=+t)&&0!=t?t<0?-e(-t):Math.log(t+Math.sqrt(t*t+1)):t}var i=r(1),o=Math.asinh;i(i.S+i.F*!(o&&1/o(0)>0),"Math",{asinh:e})},function(t,n,r){var e=r(1),i=Math.atanh;e(e.S+e.F*!(i&&1/i(-0)<0),"Math",{atanh:function(t){return 0==(t=+t)?t:Math.log((1+t)/(1-t))/2}})},function(t,n,r){var e=r(1),i=r(142);e(e.S,"Math",{cbrt:function(t){return i(t=+t)*Math.pow(Math.abs(t),1/3)}})},function(t,n,r){var e=r(1);e(e.S,"Math",{clz32:function(t){return(t>>>=0)?31-Math.floor(Math.log(t+.5)*Math.LOG2E):32}})},function(t,n,r){var e=r(1),i=Math.exp;e(e.S,"Math",{cosh:function(t){return(i(t=+t)+i(-t))/2}})},function(t,n,r){var e=r(1),i=r(141);e(e.S+e.F*(i!=Math.expm1),"Math",{expm1:i})},function(t,n,r){var e=r(1),i=r(142),o=Math.pow,u=o(2,-52),c=o(2,-23),f=o(2,127)*(2-c),a=o(2,-126),s=function(t){return t+1/u-1/u};e(e.S,"Math",{fround:function(t){var n,r,e=Math.abs(t),o=i(t);return e<a?o*s(e/a/c)*a*c:(n=(1+c/u)*e,r=n-(n-e),r>f||r!=r?o*(1/0):o*r)}})},function(t,n,r){var e=r(1),i=Math.abs;e(e.S,"Math",{hypot:function(t,n){for(var r,e,o=0,u=0,c=arguments.length,f=0;u<c;)r=i(arguments[u++]),f<r?(e=f/r,o=o*e*e+1,f=r):r>0?(e=r/f,o+=e*e):o+=r;return f===1/0?1/0:f*Math.sqrt(o)}})},function(t,n,r){var e=r(1),i=Math.imul;e(e.S+e.F*r(4)(function(){return-5!=i(4294967295,5)||2!=i.length}),"Math",{imul:function(t,n){var r=65535,e=+t,i=+n,o=r&e,u=r&i;return 0|o*u+((r&e>>>16)*u+o*(r&i>>>16)<<16>>>0)}})},function(t,n,r){var e=r(1);e(e.S,"Math",{log10:function(t){return Math.log(t)/Math.LN10}})},function(t,n,r){var e=r(1);e(e.S,"Math",{log1p:r(171)})},function(t,n,r){var e=r(1);e(e.S,"Math",{log2:function(t){return Math.log(t)/Math.LN2}})},function(t,n,r){var e=r(1);e(e.S,"Math",{sign:r(142)})},function(t,n,r){var e=r(1),i=r(141),o=Math.exp;e(e.S+e.F*r(4)(function(){return-2e-17!=!Math.sinh(-2e-17)}),"Math",{sinh:function(t){return Math.abs(t=+t)<1?(i(t)-i(-t))/2:(o(t-1)-o(-t-1))*(Math.E/2)}})},function(t,n,r){var e=r(1),i=r(141),o=Math.exp;e(e.S,"Math",{tanh:function(t){var n=i(t=+t),r=i(-t);return n==1/0?1:r==1/0?-1:(n-r)/(o(t)+o(-t))}})},function(t,n,r){var e=r(1);e(e.S,"Math",{trunc:function(t){return(t>0?Math.floor:Math.ceil)(t)}})},function(t,n,r){"use strict";var e=r(3),i=r(24),o=r(45),u=r(136),c=r(50),f=r(4),a=r(71).f,s=r(31).f,l=r(11).f,h=r(82).trim,v="Number",p=e[v],d=p,y=p.prototype,g=o(r(70)(y))==v,b="trim"in String.prototype,m=function(t){var n=c(t,!1);if("string"==typeof n&&n.length>2){n=b?n.trim():h(n,3);var r,e,i,o=n.charCodeAt(0);if(43===o||45===o){if(88===(r=n.charCodeAt(2))||120===r)return NaN}else if(48===o){switch(n.charCodeAt(1)){case 66:case 98:e=2,i=49;break;case 79:case 111:e=8,i=55;break;default:return+n}for(var u,f=n.slice(2),a=0,s=f.length;a<s;a++)if((u=f.charCodeAt(a))<48||u>i)return NaN;return parseInt(f,e)}}return+n};if(!p(" 0o1")||!p("0b1")||p("+0x1")){p=function(t){var n=arguments.length<1?0:t,r=this;return r instanceof p&&(g?f(function(){y.valueOf.call(r)}):o(r)!=v)?u(new d(m(n)),r,p):m(n)};for(var x,w=r(10)?a(d):"MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,isFinite,isInteger,isNaN,isSafeInteger,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,parseFloat,parseInt,isInteger".split(","),S=0;w.length>S;S++)i(d,x=w[S])&&!i(p,x)&&l(p,x,s(d,x));p.prototype=y,y.constructor=p,r(28)(e,v,p)}},function(t,n,r){var e=r(1);e(e.S,"Number",{EPSILON:Math.pow(2,-52)})},function(t,n,r){var e=r(1),i=r(3).isFinite;e(e.S,"Number",{isFinite:function(t){return"number"==typeof t&&i(t)}})},function(t,n,r){var e=r(1);e(e.S,"Number",{isInteger:r(168)})},function(t,n,r){var e=r(1);e(e.S,"Number",{isNaN:function(t){return t!=t}})},function(t,n,r){var e=r(1),i=r(168),o=Math.abs;e(e.S,"Number",{isSafeInteger:function(t){return i(t)&&o(t)<=9007199254740991}})},function(t,n,r){var e=r(1);e(e.S,"Number",{MAX_SAFE_INTEGER:9007199254740991})},function(t,n,r){var e=r(1);e(e.S,"Number",{MIN_SAFE_INTEGER:-9007199254740991})},function(t,n,r){var e=r(1),i=r(178);e(e.S+e.F*(Number.parseFloat!=i),"Number",{parseFloat:i})},function(t,n,r){var e=r(1),i=r(179);e(e.S+e.F*(Number.parseInt!=i),"Number",{parseInt:i})},function(t,n,r){"use strict";var e=r(1),i=r(67),o=r(159),u=r(149),c=1..toFixed,f=Math.floor,a=[0,0,0,0,0,0],s="Number.toFixed: incorrect invocation!",l="0",h=function(t,n){for(var r=-1,e=n;++r<6;)e+=t*a[r],a[r]=e%1e7,e=f(e/1e7)},v=function(t){for(var n=6,r=0;--n>=0;)r+=a[n],a[n]=f(r/t),r=r%t*1e7},p=function(){for(var t=6,n="";--t>=0;)if(""!==n||0===t||0!==a[t]){var r=String(a[t]);n=""===n?r:n+u.call(l,7-r.length)+r}return n},d=function(t,n,r){return 0===n?r:n%2==1?d(t,n-1,r*t):d(t*t,n/2,r)},y=function(t){for(var n=0,r=t;r>=4096;)n+=12,r/=4096;for(;r>=2;)n+=1,r/=2;return n};e(e.P+e.F*(!!c&&("0.000"!==8e-5.toFixed(3)||"1"!==.9.toFixed(0)||"1.25"!==1.255.toFixed(2)||"1000000000000000128"!==(0xde0b6b3a7640080).toFixed(0))||!r(4)(function(){c.call({})})),"Number",{toFixed:function(t){var n,r,e,c,f=o(this,s),a=i(t),g="",b=l;if(a<0||a>20)throw RangeError(s);if(f!=f)return"NaN";if(f<=-1e21||f>=1e21)return String(f);if(f<0&&(g="-",f=-f),f>1e-21)if(n=y(f*d(2,69,1))-69,r=n<0?f*d(2,-n,1):f/d(2,n,1),r*=4503599627370496,(n=52-n)>0){for(h(0,r),e=a;e>=7;)h(1e7,0),e-=7;for(h(d(10,e,1),0),e=n-1;e>=23;)v(1<<23),e-=23;v(1<<e),h(1,1),v(2),b=p()}else h(0,r),h(1<<-n,0),b=p()+u.call(l,a);return a>0?(c=b.length,b=g+(c<=a?"0."+u.call(l,a-c)+b:b.slice(0,c-a)+"."+b.slice(c-a))):b=g+b,b}})},function(t,n,r){"use strict";var e=r(1),i=r(4),o=r(159),u=1..toPrecision;e(e.P+e.F*(i(function(){return"1"!==u.call(1,void 0)})||!i(function(){u.call({})})),"Number",{toPrecision:function(t){var n=o(this,"Number#toPrecision: incorrect invocation!");return void 0===t?u.call(n):u.call(n,t)}})},function(t,n,r){var e=r(1);e(e.S+e.F,"Object",{assign:r(172)})},function(t,n,r){var e=r(1);e(e.S,"Object",{create:r(70)})},function(t,n,r){var e=r(1);e(e.S+e.F*!r(10),"Object",{defineProperties:r(173)})},function(t,n,r){var e=r(1);e(e.S+e.F*!r(10),"Object",{defineProperty:r(11).f})},function(t,n,r){var e=r(6),i=r(65).onFreeze;r(49)("freeze",function(t){return function(n){return t&&e(n)?t(i(n)):n}})},function(t,n,r){var e=r(30),i=r(31).f;r(49)("getOwnPropertyDescriptor",function(){return function(t,n){return i(e(t),n)}})},function(t,n,r){r(49)("getOwnPropertyNames",function(){return r(174).f})},function(t,n,r){var e=r(17),i=r(32);r(49)("getPrototypeOf",function(){return function(t){return i(e(t))}})},function(t,n,r){var e=r(6);r(49)("isExtensible",function(t){return function(n){return!!e(n)&&(!t||t(n))}})},function(t,n,r){var e=r(6);r(49)("isFrozen",function(t){return function(n){return!e(n)||!!t&&t(n)}})},function(t,n,r){var e=r(6);r(49)("isSealed",function(t){return function(n){return!e(n)||!!t&&t(n)}})},function(t,n,r){var e=r(1);e(e.S,"Object",{is:r(180)})},function(t,n,r){var e=r(17),i=r(72);r(49)("keys",function(){return function(t){return i(e(t))}})},function(t,n,r){var e=r(6),i=r(65).onFreeze;r(49)("preventExtensions",function(t){return function(n){return t&&e(n)?t(i(n)):n}})},function(t,n,r){var e=r(6),i=r(65).onFreeze;r(49)("seal",function(t){return function(n){return t&&e(n)?t(i(n)):n}})},function(t,n,r){var e=r(1);e(e.S,"Object",{setPrototypeOf:r(144).set})},function(t,n,r){"use strict";var e=r(114),i={};i[r(7)("toStringTag")]="z",i+""!="[object z]"&&r(28)(Object.prototype,"toString",function(){return"[object "+e(this)+"]"},!0)},function(t,n,r){var e=r(1),i=r(178);e(e.G+e.F*(parseFloat!=i),{parseFloat:i})},function(t,n,r){var e=r(1),i=r(179);e(e.G+e.F*(parseInt!=i),{parseInt:i})},function(t,n,r){"use strict";var e,i,o,u=r(69),c=r(3),f=r(53),a=r(114),s=r(1),l=r(6),h=r(26),v=r(68),p=r(79),d=r(146),y=r(151).set,g=r(143)(),b="Promise",m=c.TypeError,x=c.process,w=c[b],x=c.process,S="process"==a(x),_=function(){},O=!!function(){try{var t=w.resolve(1),n=(t.constructor={})[r(7)("species")]=function(t){t(_,_)};return(S||"function"==typeof PromiseRejectionEvent)&&t.then(_)instanceof n}catch(t){}}(),E=function(t,n){return t===n||t===w&&n===o},P=function(t){var n;return!(!l(t)||"function"!=typeof(n=t.then))&&n},j=function(t){return E(w,t)?new F(t):new i(t)},F=i=function(t){var n,r;this.promise=new t(function(t,e){if(void 0!==n||void 0!==r)throw m("Bad Promise constructor");n=t,r=e}),this.resolve=h(n),this.reject=h(r)},M=function(t){try{t()}catch(t){return{error:t}}},A=function(t,n){if(!t._n){t._n=!0;var r=t._c;g(function(){for(var e=t._v,i=1==t._s,o=0;r.length>o;)!function(n){var r,o,u=i?n.ok:n.fail,c=n.resolve,f=n.reject,a=n.domain;try{u?(i||(2==t._h&&I(t),t._h=1),!0===u?r=e:(a&&a.enter(),r=u(e),a&&a.exit()),r===n.promise?f(m("Promise-chain cycle")):(o=P(r))?o.call(r,c,f):c(r)):f(e)}catch(t){f(t)}}(r[o++]);t._c=[],t._n=!1,n&&!t._h&&N(t)})}},N=function(t){y.call(c,function(){var n,r,e,i=t._v;if(T(t)&&(n=M(function(){S?x.emit("unhandledRejection",i,t):(r=c.onunhandledrejection)?r({promise:t,reason:i}):(e=c.console)&&e.error&&e.error("Unhandled promise rejection",i)}),t._h=S||T(t)?2:1),t._a=void 0,n)throw n.error})},T=function(t){if(1==t._h)return!1;for(var n,r=t._a||t._c,e=0;r.length>e;)if(n=r[e++],n.fail||!T(n.promise))return!1;return!0},I=function(t){y.call(c,function(){var n;S?x.emit("rejectionHandled",t):(n=c.onrejectionhandled)&&n({promise:t,reason:t._v})})},k=function(t){var n=this;n._d||(n._d=!0,n=n._w||n,n._v=t,n._s=2,n._a||(n._a=n._c.slice()),A(n,!0))},L=function(t){var n,r=this;if(!r._d){r._d=!0,r=r._w||r;try{if(r===t)throw m("Promise can't be resolved itself");(n=P(t))?g(function(){var e={_w:r,_d:!1};try{n.call(t,f(L,e,1),f(k,e,1))}catch(t){k.call(e,t)}}):(r._v=t,r._s=1,A(r,!1))}catch(t){k.call({_w:r,_d:!1},t)}}};O||(w=function(t){v(this,w,b,"_h"),h(t),e.call(this);try{t(f(L,this,1),f(k,this,1))}catch(t){k.call(this,t)}},e=function(t){this._c=[],this._a=void 0,this._s=0,this._d=!1,this._v=void 0,this._h=0,this._n=!1},e.prototype=r(73)(w.prototype,{then:function(t,n){var r=j(d(this,w));return r.ok="function"!=typeof t||t,r.fail="function"==typeof n&&n,r.domain=S?x.domain:void 0,this._c.push(r),this._a&&this._a.push(r),this._s&&A(this,!1),r.promise},catch:function(t){return this.then(void 0,t)}}),F=function(){var t=new e;this.promise=t,this.resolve=f(L,t,1),this.reject=f(k,t,1)}),s(s.G+s.W+s.F*!O,{Promise:w}),r(81)(w,b),r(74)(b),o=r(52)[b],s(s.S+s.F*!O,b,{reject:function(t){var n=j(this);return(0,n.reject)(t),n.promise}}),s(s.S+s.F*(u||!O),b,{resolve:function(t){if(t instanceof w&&E(t.constructor,this))return t;var n=j(this);return(0,n.resolve)(t),n.promise}}),s(s.S+s.F*!(O&&r(123)(function(t){w.all(t).catch(_)})),b,{all:function(t){var n=this,r=j(n),e=r.resolve,i=r.reject,o=M(function(){var r=[],o=0,u=1;p(t,!1,function(t){var c=o++,f=!1;r.push(void 0),u++,n.resolve(t).then(function(t){f||(f=!0,r[c]=t,--u||e(r))},i)}),--u||e(r)});return o&&i(o.error),r.promise},race:function(t){var n=this,r=j(n),e=r.reject,i=M(function(){p(t,!1,function(t){n.resolve(t).then(r.resolve,e)})});return i&&e(i.error),r.promise}})},function(t,n,r){var e=r(1),i=r(26),o=r(2),u=(r(3).Reflect||{}).apply,c=Function.apply;e(e.S+e.F*!r(4)(function(){u(function(){})}),"Reflect",{apply:function(t,n,r){var e=i(t),f=o(r);return u?u(e,n,f):c.call(e,n,f)}})},function(t,n,r){var e=r(1),i=r(70),o=r(26),u=r(2),c=r(6),f=r(4),a=r(163),s=(r(3).Reflect||{}).construct,l=f(function(){function t(){}return!(s(function(){},[],t)instanceof t)}),h=!f(function(){s(function(){})});e(e.S+e.F*(l||h),"Reflect",{construct:function(t,n){o(t),u(n);var r=arguments.length<3?t:o(arguments[2]);if(h&&!l)return s(t,n,r);if(t==r){switch(n.length){case 0:return new t;case 1:return new t(n[0]);case 2:return new t(n[0],n[1]);case 3:return new t(n[0],n[1],n[2]);case 4:return new t(n[0],n[1],n[2],n[3])}var e=[null];return e.push.apply(e,n),new(a.apply(t,e))}var f=r.prototype,v=i(c(f)?f:Object.prototype),p=Function.apply.call(t,v,n);return c(p)?p:v}})},function(t,n,r){var e=r(11),i=r(1),o=r(2),u=r(50);i(i.S+i.F*r(4)(function(){Reflect.defineProperty(e.f({},1,{value:1}),1,{value:2})}),"Reflect",{defineProperty:function(t,n,r){o(t),n=u(n,!0),o(r);try{return e.f(t,n,r),!0}catch(t){return!1}}})},function(t,n,r){var e=r(1),i=r(31).f,o=r(2);e(e.S,"Reflect",{deleteProperty:function(t,n){var r=i(o(t),n);return!(r&&!r.configurable)&&delete t[n]}})},function(t,n,r){"use strict";var e=r(1),i=r(2),o=function(t){this._t=i(t),this._i=0;var n,r=this._k=[];for(n in t)r.push(n)};r(139)(o,"Object",function(){var t,n=this,r=n._k;do{if(n._i>=r.length)return{value:void 0,done:!0}}while(!((t=r[n._i++])in n._t));return{value:t,done:!1}}),e(e.S,"Reflect",{enumerate:function(t){return new o(t)}})},function(t,n,r){var e=r(31),i=r(1),o=r(2);i(i.S,"Reflect",{getOwnPropertyDescriptor:function(t,n){return e.f(o(t),n)}})},function(t,n,r){var e=r(1),i=r(32),o=r(2);e(e.S,"Reflect",{getPrototypeOf:function(t){return i(o(t))}})},function(t,n,r){function e(t,n){var r,c,s=arguments.length<3?t:arguments[2];return a(t)===s?t[n]:(r=i.f(t,n))?u(r,"value")?r.value:void 0!==r.get?r.get.call(s):void 0:f(c=o(t))?e(c,n,s):void 0}var i=r(31),o=r(32),u=r(24),c=r(1),f=r(6),a=r(2);c(c.S,"Reflect",{get:e})},function(t,n,r){var e=r(1);e(e.S,"Reflect",{has:function(t,n){return n in t}})},function(t,n,r){var e=r(1),i=r(2),o=Object.isExtensible;e(e.S,"Reflect",{isExtensible:function(t){return i(t),!o||o(t)}})},function(t,n,r){var e=r(1);e(e.S,"Reflect",{ownKeys:r(177)})},function(t,n,r){var e=r(1),i=r(2),o=Object.preventExtensions;e(e.S,"Reflect",{preventExtensions:function(t){i(t);try{return o&&o(t),!0}catch(t){return!1}}})},function(t,n,r){var e=r(1),i=r(144);i&&e(e.S,"Reflect",{setPrototypeOf:function(t,n){i.check(t,n);try{return i.set(t,n),!0}catch(t){return!1}}})},function(t,n,r){function e(t,n,r){var f,h,v=arguments.length<4?t:arguments[3],p=o.f(s(t),n);if(!p){if(l(h=u(t)))return e(h,n,r,v);p=a(0)}return c(p,"value")?!(!1===p.writable||!l(v)||(f=o.f(v,n)||a(0),f.value=r,i.f(v,n,f),0)):void 0!==p.set&&(p.set.call(v,r),!0)}var i=r(11),o=r(31),u=r(32),c=r(24),f=r(1),a=r(66),s=r(2),l=r(6);f(f.S,"Reflect",{set:e})},function(t,n,r){var e=r(3),i=r(136),o=r(11).f,u=r(71).f,c=r(122),f=r(120),a=e.RegExp,s=a,l=a.prototype,h=/a/g,v=/a/g,p=new a(h)!==h;if(r(10)&&(!p||r(4)(function(){return v[r(7)("match")]=!1,a(h)!=h||a(v)==v||"/a/i"!=a(h,"i")}))){a=function(t,n){var r=this instanceof a,e=c(t),o=void 0===n;return!r&&e&&t.constructor===a&&o?t:i(p?new s(e&&!o?t.source:t,n):s((e=t instanceof a)?t.source:t,e&&o?f.call(t):n),r?this:l,a)};for(var d=u(s),y=0;d.length>y;)!function(t){t in a||o(a,t,{configurable:!0,get:function(){return s[t]},set:function(n){s[t]=n}})}(d[y++]);l.constructor=a,a.prototype=l,r(28)(e,"RegExp",a)}r(74)("RegExp")},function(t,n,r){r(119)("match",1,function(t,n,r){return[function(r){"use strict";var e=t(this),i=void 0==r?void 0:r[n];return void 0!==i?i.call(r,e):new RegExp(r)[n](String(e))},r]})},function(t,n,r){r(119)("replace",2,function(t,n,r){return[function(e,i){"use strict";var o=t(this),u=void 0==e?void 0:e[n];return void 0!==u?u.call(e,o,i):r.call(String(o),e,i)},r]})},function(t,n,r){r(119)("search",1,function(t,n,r){return[function(r){"use strict";var e=t(this),i=void 0==r?void 0:r[n];return void 0!==i?i.call(r,e):new RegExp(r)[n](String(e))},r]})},function(t,n,r){r(119)("split",2,function(t,n,e){"use strict";var i=r(122),o=e,u=[].push,c="split",f="length",a="lastIndex";if("c"=="abbc"[c](/(b)*/)[1]||4!="test"[c](/(?:)/,-1)[f]||2!="ab"[c](/(?:ab)*/)[f]||4!="."[c](/(.?)(.?)/)[f]||"."[c](/()()/)[f]>1||""[c](/.?/)[f]){var s=void 0===/()??/.exec("")[1];e=function(t,n){var r=String(this);if(void 0===t&&0===n)return[];if(!i(t))return o.call(r,t,n);var e,c,l,h,v,p=[],d=(t.ignoreCase?"i":"")+(t.multiline?"m":"")+(t.unicode?"u":"")+(t.sticky?"y":""),y=0,g=void 0===n?4294967295:n>>>0,b=new RegExp(t.source,d+"g");for(s||(e=new RegExp("^"+b.source+"$(?!\\s)",d));(c=b.exec(r))&&!((l=c.index+c[0][f])>y&&(p.push(r.slice(y,c.index)),!s&&c[f]>1&&c[0].replace(e,function(){for(v=1;v<arguments[f]-2;v++)void 0===arguments[v]&&(c[v]=void 0)}),c[f]>1&&c.index<r[f]&&u.apply(p,c.slice(1)),h=c[0][f],y=l,p[f]>=g));)b[a]===c.index&&b[a]++;return y===r[f]?!h&&b.test("")||p.push(""):p.push(r.slice(y)),p[f]>g?p.slice(0,g):p}}else"0"[c](void 0,0)[f]&&(e=function(t,n){return void 0===t&&0===n?[]:o.call(this,t,n)});return[function(r,i){var o=t(this),u=void 0==r?void 0:r[n];return void 0!==u?u.call(r,o,i):e.call(String(o),r,i)},e]})},function(t,n,r){"use strict";r(184);var e=r(2),i=r(120),o=r(10),u="toString",c=/./[u],f=function(t){r(28)(RegExp.prototype,u,t,!0)};r(4)(function(){return"/a/b"!=c.call({source:"a",flags:"b"})})?f(function(){var t=e(this);return"/".concat(t.source,"/","flags"in t?t.flags:!o&&t instanceof RegExp?i.call(t):void 0)}):c.name!=u&&f(function(){return c.call(this)})},function(t,n,r){"use strict";r(29)("anchor",function(t){return function(n){return t(this,"a","name",n)}})},function(t,n,r){"use strict";r(29)("big",function(t){return function(){return t(this,"big","","")}})},function(t,n,r){"use strict";r(29)("blink",function(t){return function(){return t(this,"blink","","")}})},function(t,n,r){"use strict";r(29)("bold",function(t){return function(){return t(this,"b","","")}})},function(t,n,r){"use strict";var e=r(1),i=r(147)(!1);e(e.P,"String",{codePointAt:function(t){return i(this,t)}})},function(t,n,r){"use strict";var e=r(1),i=r(16),o=r(148),u="endsWith",c=""[u];e(e.P+e.F*r(134)(u),"String",{endsWith:function(t){var n=o(this,t,u),r=arguments.length>1?arguments[1]:void 0,e=i(n.length),f=void 0===r?e:Math.min(i(r),e),a=String(t);return c?c.call(n,a,f):n.slice(f-a.length,f)===a}})},function(t,n,r){"use strict";r(29)("fixed",function(t){return function(){return t(this,"tt","","")}})},function(t,n,r){"use strict";r(29)("fontcolor",function(t){return function(n){return t(this,"font","color",n)}})},function(t,n,r){"use strict";r(29)("fontsize",function(t){return function(n){return t(this,"font","size",n)}})},function(t,n,r){var e=r(1),i=r(75),o=String.fromCharCode,u=String.fromCodePoint;e(e.S+e.F*(!!u&&1!=u.length),"String",{fromCodePoint:function(t){for(var n,r=[],e=arguments.length,u=0;e>u;){if(n=+arguments[u++],i(n,1114111)!==n)throw RangeError(n+" is not a valid code point");r.push(n<65536?o(n):o(55296+((n-=65536)>>10),n%1024+56320))}return r.join("")}})},function(t,n,r){"use strict";var e=r(1),i=r(148),o="includes";e(e.P+e.F*r(134)(o),"String",{includes:function(t){return!!~i(this,t,o).indexOf(t,arguments.length>1?arguments[1]:void 0)}})},function(t,n,r){"use strict";r(29)("italics",function(t){return function(){return t(this,"i","","")}})},function(t,n,r){"use strict";var e=r(147)(!0);r(140)(String,"String",function(t){this._t=String(t),this._i=0},function(){var t,n=this._t,r=this._i;return r>=n.length?{value:void 0,done:!0}:(t=e(n,r),this._i+=t.length,{value:t,done:!1})})},function(t,n,r){"use strict";r(29)("link",function(t){return function(n){return t(this,"a","href",n)}})},function(t,n,r){var e=r(1),i=r(30),o=r(16);e(e.S,"String",{raw:function(t){for(var n=i(t.raw),r=o(n.length),e=arguments.length,u=[],c=0;r>c;)u.push(String(n[c++])),c<e&&u.push(String(arguments[c]));return u.join("")}})},function(t,n,r){var e=r(1);e(e.P,"String",{repeat:r(149)})},function(t,n,r){"use strict";r(29)("small",function(t){return function(){return t(this,"small","","")}})},function(t,n,r){"use strict";var e=r(1),i=r(16),o=r(148),u="startsWith",c=""[u];e(e.P+e.F*r(134)(u),"String",{startsWith:function(t){var n=o(this,t,u),r=i(Math.min(arguments.length>1?arguments[1]:void 0,n.length)),e=String(t);return c?c.call(n,e,r):n.slice(r,r+e.length)===e}})},function(t,n,r){"use strict";r(29)("strike",function(t){return function(){return t(this,"strike","","")}})},function(t,n,r){"use strict";r(29)("sub",function(t){return function(){return t(this,"sub","","")}})},function(t,n,r){"use strict";r(29)("sup",function(t){return function(){return t(this,"sup","","")}})},function(t,n,r){"use strict";r(82)("trim",function(t){return function(){return t(this,3)}})},function(t,n,r){"use strict";var e=r(3),i=r(24),o=r(10),u=r(1),c=r(28),f=r(65).KEY,a=r(4),s=r(126),l=r(81),h=r(76),v=r(7),p=r(182),d=r(153),y=r(206),g=r(205),b=r(138),m=r(2),x=r(30),w=r(50),S=r(66),_=r(70),O=r(174),E=r(31),P=r(11),j=r(72),F=E.f,M=P.f,A=O.f,N=e.Symbol,T=e.JSON,I=T&&T.stringify,k="prototype",L=v("_hidden"),R=v("toPrimitive"),C={}.propertyIsEnumerable,D=s("symbol-registry"),U=s("symbols"),W=s("op-symbols"),G=Object[k],B="function"==typeof N,V=e.QObject,z=!V||!V[k]||!V[k].findChild,q=o&&a(function(){return 7!=_(M({},"a",{get:function(){return M(this,"a",{value:7}).a}})).a})?function(t,n,r){var e=F(G,n);e&&delete G[n],M(t,n,r),e&&t!==G&&M(G,n,e)}:M,K=function(t){var n=U[t]=_(N[k]);return n._k=t,n},J=B&&"symbol"==typeof N.iterator?function(t){return"symbol"==typeof t}:function(t){return t instanceof N},Y=function(t,n,r){return t===G&&Y(W,n,r),m(t),n=w(n,!0),m(r),i(U,n)?(r.enumerable?(i(t,L)&&t[L][n]&&(t[L][n]=!1),r=_(r,{enumerable:S(0,!1)})):(i(t,L)||M(t,L,S(1,{})),t[L][n]=!0),q(t,n,r)):M(t,n,r)},H=function(t,n){m(t);for(var r,e=g(n=x(n)),i=0,o=e.length;o>i;)Y(t,r=e[i++],n[r]);return t},$=function(t,n){return void 0===n?_(t):H(_(t),n)},X=function(t){var n=C.call(this,t=w(t,!0));return!(this===G&&i(U,t)&&!i(W,t))&&(!(n||!i(this,t)||!i(U,t)||i(this,L)&&this[L][t])||n)},Q=function(t,n){if(t=x(t),n=w(n,!0),t!==G||!i(U,n)||i(W,n)){var r=F(t,n);return!r||!i(U,n)||i(t,L)&&t[L][n]||(r.enumerable=!0),r}},Z=function(t){for(var n,r=A(x(t)),e=[],o=0;r.length>o;)i(U,n=r[o++])||n==L||n==f||e.push(n);return e},tt=function(t){for(var n,r=t===G,e=A(r?W:x(t)),o=[],u=0;e.length>u;)!i(U,n=e[u++])||r&&!i(G,n)||o.push(U[n]);return o};B||(N=function(){if(this instanceof N)throw TypeError("Symbol is not a constructor!");var t=h(arguments.length>0?arguments[0]:void 0),n=function(r){this===G&&n.call(W,r),i(this,L)&&i(this[L],t)&&(this[L][t]=!1),q(this,t,S(1,r))};return o&&z&&q(G,t,{configurable:!0,set:n}),K(t)},c(N[k],"toString",function(){return this._k}),E.f=Q,P.f=Y,r(71).f=O.f=Z,r(116).f=X,r(125).f=tt,o&&!r(69)&&c(G,"propertyIsEnumerable",X,!0),p.f=function(t){return K(v(t))}),u(u.G+u.W+u.F*!B,{Symbol:N});for(var nt="hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables".split(","),rt=0;nt.length>rt;)v(nt[rt++]);for(var nt=j(v.store),rt=0;nt.length>rt;)d(nt[rt++]);u(u.S+u.F*!B,"Symbol",{for:function(t){return i(D,t+="")?D[t]:D[t]=N(t)},keyFor:function(t){if(J(t))return y(D,t);throw TypeError(t+" is not a symbol!")},useSetter:function(){z=!0},useSimple:function(){z=!1}}),u(u.S+u.F*!B,"Object",{create:$,defineProperty:Y,defineProperties:H,getOwnPropertyDescriptor:Q,getOwnPropertyNames:Z,getOwnPropertySymbols:tt}),T&&u(u.S+u.F*(!B||a(function(){var t=N();return"[null]"!=I([t])||"{}"!=I({a:t})||"{}"!=I(Object(t))})),"JSON",{stringify:function(t){if(void 0!==t&&!J(t)){for(var n,r,e=[t],i=1;arguments.length>i;)e.push(arguments[i++]);return n=e[1],"function"==typeof n&&(r=n),!r&&b(n)||(n=function(t,n){if(r&&(n=r.call(this,t,n)),!J(n))return n}),e[1]=n,I.apply(T,e)}}}),N[k][R]||r(27)(N[k],R,N[k].valueOf),l(N,"Symbol"),l(Math,"Math",!0),l(e.JSON,"JSON",!0)},function(t,n,r){"use strict";var e=r(1),i=r(127),o=r(152),u=r(2),c=r(75),f=r(16),a=r(6),s=r(3).ArrayBuffer,l=r(146),h=o.ArrayBuffer,v=o.DataView,p=i.ABV&&s.isView,d=h.prototype.slice,y=i.VIEW,g="ArrayBuffer";e(e.G+e.W+e.F*(s!==h),{ArrayBuffer:h}),e(e.S+e.F*!i.CONSTR,g,{isView:function(t){return p&&p(t)||a(t)&&y in t}}),e(e.P+e.U+e.F*r(4)(function(){return!new h(2).slice(1,void 0).byteLength}),g,{slice:function(t,n){if(void 0!==d&&void 0===n)return d.call(u(this),t);for(var r=u(this).byteLength,e=c(t,r),i=c(void 0===n?r:n,r),o=new(l(this,h))(f(i-e)),a=new v(this),s=new v(o),p=0;e<i;)s.setUint8(p++,a.getUint8(e++));return o}}),r(74)(g)},function(t,n,r){var e=r(1);e(e.G+e.W+e.F*!r(127).ABV,{DataView:r(152).DataView})},function(t,n,r){r(55)("Float32",4,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Float64",8,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Int16",2,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Int32",4,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Int8",1,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint16",2,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint32",4,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint8",1,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint8",1,function(t){return function(n,r,e){return t(this,n,r,e)}},!0)},function(t,n,r){"use strict";var e=r(166);r(118)("WeakSet",function(t){return function(){return t(this,arguments.length>0?arguments[0]:void 0)}},{add:function(t){return e.def(this,t,!0)}},e,!1,!0)},function(t,n,r){"use strict";var e=r(1),i=r(117)(!0);e(e.P,"Array",{includes:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0)}}),r(78)("includes")},function(t,n,r){var e=r(1),i=r(143)(),o=r(3).process,u="process"==r(45)(o);e(e.G,{asap:function(t){var n=u&&o.domain;i(n?n.bind(t):t)}})},function(t,n,r){var e=r(1),i=r(45);e(e.S,"Error",{isError:function(t){return"Error"===i(t)}})},function(t,n,r){var e=r(1);e(e.P+e.R,"Map",{toJSON:r(165)("Map")})},function(t,n,r){var e=r(1);e(e.S,"Math",{iaddh:function(t,n,r,e){var i=t>>>0,o=n>>>0,u=r>>>0;return o+(e>>>0)+((i&u|(i|u)&~(i+u>>>0))>>>31)|0}})},function(t,n,r){var e=r(1);e(e.S,"Math",{imulh:function(t,n){var r=65535,e=+t,i=+n,o=e&r,u=i&r,c=e>>16,f=i>>16,a=(c*u>>>0)+(o*u>>>16);return c*f+(a>>16)+((o*f>>>0)+(a&r)>>16)}})},function(t,n,r){var e=r(1);e(e.S,"Math",{isubh:function(t,n,r,e){var i=t>>>0,o=n>>>0,u=r>>>0;return o-(e>>>0)-((~i&u|~(i^u)&i-u>>>0)>>>31)|0}})},function(t,n,r){var e=r(1);e(e.S,"Math",{umulh:function(t,n){var r=65535,e=+t,i=+n,o=e&r,u=i&r,c=e>>>16,f=i>>>16,a=(c*u>>>0)+(o*u>>>16);return c*f+(a>>>16)+((o*f>>>0)+(a&r)>>>16)}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(26),u=r(11);r(10)&&e(e.P+r(124),"Object",{__defineGetter__:function(t,n){u.f(i(this),t,{get:o(n),enumerable:!0,configurable:!0})}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(26),u=r(11);r(10)&&e(e.P+r(124),"Object",{__defineSetter__:function(t,n){u.f(i(this),t,{set:o(n),enumerable:!0,configurable:!0})}})},function(t,n,r){var e=r(1),i=r(176)(!0);e(e.S,"Object",{entries:function(t){return i(t)}})},function(t,n,r){var e=r(1),i=r(177),o=r(30),u=r(31),c=r(131);e(e.S,"Object",{getOwnPropertyDescriptors:function(t){for(var n,r=o(t),e=u.f,f=i(r),a={},s=0;f.length>s;)c(a,n=f[s++],e(r,n));return a}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(50),u=r(32),c=r(31).f;r(10)&&e(e.P+r(124),"Object",{__lookupGetter__:function(t){var n,r=i(this),e=o(t,!0);do{if(n=c(r,e))return n.get}while(r=u(r))}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(50),u=r(32),c=r(31).f;r(10)&&e(e.P+r(124),"Object",{__lookupSetter__:function(t){var n,r=i(this),e=o(t,!0);do{if(n=c(r,e))return n.set}while(r=u(r))}})},function(t,n,r){var e=r(1),i=r(176)(!1);e(e.S,"Object",{values:function(t){return i(t)}})},function(t,n,r){"use strict";var e=r(1),i=r(3),o=r(52),u=r(143)(),c=r(7)("observable"),f=r(26),a=r(2),s=r(68),l=r(73),h=r(27),v=r(79),p=v.RETURN,d=function(t){return null==t?void 0:f(t)},y=function(t){var n=t._c;n&&(t._c=void 0,n())},g=function(t){return void 0===t._o},b=function(t){g(t)||(t._o=void 0,y(t))},m=function(t,n){a(t),this._c=void 0,this._o=t,t=new x(this);try{var r=n(t),e=r;null!=r&&("function"==typeof r.unsubscribe?r=function(){e.unsubscribe()}:f(r),this._c=r)}catch(n){return void t.error(n)}g(this)&&y(this)};m.prototype=l({},{unsubscribe:function(){b(this)}});var x=function(t){this._s=t};x.prototype=l({},{next:function(t){var n=this._s;if(!g(n)){var r=n._o;try{var e=d(r.next);if(e)return e.call(r,t)}catch(t){try{b(n)}finally{throw t}}}},error:function(t){var n=this._s;if(g(n))throw t;var r=n._o;n._o=void 0;try{var e=d(r.error);if(!e)throw t;t=e.call(r,t)}catch(t){try{y(n)}finally{throw t}}return y(n),t},complete:function(t){var n=this._s;if(!g(n)){var r=n._o;n._o=void 0;try{var e=d(r.complete);t=e?e.call(r,t):void 0}catch(t){try{y(n)}finally{throw t}}return y(n),t}}});var w=function(t){s(this,w,"Observable","_f")._f=f(t)};l(w.prototype,{subscribe:function(t){return new m(t,this._f)},forEach:function(t){var n=this;return new(o.Promise||i.Promise)(function(r,e){f(t);var i=n.subscribe({next:function(n){try{return t(n)}catch(t){e(t),i.unsubscribe()}},error:e,complete:r})})}}),l(w,{from:function(t){var n="function"==typeof this?this:w,r=d(a(t)[c]);if(r){var e=a(r.call(t));return e.constructor===n?e:new n(function(t){return e.subscribe(t)})}return new n(function(n){var r=!1;return u(function(){if(!r){try{if(v(t,!1,function(t){if(n.next(t),r)return p})===p)return}catch(t){if(r)throw t;return void n.error(t)}n.complete()}}),function(){r=!0}})},of:function(){for(var t=0,n=arguments.length,r=Array(n);t<n;)r[t]=arguments[t++];return new("function"==typeof this?this:w)(function(t){var n=!1;return u(function(){if(!n){for(var e=0;e<r.length;++e)if(t.next(r[e]),n)return;t.complete()}}),function(){n=!0}})}}),h(w.prototype,c,function(){return this}),e(e.G,{Observable:w}),r(74)("Observable")},function(t,n,r){var e=r(54),i=r(2),o=e.key,u=e.set;e.exp({defineMetadata:function(t,n,r,e){u(t,n,i(r),o(e))}})},function(t,n,r){var e=r(54),i=r(2),o=e.key,u=e.map,c=e.store;e.exp({deleteMetadata:function(t,n){var r=arguments.length<3?void 0:o(arguments[2]),e=u(i(n),r,!1);if(void 0===e||!e.delete(t))return!1;if(e.size)return!0;var f=c.get(n);return f.delete(r),!!f.size||c.delete(n)}})},function(t,n,r){var e=r(185),i=r(161),o=r(54),u=r(2),c=r(32),f=o.keys,a=o.key,s=function(t,n){var r=f(t,n),o=c(t);if(null===o)return r;var u=s(o,n);return u.length?r.length?i(new e(r.concat(u))):u:r};o.exp({getMetadataKeys:function(t){return s(u(t),arguments.length<2?void 0:a(arguments[1]))}})},function(t,n,r){var e=r(54),i=r(2),o=r(32),u=e.has,c=e.get,f=e.key,a=function(t,n,r){if(u(t,n,r))return c(t,n,r);var e=o(n);return null!==e?a(t,e,r):void 0};e.exp({getMetadata:function(t,n){return a(t,i(n),arguments.length<3?void 0:f(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=e.keys,u=e.key;e.exp({getOwnMetadataKeys:function(t){
+return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var e=r(54),i=r(2),o=e.get,u=e.key;e.exp({getOwnMetadata:function(t,n){return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=r(32),u=e.has,c=e.key,f=function(t,n,r){if(u(t,n,r))return!0;var e=o(n);return null!==e&&f(t,e,r)};e.exp({hasMetadata:function(t,n){return f(t,i(n),arguments.length<3?void 0:c(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=e.has,u=e.key;e.exp({hasOwnMetadata:function(t,n){return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=r(26),u=e.key,c=e.set;e.exp({metadata:function(t,n){return function(r,e){c(t,n,(void 0!==e?i:o)(r),u(e))}}})},function(t,n,r){var e=r(1);e(e.P+e.R,"Set",{toJSON:r(165)("Set")})},function(t,n,r){"use strict";var e=r(1),i=r(147)(!0);e(e.P,"String",{at:function(t){return i(this,t)}})},function(t,n,r){"use strict";var e=r(1),i=r(46),o=r(16),u=r(122),c=r(120),f=RegExp.prototype,a=function(t,n){this._r=t,this._s=n};r(139)(a,"RegExp String",function(){var t=this._r.exec(this._s);return{value:t,done:null===t}}),e(e.P,"String",{matchAll:function(t){if(i(this),!u(t))throw TypeError(t+" is not a regexp!");var n=String(this),r="flags"in f?String(t.flags):c.call(t),e=new RegExp(t.source,~r.indexOf("g")?r:"g"+r);return e.lastIndex=o(t.lastIndex),new a(e,n)}})},function(t,n,r){"use strict";var e=r(1),i=r(181);e(e.P,"String",{padEnd:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0,!1)}})},function(t,n,r){"use strict";var e=r(1),i=r(181);e(e.P,"String",{padStart:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0,!0)}})},function(t,n,r){"use strict";r(82)("trimLeft",function(t){return function(){return t(this,1)}},"trimStart")},function(t,n,r){"use strict";r(82)("trimRight",function(t){return function(){return t(this,2)}},"trimEnd")},function(t,n,r){r(153)("asyncIterator")},function(t,n,r){r(153)("observable")},function(t,n,r){var e=r(1);e(e.S,"System",{global:r(3)})},function(t,n,r){for(var e=r(155),i=r(28),o=r(3),u=r(27),c=r(80),f=r(7),a=f("iterator"),s=f("toStringTag"),l=c.Array,h=["NodeList","DOMTokenList","MediaList","StyleSheetList","CSSRuleList"],v=0;v<5;v++){var p,d=h[v],y=o[d],g=y&&y.prototype;if(g){g[a]||u(g,a,l),g[s]||u(g,s,d),c[d]=l;for(p in e)g[p]||i(g,p,e[p],!0)}}},function(t,n,r){var e=r(1),i=r(151);e(e.G+e.B,{setImmediate:i.set,clearImmediate:i.clear})},function(t,n,r){var e=r(3),i=r(1),o=r(121),u=r(207),c=e.navigator,f=!!c&&/MSIE .\./.test(c.userAgent),a=function(t){return f?function(n,r){return t(o(u,[].slice.call(arguments,2),"function"==typeof n?n:Function(n)),r)}:t};i(i.G+i.B+i.F*f,{setTimeout:a(e.setTimeout),setInterval:a(e.setInterval)})},function(t,n,r){r(330),r(269),r(271),r(270),r(273),r(275),r(280),r(274),r(272),r(282),r(281),r(277),r(278),r(276),r(268),r(279),r(283),r(284),r(236),r(238),r(237),r(286),r(285),r(256),r(266),r(267),r(257),r(258),r(259),r(260),r(261),r(262),r(263),r(264),r(265),r(239),r(240),r(241),r(242),r(243),r(244),r(245),r(246),r(247),r(248),r(249),r(250),r(251),r(252),r(253),r(254),r(255),r(317),r(322),r(329),r(320),r(312),r(313),r(318),r(323),r(325),r(308),r(309),r(310),r(311),r(314),r(315),r(316),r(319),r(321),r(324),r(326),r(327),r(328),r(231),r(233),r(232),r(235),r(234),r(220),r(218),r(224),r(221),r(227),r(229),r(217),r(223),r(214),r(228),r(212),r(226),r(225),r(219),r(222),r(211),r(213),r(216),r(215),r(230),r(155),r(302),r(307),r(184),r(303),r(304),r(305),r(306),r(287),r(183),r(185),r(186),r(342),r(331),r(332),r(337),r(340),r(341),r(335),r(338),r(336),r(339),r(333),r(334),r(288),r(289),r(290),r(291),r(292),r(295),r(293),r(294),r(296),r(297),r(298),r(299),r(301),r(300),r(343),r(369),r(372),r(371),r(373),r(374),r(370),r(375),r(376),r(354),r(357),r(353),r(351),r(352),r(355),r(356),r(346),r(368),r(377),r(345),r(347),r(349),r(348),r(350),r(359),r(360),r(362),r(361),r(364),r(363),r(365),r(366),r(367),r(344),r(358),r(380),r(379),r(378),t.exports=r(52)},function(t,n){function r(t,n){if("string"==typeof n)return t.insertAdjacentHTML("afterend",n);var r=t.nextSibling;return r?t.parentNode.insertBefore(n,r):t.parentNode.appendChild(n)}t.exports=r},,,,,,,,,function(t,n,r){(function(n,r){!function(n){"use strict";function e(t,n,r,e){var i=n&&n.prototype instanceof o?n:o,u=Object.create(i.prototype),c=new p(e||[]);return u._invoke=s(t,r,c),u}function i(t,n,r){try{return{type:"normal",arg:t.call(n,r)}}catch(t){return{type:"throw",arg:t}}}function o(){}function u(){}function c(){}function f(t){["next","throw","return"].forEach(function(n){t[n]=function(t){return this._invoke(n,t)}})}function a(t){function n(r,e,o,u){var c=i(t[r],t,e);if("throw"!==c.type){var f=c.arg,a=f.value;return a&&"object"==typeof a&&m.call(a,"__await")?Promise.resolve(a.__await).then(function(t){n("next",t,o,u)},function(t){n("throw",t,o,u)}):Promise.resolve(a).then(function(t){f.value=t,o(f)},u)}u(c.arg)}function e(t,r){function e(){return new Promise(function(e,i){n(t,r,e,i)})}return o=o?o.then(e,e):e()}"object"==typeof r&&r.domain&&(n=r.domain.bind(n));var o;this._invoke=e}function s(t,n,r){var e=P;return function(o,u){if(e===F)throw new Error("Generator is already running");if(e===M){if("throw"===o)throw u;return y()}for(r.method=o,r.arg=u;;){var c=r.delegate;if(c){var f=l(c,r);if(f){if(f===A)continue;return f}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if(e===P)throw e=M,r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);e=F;var a=i(t,n,r);if("normal"===a.type){if(e=r.done?M:j,a.arg===A)continue;return{value:a.arg,done:r.done}}"throw"===a.type&&(e=M,r.method="throw",r.arg=a.arg)}}}function l(t,n){var r=t.iterator[n.method];if(r===g){if(n.delegate=null,"throw"===n.method){if(t.iterator.return&&(n.method="return",n.arg=g,l(t,n),"throw"===n.method))return A;n.method="throw",n.arg=new TypeError("The iterator does not provide a 'throw' method")}return A}var e=i(r,t.iterator,n.arg);if("throw"===e.type)return n.method="throw",n.arg=e.arg,n.delegate=null,A;var o=e.arg;return o?o.done?(n[t.resultName]=o.value,n.next=t.nextLoc,"return"!==n.method&&(n.method="next",n.arg=g),n.delegate=null,A):o:(n.method="throw",n.arg=new TypeError("iterator result is not an object"),n.delegate=null,A)}function h(t){var n={tryLoc:t[0]};1 in t&&(n.catchLoc=t[1]),2 in t&&(n.finallyLoc=t[2],n.afterLoc=t[3]),this.tryEntries.push(n)}function v(t){var n=t.completion||{};n.type="normal",delete n.arg,t.completion=n}function p(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(h,this),this.reset(!0)}function d(t){if(t){var n=t[w];if(n)return n.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,e=function n(){for(;++r<t.length;)if(m.call(t,r))return n.value=t[r],n.done=!1,n;return n.value=g,n.done=!0,n};return e.next=e}}return{next:y}}function y(){return{value:g,done:!0}}var g,b=Object.prototype,m=b.hasOwnProperty,x="function"==typeof Symbol?Symbol:{},w=x.iterator||"@@iterator",S=x.asyncIterator||"@@asyncIterator",_=x.toStringTag||"@@toStringTag",O="object"==typeof t,E=n.regeneratorRuntime;if(E)return void(O&&(t.exports=E));E=n.regeneratorRuntime=O?t.exports:{},E.wrap=e;var P="suspendedStart",j="suspendedYield",F="executing",M="completed",A={},N={};N[w]=function(){return this};var T=Object.getPrototypeOf,I=T&&T(T(d([])));I&&I!==b&&m.call(I,w)&&(N=I);var k=c.prototype=o.prototype=Object.create(N);u.prototype=k.constructor=c,c.constructor=u,c[_]=u.displayName="GeneratorFunction",E.isGeneratorFunction=function(t){var n="function"==typeof t&&t.constructor;return!!n&&(n===u||"GeneratorFunction"===(n.displayName||n.name))},E.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,c):(t.__proto__=c,_ in t||(t[_]="GeneratorFunction")),t.prototype=Object.create(k),t},E.awrap=function(t){return{__await:t}},f(a.prototype),a.prototype[S]=function(){return this},E.AsyncIterator=a,E.async=function(t,n,r,i){var o=new a(e(t,n,r,i));return E.isGeneratorFunction(n)?o:o.next().then(function(t){return t.done?t.value:o.next()})},f(k),k[_]="Generator",k.toString=function(){return"[object Generator]"},E.keys=function(t){var n=[];for(var r in t)n.push(r);return n.reverse(),function r(){for(;n.length;){var e=n.pop();if(e in t)return r.value=e,r.done=!1,r}return r.done=!0,r}},E.values=d,p.prototype={constructor:p,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=g,this.done=!1,this.delegate=null,this.method="next",this.arg=g,this.tryEntries.forEach(v),!t)for(var n in this)"t"===n.charAt(0)&&m.call(this,n)&&!isNaN(+n.slice(1))&&(this[n]=g)},stop:function(){this.done=!0;var t=this.tryEntries[0],n=t.completion;if("throw"===n.type)throw n.arg;return this.rval},dispatchException:function(t){function n(n,e){return o.type="throw",o.arg=t,r.next=n,e&&(r.method="next",r.arg=g),!!e}if(this.done)throw t;for(var r=this,e=this.tryEntries.length-1;e>=0;--e){var i=this.tryEntries[e],o=i.completion;if("root"===i.tryLoc)return n("end");if(i.tryLoc<=this.prev){var u=m.call(i,"catchLoc"),c=m.call(i,"finallyLoc");if(u&&c){if(this.prev<i.catchLoc)return n(i.catchLoc,!0);if(this.prev<i.finallyLoc)return n(i.finallyLoc)}else if(u){if(this.prev<i.catchLoc)return n(i.catchLoc,!0)}else{if(!c)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return n(i.finallyLoc)}}}},abrupt:function(t,n){for(var r=this.tryEntries.length-1;r>=0;--r){var e=this.tryEntries[r];if(e.tryLoc<=this.prev&&m.call(e,"finallyLoc")&&this.prev<e.finallyLoc){var i=e;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=n&&n<=i.finallyLoc&&(i=null);var o=i?i.completion:{};return o.type=t,o.arg=n,i?(this.method="next",this.next=i.finallyLoc,A):this.complete(o)},complete:function(t,n){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&n&&(this.next=n),A},finish:function(t){for(var n=this.tryEntries.length-1;n>=0;--n){var r=this.tryEntries[n];if(r.finallyLoc===t)return this.complete(r.completion,r.afterLoc),v(r),A}},catch:function(t){for(var n=this.tryEntries.length-1;n>=0;--n){var r=this.tryEntries[n];if(r.tryLoc===t){var e=r.completion;if("throw"===e.type){var i=e.arg;v(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(t,n,r){return this.delegate={iterator:d(t),resultName:n,nextLoc:r},"next"===this.method&&(this.arg=g),A}}}("object"==typeof n?n:"object"==typeof window?window:"object"==typeof self?self:this)}).call(n,function(){return this}(),r(158))}])</script><script src="/./main.0cf68a.js"></script><script>!function(){!function(e){var t=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(t),t.setAttribute("src",e)}("/slider.e37972.js")}()</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+    
+<div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
+  <div class="tools-nav header-menu">
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+
+    <ul style="width: 70%">
+    
+    
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      
+        
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      
+        
+    </ul>
+  </div>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all" q-show="innerArchive">
+        <div class="search-wrap">
+          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
+          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
+        </div>
+        <div class="widget tagcloud search-tag">
+          <p class="search-tag-wording">tag:</p>
+          <label class="search-switch">
+            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label>
+          <ul class="article-tag-list" q-show="showTags">
+            
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="search-ul">
+          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
+            缺失模块。<br>1、请确保node版本大于6.2<br>2、在博客根目录（注意不是yilia根目录）执行以下命令：<br> npm i hexo-generator-json-content --save<br><br>
+            3、在根目录_config.yml里添加配置：
+<pre style="font-size: 12px;" q-show="jsonFail">
+  jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+</pre>
+          </p>
+          <li class="search-li" q-repeat="items" q-show="isShow">
+            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
+            <p class="search-time">
+              <i class="icon-calendar icon"></i>
+              <span q-text="date|dateformat"></span>
+            </p>
+            <p class="search-tag">
+              <i class="icon-price-tags icon"></i>
+              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
+            </p>
+          </li>
+        </ul>
+    	</section>
+    
+
+    
+
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">奥之的博客</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  </div>
+</body>
+</html>
